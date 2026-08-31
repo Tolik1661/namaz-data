@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31T21:37:14Z",
+ "updated": "2026-08-31T21:49:04Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -200,6 +200,86 @@
    "timezone": "Europe/Moscow",
    "madhab": "shafi",
    "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/kuala-lumpur",
+   "name": "Куала-Лумпур",
+   "country": "MY",
+   "lat": 3.139,
+   "lon": 101.6869,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/shah-alam",
+   "name": "Шах-Алам",
+   "country": "MY",
+   "lat": 3.0733,
+   "lon": 101.5185,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/johor-bahru",
+   "name": "Джохор-Бару",
+   "country": "MY",
+   "lat": 1.4927,
+   "lon": 103.7414,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/george-town",
+   "name": "Джорджтаун (Пенанг)",
+   "country": "MY",
+   "lat": 5.4141,
+   "lon": 100.3288,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/ipoh",
+   "name": "Ипох",
+   "country": "MY",
+   "lat": 4.5975,
+   "lon": 101.0901,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/kota-bharu",
+   "name": "Кота-Бару",
+   "country": "MY",
+   "lat": 6.1254,
+   "lon": 102.2381,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/kuching",
+   "name": "Кучинг",
+   "country": "MY",
+   "lat": 1.5533,
+   "lon": 110.3592,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "my/kota-kinabalu",
+   "name": "Кота-Кинабалу",
+   "country": "MY",
+   "lat": 5.9804,
+   "lon": 116.0735,
+   "timezone": "Asia/Kuala_Lumpur",
+   "madhab": "shafi",
+   "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
   }
  ]
 }
