@@ -1,0 +1,36 @@
+# Ежедневное обновление официальных расписаний намазов.
+# Запускается по расписанию, парсит источники и коммитит изменённые JSON.
+name: Update timetables
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # каждый день в 03:00 UTC (06:00 МСК)
+  workflow_dispatch: {}    # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parse all sources
+        run: python scripts/build_all.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "namaz-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Изменений нет"
+          else
+            git commit -m "Автообновление расписаний: $(date -u +%Y-%m-%d)"
+            git push
+          fi
