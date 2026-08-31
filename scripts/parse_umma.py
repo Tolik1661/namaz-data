@@ -145,10 +145,8 @@ def parse_city(city: dict) -> dict:
     }
 
 
-def main() -> int:
-    index = []
-    failures = []
-
+def collect(index, failures):
+    """Спарсить все города, записать месяцы, дополнить index (вызывается build_all)"""
     for city in CITIES:
         try:
             data = parse_city(city)
@@ -170,20 +168,9 @@ def main() -> int:
             "madhab": data["madhab"], "source": data["source"],
         })
 
-    if index:
-        # index.json — список городов с официальными таблицами
-        # (приложение сопоставляет выбранный город по координатам)
-        (ROOT / "index.json").write_text(
-            json.dumps({
-                "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-                "cities": index,
-            }, ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"[OK] index.json — городов: {len(index)}")
-
-    # Частичный сбой не валит весь прогон, но помечает его failed,
-    # чтобы GitHub прислал алерт
-    return 1 if failures else 0
-
 
 if __name__ == "__main__":
-    sys.exit(main())
+    idx, fails = [], []
+    collect(idx, fails)
+    print(f"городов: {len(idx)}, ошибок: {len(fails)}")
+    sys.exit(1 if fails else 0)

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31T20:42:26Z",
+ "updated": "2026-08-31T21:12:10Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -100,6 +100,106 @@
    "timezone": "Asia/Qostanay",
    "madhab": "hanafi",
    "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "ru/mahachkala",
+   "name": "Махачкала",
+   "country": "RU",
+   "lat": 42.9849,
+   "lon": 47.5047,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/kaspiysk",
+   "name": "Каспийск",
+   "country": "RU",
+   "lat": 42.8916,
+   "lon": 47.6367,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/derbent",
+   "name": "Дербент",
+   "country": "RU",
+   "lat": 42.0578,
+   "lon": 48.2899,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/hasavyurt",
+   "name": "Хасавюрт",
+   "country": "RU",
+   "lat": 43.2465,
+   "lon": 46.5901,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/buynaksk",
+   "name": "Буйнакск",
+   "country": "RU",
+   "lat": 42.8213,
+   "lon": 47.1166,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/izberbash",
+   "name": "Избербаш",
+   "country": "RU",
+   "lat": 42.5624,
+   "lon": 47.8712,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/kizlyar",
+   "name": "Кизляр",
+   "country": "RU",
+   "lat": 43.8484,
+   "lon": 46.7231,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/kizilurt",
+   "name": "Кизилюрт",
+   "country": "RU",
+   "lat": 43.2044,
+   "lon": 46.8729,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/dagogni",
+   "name": "Дагестанские Огни",
+   "country": "RU",
+   "lat": 42.1149,
+   "lon": 48.1942,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
+  },
+  {
+   "slug": "ru/suhokumsk",
+   "name": "Южно-Сухокумск",
+   "country": "RU",
+   "lat": 44.66,
+   "lon": 45.65,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
   }
  ]
 }
