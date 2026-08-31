@@ -1,0 +1,25 @@
+{
+ "city": "Амстердам",
+ "slug": "nl/amsterdam",
+ "country": "NL",
+ "lat": 52.3676,
+ "lon": 4.9041,
+ "timezone": "Europe/Amsterdam",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/13976/vakitler",
+ "updated": "2026-08-31T21:56:35Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:47",
+   "sunrise": "07:34",
+   "dhuhr": "13:35",
+   "asr": "16:40",
+   "maghrib": "19:27",
+   "isha": "21:00"
+  }
+ ]
+}

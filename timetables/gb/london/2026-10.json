@@ -1,0 +1,25 @@
+{
+ "city": "Лондон",
+ "slug": "gb/london",
+ "country": "GB",
+ "lat": 51.5074,
+ "lon": -0.1278,
+ "timezone": "Europe/London",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/14096/vakitler",
+ "updated": "2026-08-31T21:56:42Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:09",
+   "sunrise": "06:54",
+   "dhuhr": "12:55",
+   "asr": "16:01",
+   "maghrib": "18:47",
+   "isha": "20:18"
+  }
+ ]
+}

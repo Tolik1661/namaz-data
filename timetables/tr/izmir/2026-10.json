@@ -1,0 +1,25 @@
+{
+ "city": "Измир",
+ "slug": "tr/izmir",
+ "country": "TR",
+ "lat": 38.4237,
+ "lon": 27.1428,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9560/vakitler",
+ "updated": "2026-08-31T21:56:09Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:39",
+   "sunrise": "07:00",
+   "dhuhr": "13:06",
+   "asr": "16:26",
+   "maghrib": "19:03",
+   "isha": "20:19"
+  }
+ ]
+}

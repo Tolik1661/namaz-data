@@ -1,0 +1,25 @@
+{
+ "city": "Конья",
+ "slug": "tr/konya",
+ "country": "TR",
+ "lat": 37.8746,
+ "lon": 32.4932,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9676/vakitler",
+ "updated": "2026-08-31T21:56:15Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:18",
+   "sunrise": "06:38",
+   "dhuhr": "12:45",
+   "asr": "16:04",
+   "maghrib": "18:41",
+   "isha": "19:57"
+  }
+ ]
+}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31T21:49:04Z",
+ "updated": "2026-08-31T21:56:49Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -280,6 +280,196 @@
    "timezone": "Asia/Kuala_Lumpur",
    "madhab": "shafi",
    "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
+  },
+  {
+   "slug": "tr/istanbul",
+   "name": "Стамбул",
+   "country": "TR",
+   "lat": 41.0082,
+   "lon": 28.9784,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/ankara",
+   "name": "Анкара",
+   "country": "TR",
+   "lat": 39.9334,
+   "lon": 32.8597,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/izmir",
+   "name": "Измир",
+   "country": "TR",
+   "lat": 38.4237,
+   "lon": 27.1428,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/bursa",
+   "name": "Бурса",
+   "country": "TR",
+   "lat": 40.1885,
+   "lon": 29.061,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/antalya",
+   "name": "Анталья",
+   "country": "TR",
+   "lat": 36.8969,
+   "lon": 30.7133,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/konya",
+   "name": "Конья",
+   "country": "TR",
+   "lat": 37.8746,
+   "lon": 32.4932,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "de/berlin",
+   "name": "Берлин",
+   "country": "DE",
+   "lat": 52.52,
+   "lon": 13.405,
+   "timezone": "Europe/Berlin",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "de/hamburg",
+   "name": "Гамбург",
+   "country": "DE",
+   "lat": 53.5511,
+   "lon": 9.9937,
+   "timezone": "Europe/Berlin",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "de/munchen",
+   "name": "Мюнхен",
+   "country": "DE",
+   "lat": 48.1351,
+   "lon": 11.582,
+   "timezone": "Europe/Berlin",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "de/koln",
+   "name": "Кёльн",
+   "country": "DE",
+   "lat": 50.9375,
+   "lon": 6.9603,
+   "timezone": "Europe/Berlin",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "de/frankfurt",
+   "name": "Франкфурт",
+   "country": "DE",
+   "lat": 50.1109,
+   "lon": 8.6821,
+   "timezone": "Europe/Berlin",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "fr/paris",
+   "name": "Париж",
+   "country": "FR",
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "timezone": "Europe/Paris",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "fr/lyon",
+   "name": "Лион",
+   "country": "FR",
+   "lat": 45.764,
+   "lon": 4.8357,
+   "timezone": "Europe/Paris",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "nl/amsterdam",
+   "name": "Амстердам",
+   "country": "NL",
+   "lat": 52.3676,
+   "lon": 4.9041,
+   "timezone": "Europe/Amsterdam",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "nl/rotterdam",
+   "name": "Роттердам",
+   "country": "NL",
+   "lat": 51.9244,
+   "lon": 4.4777,
+   "timezone": "Europe/Amsterdam",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "at/vienna",
+   "name": "Вена",
+   "country": "AT",
+   "lat": 48.2082,
+   "lon": 16.3738,
+   "timezone": "Europe/Vienna",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "gb/london",
+   "name": "Лондон",
+   "country": "GB",
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "timezone": "Europe/London",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "gb/birmingham",
+   "name": "Бирмингем",
+   "country": "GB",
+   "lat": 52.4862,
+   "lon": -1.8904,
+   "timezone": "Europe/London",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "gb/manchester",
+   "name": "Манчестер",
+   "country": "GB",
+   "lat": 53.4808,
+   "lon": -2.2426,
+   "timezone": "Europe/London",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   }
  ]
 }

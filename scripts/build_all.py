@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
+import parse_diyanet    # noqa: E402
 import parse_islamdag   # noqa: E402
 import parse_jakim      # noqa: E402
 import parse_umma       # noqa: E402
@@ -26,6 +27,7 @@ def main() -> int:
     parse_umma.collect(index, failures)
     parse_islamdag.collect(index, failures)
     parse_jakim.collect(index, failures)
+    parse_diyanet.collect(index, failures)
 
     if index:
         (ROOT / "index.json").write_text(

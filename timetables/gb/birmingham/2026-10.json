@@ -1,0 +1,25 @@
+{
+ "city": "Бирмингем",
+ "slug": "gb/birmingham",
+ "country": "GB",
+ "lat": 52.4862,
+ "lon": -1.8904,
+ "timezone": "Europe/London",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/14105/vakitler",
+ "updated": "2026-08-31T21:56:45Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:14",
+   "sunrise": "07:01",
+   "dhuhr": "13:02",
+   "asr": "16:07",
+   "maghrib": "18:54",
+   "isha": "20:27"
+  }
+ ]
+}
