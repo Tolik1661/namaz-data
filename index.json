@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31T21:56:49Z",
+ "updated": "2026-08-31T22:05:38Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -337,6 +337,256 @@
    "country": "TR",
    "lat": 37.8746,
    "lon": 32.4932,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/alanya",
+   "name": "Аланья",
+   "country": "TR",
+   "lat": 36.5437,
+   "lon": 31.9998,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/manavgat",
+   "name": "Манавгат (Сиде)",
+   "country": "TR",
+   "lat": 36.7869,
+   "lon": 31.4429,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/serik",
+   "name": "Серик (Белек)",
+   "country": "TR",
+   "lat": 36.917,
+   "lon": 31.0994,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/kemer",
+   "name": "Кемер",
+   "country": "TR",
+   "lat": 36.6023,
+   "lon": 30.5606,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/kas",
+   "name": "Каш",
+   "country": "TR",
+   "lat": 36.202,
+   "lon": 29.6414,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/bodrum",
+   "name": "Бодрум",
+   "country": "TR",
+   "lat": 37.0344,
+   "lon": 27.4305,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/marmaris",
+   "name": "Мармарис",
+   "country": "TR",
+   "lat": 36.855,
+   "lon": 28.2741,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/fethiye",
+   "name": "Фетхие",
+   "country": "TR",
+   "lat": 36.6217,
+   "lon": 29.1164,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/adana",
+   "name": "Адана",
+   "country": "TR",
+   "lat": 37.0,
+   "lon": 35.3213,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/gaziantep",
+   "name": "Газиантеп",
+   "country": "TR",
+   "lat": 37.0662,
+   "lon": 37.3833,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/kayseri",
+   "name": "Кайсери",
+   "country": "TR",
+   "lat": 38.7312,
+   "lon": 35.4787,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/mersin",
+   "name": "Мерсин",
+   "country": "TR",
+   "lat": 36.8,
+   "lon": 34.6333,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/trabzon",
+   "name": "Трабзон",
+   "country": "TR",
+   "lat": 41.0015,
+   "lon": 39.7178,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/samsun",
+   "name": "Самсун",
+   "country": "TR",
+   "lat": 41.2867,
+   "lon": 36.33,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/eskisehir",
+   "name": "Эскишехир",
+   "country": "TR",
+   "lat": 39.7767,
+   "lon": 30.5206,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/denizli",
+   "name": "Денизли",
+   "country": "TR",
+   "lat": 37.7765,
+   "lon": 29.0864,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/diyarbakir",
+   "name": "Диярбакыр",
+   "country": "TR",
+   "lat": 37.9144,
+   "lon": 40.2306,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/erzurum",
+   "name": "Эрзурум",
+   "country": "TR",
+   "lat": 39.9043,
+   "lon": 41.2679,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/van",
+   "name": "Ван",
+   "country": "TR",
+   "lat": 38.4891,
+   "lon": 43.4089,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/rize",
+   "name": "Ризе",
+   "country": "TR",
+   "lat": 41.0201,
+   "lon": 40.5234,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/sivas",
+   "name": "Сивас",
+   "country": "TR",
+   "lat": 39.7477,
+   "lon": 37.0179,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/malatya",
+   "name": "Малатья",
+   "country": "TR",
+   "lat": 38.3552,
+   "lon": 38.3095,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/sanliurfa",
+   "name": "Шанлыурфа",
+   "country": "TR",
+   "lat": 37.1591,
+   "lon": 38.7969,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/kocaeli",
+   "name": "Коджаэли (Измит)",
+   "country": "TR",
+   "lat": 40.7654,
+   "lon": 29.9408,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "tr/sakarya",
+   "name": "Сакарья",
+   "country": "TR",
+   "lat": 40.7569,
+   "lon": 30.3783,
    "timezone": "Europe/Istanbul",
    "madhab": "shafi",
    "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"

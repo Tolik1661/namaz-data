@@ -1,0 +1,25 @@
+{
+ "city": "Самсун",
+ "slug": "tr/samsun",
+ "country": "TR",
+ "lat": 41.2867,
+ "lon": 36.33,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9819/vakitler",
+ "updated": "2026-08-31T22:04:42Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:59",
+   "sunrise": "06:24",
+   "dhuhr": "12:30",
+   "asr": "15:47",
+   "maghrib": "18:25",
+   "isha": "19:45"
+  }
+ ]
+}

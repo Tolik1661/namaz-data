@@ -1,0 +1,25 @@
+{
+ "city": "Мармарис",
+ "slug": "tr/marmaris",
+ "country": "TR",
+ "lat": 36.855,
+ "lon": 28.2741,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17883/vakitler",
+ "updated": "2026-08-31T22:04:26Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:36",
+   "sunrise": "06:55",
+   "dhuhr": "13:02",
+   "asr": "16:22",
+   "maghrib": "18:59",
+   "isha": "20:13"
+  }
+ ]
+}
