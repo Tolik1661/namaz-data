@@ -1,0 +1,105 @@
+{
+ "updated": "2026-08-31T20:42:26Z",
+ "cities": [
+  {
+   "slug": "ru/moscow",
+   "name": "Москва",
+   "country": "RU",
+   "lat": 55.7558,
+   "lon": 37.6173,
+   "timezone": "Europe/Moscow",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "ru/kazan",
+   "name": "Казань",
+   "country": "RU",
+   "lat": 55.7963,
+   "lon": 49.1088,
+   "timezone": "Europe/Moscow",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/almaty",
+   "name": "Алматы",
+   "country": "KZ",
+   "lat": 43.238,
+   "lon": 76.9452,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/astana",
+   "name": "Астана",
+   "country": "KZ",
+   "lat": 51.1605,
+   "lon": 71.4704,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/shymkent",
+   "name": "Шымкент",
+   "country": "KZ",
+   "lat": 42.3417,
+   "lon": 69.5901,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/karaganda",
+   "name": "Караганда",
+   "country": "KZ",
+   "lat": 49.8047,
+   "lon": 73.1094,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/aktau",
+   "name": "Актау",
+   "country": "KZ",
+   "lat": 43.641,
+   "lon": 51.1985,
+   "timezone": "Asia/Aqtau",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/atyrau",
+   "name": "Атырау",
+   "country": "KZ",
+   "lat": 47.1164,
+   "lon": 51.883,
+   "timezone": "Asia/Atyrau",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/uralsk",
+   "name": "Уральск",
+   "country": "KZ",
+   "lat": 51.2333,
+   "lon": 51.3667,
+   "timezone": "Asia/Oral",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  },
+  {
+   "slug": "kz/kostanay",
+   "name": "Костанай",
+   "country": "KZ",
+   "lat": 53.2198,
+   "lon": 63.6354,
+   "timezone": "Asia/Qostanay",
+   "madhab": "hanafi",
+   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+  }
+ ]
+}
