@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T09:07:02Z",
+ "updated": "2026-09-01T10:13:36Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -9268,6 +9268,146 @@
    "lat": 41.6336,
    "lon": 46.6433,
    "timezone": "Asia/Baku",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "sa/mekke",
+   "name": "Мекка",
+   "country": "SA",
+   "lat": 21.4225,
+   "lon": 39.8262,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "sa/medine",
+   "name": "Медина",
+   "country": "SA",
+   "lat": 24.5247,
+   "lon": 39.5692,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "sa/riyadh",
+   "name": "Эр-Рияд",
+   "country": "SA",
+   "lat": 24.7136,
+   "lon": 46.6753,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "sa/jeddah",
+   "name": "Джидда",
+   "country": "SA",
+   "lat": 21.4858,
+   "lon": 39.1925,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "sa/dammam",
+   "name": "Даммам",
+   "country": "SA",
+   "lat": 26.4207,
+   "lon": 50.0888,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "ae/dubai",
+   "name": "Дубай",
+   "country": "AE",
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "timezone": "Asia/Dubai",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "ae/abu-dhabi",
+   "name": "Абу-Даби",
+   "country": "AE",
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "timezone": "Asia/Dubai",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "ae/sharjah",
+   "name": "Шарджа",
+   "country": "AE",
+   "lat": 25.3463,
+   "lon": 55.4209,
+   "timezone": "Asia/Dubai",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "qa/doha",
+   "name": "Доха",
+   "country": "QA",
+   "lat": 25.2854,
+   "lon": 51.531,
+   "timezone": "Asia/Qatar",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "kw/kuwait",
+   "name": "Эль-Кувейт",
+   "country": "KW",
+   "lat": 29.3759,
+   "lon": 47.9774,
+   "timezone": "Asia/Kuwait",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "bh/manama",
+   "name": "Манама",
+   "country": "BH",
+   "lat": 26.2285,
+   "lon": 50.586,
+   "timezone": "Asia/Bahrain",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "om/muscat",
+   "name": "Маскат",
+   "country": "OM",
+   "lat": 23.588,
+   "lon": 58.3829,
+   "timezone": "Asia/Muscat",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "eg/cairo",
+   "name": "Каир",
+   "country": "EG",
+   "lat": 30.0444,
+   "lon": 31.2357,
+   "timezone": "Africa/Cairo",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
+   "slug": "eg/alexandria",
+   "name": "Александрия",
+   "country": "EG",
+   "lat": 31.2001,
+   "lon": 29.9187,
+   "timezone": "Africa/Cairo",
    "madhab": "shafi",
    "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   },

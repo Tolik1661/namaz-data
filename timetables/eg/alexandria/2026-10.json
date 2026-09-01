@@ -1,0 +1,25 @@
+{
+ "city": "Александрия",
+ "slug": "eg/alexandria",
+ "country": "EG",
+ "lat": 31.2001,
+ "lon": 29.9187,
+ "timezone": "Africa/Cairo",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/15454/vakitler",
+ "updated": "2026-09-01T10:13:25Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:33",
+   "sunrise": "06:47",
+   "dhuhr": "12:55",
+   "asr": "16:18",
+   "maghrib": "18:54",
+   "isha": "20:02"
+  }
+ ]
+}

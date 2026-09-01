@@ -1,0 +1,25 @@
+{
+ "city": "Даммам",
+ "slug": "sa/dammam",
+ "country": "SA",
+ "lat": 26.4207,
+ "lon": 50.0888,
+ "timezone": "Asia/Riyadh",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/16311/vakitler",
+ "updated": "2026-09-01T10:12:58Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:15",
+   "sunrise": "05:25",
+   "dhuhr": "11:34",
+   "asr": "14:58",
+   "maghrib": "17:34",
+   "isha": "18:39"
+  }
+ ]
+}

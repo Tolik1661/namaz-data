@@ -1,0 +1,25 @@
+{
+ "city": "Мекка",
+ "slug": "sa/mekke",
+ "country": "SA",
+ "lat": 21.4225,
+ "lon": 39.8262,
+ "timezone": "Asia/Riyadh",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/16309/vakitler",
+ "updated": "2026-09-01T10:12:47Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:58",
+   "sunrise": "06:05",
+   "dhuhr": "12:16",
+   "asr": "15:38",
+   "maghrib": "18:16",
+   "isha": "19:19"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Доха",
+ "slug": "qa/doha",
+ "country": "QA",
+ "lat": 25.2854,
+ "lon": 51.531,
+ "timezone": "Asia/Qatar",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/14879/vakitler",
+ "updated": "2026-09-01T10:13:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:10",
+   "sunrise": "05:19",
+   "dhuhr": "11:29",
+   "asr": "14:52",
+   "maghrib": "17:29",
+   "isha": "18:33"
+  }
+ ]
+}

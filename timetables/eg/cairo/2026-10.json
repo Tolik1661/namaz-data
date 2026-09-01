@@ -1,0 +1,25 @@
+{
+ "city": "Каир",
+ "slug": "eg/cairo",
+ "country": "EG",
+ "lat": 30.0444,
+ "lon": 31.2357,
+ "timezone": "Africa/Cairo",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/15474/vakitler",
+ "updated": "2026-09-01T10:13:22Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:29",
+   "sunrise": "06:41",
+   "dhuhr": "12:50",
+   "asr": "16:13",
+   "maghrib": "18:48",
+   "isha": "19:56"
+  }
+ ]
+}

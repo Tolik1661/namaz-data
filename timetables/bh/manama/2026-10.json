@@ -1,0 +1,25 @@
+{
+ "city": "Манама",
+ "slug": "bh/manama",
+ "country": "BH",
+ "lat": 26.2285,
+ "lon": 50.586,
+ "timezone": "Asia/Bahrain",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11667/vakitler",
+ "updated": "2026-09-01T10:13:16Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:13",
+   "sunrise": "05:23",
+   "dhuhr": "11:33",
+   "asr": "14:56",
+   "maghrib": "17:32",
+   "isha": "18:37"
+  }
+ ]
+}

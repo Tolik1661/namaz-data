@@ -1,0 +1,25 @@
+{
+ "city": "Маскат",
+ "slug": "om/muscat",
+ "country": "OM",
+ "lat": 23.588,
+ "lon": 58.3829,
+ "timezone": "Asia/Muscat",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/16527/vakitler",
+ "updated": "2026-09-01T10:13:19Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:42",
+   "sunrise": "05:50",
+   "dhuhr": "12:01",
+   "asr": "15:24",
+   "maghrib": "18:01",
+   "isha": "19:04"
+  }
+ ]
+}
