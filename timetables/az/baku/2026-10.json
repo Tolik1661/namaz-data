@@ -1,0 +1,25 @@
+{
+ "city": "Баку",
+ "slug": "az/baku",
+ "country": "AZ",
+ "lat": 40.4093,
+ "lon": 49.8671,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11631/vakitler",
+ "updated": "2026-09-01T09:06:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:06",
+   "sunrise": "06:30",
+   "dhuhr": "12:35",
+   "asr": "15:53",
+   "maghrib": "18:31",
+   "isha": "19:49"
+  }
+ ]
+}

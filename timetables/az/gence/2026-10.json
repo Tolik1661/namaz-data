@@ -1,0 +1,25 @@
+{
+ "city": "Гянджа",
+ "slug": "az/gence",
+ "country": "AZ",
+ "lat": 40.6828,
+ "lon": 46.3606,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11634/vakitler",
+ "updated": "2026-09-01T09:06:15Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:20",
+   "sunrise": "06:44",
+   "dhuhr": "12:49",
+   "asr": "16:07",
+   "maghrib": "18:45",
+   "isha": "20:04"
+  }
+ ]
+}

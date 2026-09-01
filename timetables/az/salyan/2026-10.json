@@ -1,0 +1,25 @@
+{
+ "city": "Сальян",
+ "slug": "az/salyan",
+ "country": "AZ",
+ "lat": 39.5942,
+ "lon": 48.9787,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11624/vakitler",
+ "updated": "2026-09-01T09:06:43Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:10",
+   "sunrise": "06:33",
+   "dhuhr": "12:39",
+   "asr": "15:57",
+   "maghrib": "18:35",
+   "isha": "19:52"
+  }
+ ]
+}

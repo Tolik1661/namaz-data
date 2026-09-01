@@ -1,0 +1,25 @@
+{
+ "city": "Губа",
+ "slug": "az/quba",
+ "country": "AZ",
+ "lat": 41.3611,
+ "lon": 48.5125,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11632/vakitler",
+ "updated": "2026-09-01T09:06:33Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:10",
+   "sunrise": "06:35",
+   "dhuhr": "12:41",
+   "asr": "15:58",
+   "maghrib": "18:36",
+   "isha": "19:56"
+  }
+ ]
+}

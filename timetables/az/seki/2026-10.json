@@ -1,0 +1,25 @@
+{
+ "city": "Шеки",
+ "slug": "az/seki",
+ "country": "AZ",
+ "lat": 41.1919,
+ "lon": 47.1706,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11635/vakitler",
+ "updated": "2026-09-01T09:06:27Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:16",
+   "sunrise": "06:41",
+   "dhuhr": "12:46",
+   "asr": "16:03",
+   "maghrib": "18:42",
+   "isha": "20:01"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Товуз",
+ "slug": "az/tovuz",
+ "country": "AZ",
+ "lat": 40.9922,
+ "lon": 45.6289,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11626/vakitler",
+ "updated": "2026-09-01T09:06:49Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:22",
+   "sunrise": "06:47",
+   "dhuhr": "12:52",
+   "asr": "16:10",
+   "maghrib": "18:48",
+   "isha": "20:07"
+  }
+ ]
+}

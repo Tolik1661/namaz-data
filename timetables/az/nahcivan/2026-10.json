@@ -1,0 +1,25 @@
+{
+ "city": "Нахичевань",
+ "slug": "az/nahcivan",
+ "country": "AZ",
+ "lat": 39.2089,
+ "lon": 45.4122,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11637/vakitler",
+ "updated": "2026-09-01T09:06:30Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:25",
+   "sunrise": "06:47",
+   "dhuhr": "12:53",
+   "asr": "16:12",
+   "maghrib": "18:49",
+   "isha": "20:06"
+  }
+ ]
+}

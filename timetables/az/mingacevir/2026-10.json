@@ -1,0 +1,25 @@
+{
+ "city": "Мингечевир",
+ "slug": "az/mingacevir",
+ "country": "AZ",
+ "lat": 40.7703,
+ "lon": 47.0496,
+ "timezone": "Asia/Baku",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11625/vakitler",
+ "updated": "2026-09-01T09:06:22Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:17",
+   "sunrise": "06:41",
+   "dhuhr": "12:47",
+   "asr": "16:04",
+   "maghrib": "18:42",
+   "isha": "20:01"
+  }
+ ]
+}
