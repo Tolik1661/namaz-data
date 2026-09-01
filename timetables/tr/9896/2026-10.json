@@ -1,0 +1,25 @@
+{
+ "city": "Çaykara",
+ "slug": "tr/9896",
+ "country": "TR",
+ "lat": 40.6531,
+ "lon": 40.2846,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9896/vakitler",
+ "updated": "2026-09-01T08:12:48Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:44",
+   "sunrise": "06:08",
+   "dhuhr": "12:14",
+   "asr": "15:32",
+   "maghrib": "18:10",
+   "isha": "19:28"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Kozan",
+ "slug": "tr/9153",
+ "country": "TR",
+ "lat": 37.5178,
+ "lon": 35.8323,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9153/vakitler",
+ "updated": "2026-09-01T07:51:42Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:05",
+   "sunrise": "06:25",
+   "dhuhr": "12:32",
+   "asr": "15:51",
+   "maghrib": "18:28",
+   "isha": "19:43"
+  }
+ ]
+}

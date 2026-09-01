@@ -1,0 +1,25 @@
+{
+ "city": "Havran",
+ "slug": "tr/9278",
+ "country": "TR",
+ "lat": 39.608,
+ "lon": 27.2157,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9278/vakitler",
+ "updated": "2026-09-01T07:55:13Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:38",
+   "sunrise": "07:00",
+   "dhuhr": "13:06",
+   "asr": "16:25",
+   "maghrib": "19:03",
+   "isha": "20:20"
+  }
+ ]
+}

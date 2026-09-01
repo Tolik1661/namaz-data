@@ -1,0 +1,25 @@
+{
+ "city": "Düzce",
+ "slug": "tr/9414",
+ "country": "TR",
+ "lat": 40.8389,
+ "lon": 31.1617,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9414/vakitler",
+ "updated": "2026-09-01T08:14:47Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:20",
+   "sunrise": "06:45",
+   "dhuhr": "12:50",
+   "asr": "16:08",
+   "maghrib": "18:46",
+   "isha": "20:05"
+  }
+ ]
+}

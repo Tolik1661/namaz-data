@@ -1,0 +1,25 @@
+{
+ "city": "Eruh",
+ "slug": "tr/9836",
+ "country": "TR",
+ "lat": 37.7362,
+ "lon": 42.0679,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9836/vakitler",
+ "updated": "2026-09-01T08:11:06Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:39",
+   "sunrise": "06:00",
+   "dhuhr": "12:06",
+   "asr": "15:26",
+   "maghrib": "18:03",
+   "isha": "19:18"
+  }
+ ]
+}

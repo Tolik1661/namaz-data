@@ -1,0 +1,25 @@
+{
+ "city": "Karaçoban",
+ "slug": "tr/9455",
+ "country": "TR",
+ "lat": 39.3467,
+ "lon": 42.0587,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9455/vakitler",
+ "updated": "2026-09-01T08:00:45Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:38",
+   "sunrise": "06:00",
+   "dhuhr": "12:06",
+   "asr": "15:25",
+   "maghrib": "18:03",
+   "isha": "19:20"
+  }
+ ]
+}

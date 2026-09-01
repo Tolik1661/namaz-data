@@ -1,0 +1,25 @@
+{
+ "city": "Şemdi̇nli̇",
+ "slug": "tr/9508",
+ "country": "TR",
+ "lat": 37.3071,
+ "lon": 44.507,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9508/vakitler",
+ "updated": "2026-09-01T08:02:17Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:30",
+   "sunrise": "05:50",
+   "dhuhr": "11:57",
+   "asr": "15:16",
+   "maghrib": "17:53",
+   "isha": "19:08"
+  }
+ ]
+}

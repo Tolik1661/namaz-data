@@ -1,0 +1,25 @@
+{
+ "city": "Hendek",
+ "slug": "tr/9802",
+ "country": "TR",
+ "lat": 40.7993,
+ "lon": 30.7543,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9802/vakitler",
+ "updated": "2026-09-01T08:10:12Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:22",
+   "sunrise": "06:46",
+   "dhuhr": "12:52",
+   "asr": "16:09",
+   "maghrib": "18:48",
+   "isha": "20:06"
+  }
+ ]
+}

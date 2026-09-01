@@ -1,0 +1,25 @@
+{
+ "city": "Havza",
+ "slug": "tr/9815",
+ "country": "TR",
+ "lat": 41.0728,
+ "lon": 35.6854,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9815/vakitler",
+ "updated": "2026-09-01T08:10:31Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:02",
+   "sunrise": "06:27",
+   "dhuhr": "12:32",
+   "asr": "15:50",
+   "maghrib": "18:28",
+   "isha": "19:47"
+  }
+ ]
+}

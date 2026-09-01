@@ -1,0 +1,25 @@
+{
+ "city": "Karacabey",
+ "slug": "tr/9341",
+ "country": "TR",
+ "lat": 40.2379,
+ "lon": 28.3964,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9341/vakitler",
+ "updated": "2026-09-01T07:56:59Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:32",
+   "sunrise": "06:56",
+   "dhuhr": "13:01",
+   "asr": "16:19",
+   "maghrib": "18:57",
+   "isha": "20:15"
+  }
+ ]
+}

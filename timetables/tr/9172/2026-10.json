@@ -1,0 +1,25 @@
+{
+ "city": "Çobanlar",
+ "slug": "tr/9172",
+ "country": "TR",
+ "lat": 38.7399,
+ "lon": 30.8531,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9172/vakitler",
+ "updated": "2026-09-01T07:52:16Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:24",
+   "sunrise": "06:45",
+   "dhuhr": "12:52",
+   "asr": "16:11",
+   "maghrib": "18:48",
+   "isha": "20:04"
+  }
+ ]
+}

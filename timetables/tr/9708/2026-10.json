@@ -1,0 +1,25 @@
+{
+ "city": "Akhi̇sar",
+ "slug": "tr/9708",
+ "country": "TR",
+ "lat": 38.9936,
+ "lon": 27.8201,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9708/vakitler",
+ "updated": "2026-09-01T08:07:53Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:36",
+   "sunrise": "06:57",
+   "dhuhr": "13:03",
+   "asr": "16:22",
+   "maghrib": "19:00",
+   "isha": "20:16"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Samsat",
+ "slug": "tr/9164",
+ "country": "TR",
+ "lat": 37.5779,
+ "lon": 38.4836,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9164/vakitler",
+ "updated": "2026-09-01T07:52:02Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:54",
+   "sunrise": "06:14",
+   "dhuhr": "12:21",
+   "asr": "15:41",
+   "maghrib": "18:18",
+   "isha": "19:32"
+  }
+ ]
+}

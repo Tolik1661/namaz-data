@@ -1,0 +1,25 @@
+{
+ "city": "Sarikaya",
+ "slug": "tr/9944",
+ "country": "TR",
+ "lat": 39.5089,
+ "lon": 35.4048,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9944/vakitler",
+ "updated": "2026-09-01T08:14:00Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:05",
+   "sunrise": "06:27",
+   "dhuhr": "12:33",
+   "asr": "15:52",
+   "maghrib": "18:29",
+   "isha": "19:47"
+  }
+ ]
+}

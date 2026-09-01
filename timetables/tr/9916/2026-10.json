@@ -1,0 +1,25 @@
+{
+ "city": "Esme",
+ "slug": "tr/9916",
+ "country": "TR",
+ "lat": 38.4404,
+ "lon": 28.9721,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9916/vakitler",
+ "updated": "2026-09-01T08:13:17Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:32",
+   "sunrise": "06:53",
+   "dhuhr": "12:59",
+   "asr": "16:18",
+   "maghrib": "18:55",
+   "isha": "20:11"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+# Еженедельный полный прогон всех районов Турции (данные Diyanet на год вперёд)
+name: Update Turkey districts
+
+on:
+  schedule:
+    - cron: "0 4 * * 0"   # воскресенье 04:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  districts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Parse all sources incl. districts
+        run: python scripts/build_all.py
+        env:
+          DIYANET_DISTRICTS: "1"
+      - name: Commit & push if changed
+        run: |
+          git config user.name "namaz-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || { git commit -m "Районы Турции: еженедельное обновление $(date -u +%Y-%m-%d)"; git push; }

@@ -1,0 +1,25 @@
+{
+ "city": "Alapli",
+ "slug": "tr/9950",
+ "country": "TR",
+ "lat": 41.1137,
+ "lon": 31.4878,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9950/vakitler",
+ "updated": "2026-09-01T08:14:09Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:19",
+   "sunrise": "06:44",
+   "dhuhr": "12:49",
+   "asr": "16:07",
+   "maghrib": "18:45",
+   "isha": "20:04"
+  }
+ ]
+}

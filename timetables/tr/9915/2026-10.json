@@ -1,0 +1,25 @@
+{
+ "city": "Banaz",
+ "slug": "tr/9915",
+ "country": "TR",
+ "lat": 38.7441,
+ "lon": 29.7783,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9915/vakitler",
+ "updated": "2026-09-01T08:13:16Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:28",
+   "sunrise": "06:50",
+   "dhuhr": "12:56",
+   "asr": "16:15",
+   "maghrib": "18:52",
+   "isha": "20:08"
+  }
+ ]
+}

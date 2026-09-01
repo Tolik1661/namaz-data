@@ -1,0 +1,25 @@
+{
+ "city": "Otlukbeli̇",
+ "slug": "tr/9444",
+ "country": "TR",
+ "lat": 39.9958,
+ "lon": 40.0744,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9444/vakitler",
+ "updated": "2026-09-01T08:00:30Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:46",
+   "sunrise": "06:09",
+   "dhuhr": "12:15",
+   "asr": "15:33",
+   "maghrib": "18:11",
+   "isha": "19:28"
+  }
+ ]
+}

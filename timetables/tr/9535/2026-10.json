@@ -1,0 +1,25 @@
+{
+ "city": "Arnavutkoy",
+ "slug": "tr/9535",
+ "country": "TR",
+ "lat": 41.2482,
+ "lon": 28.6558,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9535/vakitler",
+ "updated": "2026-09-01T08:03:04Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:30",
+   "sunrise": "06:54",
+   "dhuhr": "13:00",
+   "asr": "16:17",
+   "maghrib": "18:55",
+   "isha": "20:15"
+  }
+ ]
+}

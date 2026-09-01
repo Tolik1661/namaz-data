@@ -1,0 +1,25 @@
+{
+ "city": "Laçi̇n",
+ "slug": "tr/9374",
+ "country": "TR",
+ "lat": 40.7912,
+ "lon": 34.8771,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9374/vakitler",
+ "updated": "2026-09-01T07:58:06Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:06",
+   "sunrise": "06:30",
+   "dhuhr": "12:35",
+   "asr": "15:53",
+   "maghrib": "18:31",
+   "isha": "19:50"
+  }
+ ]
+}

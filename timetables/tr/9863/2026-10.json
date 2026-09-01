@@ -1,0 +1,25 @@
+{
+ "city": "Hafi̇k",
+ "slug": "tr/9863",
+ "country": "TR",
+ "lat": 39.8763,
+ "lon": 37.3664,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9863/vakitler",
+ "updated": "2026-09-01T08:11:50Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:56",
+   "sunrise": "06:19",
+   "dhuhr": "12:25",
+   "asr": "15:44",
+   "maghrib": "18:21",
+   "isha": "19:39"
+  }
+ ]
+}

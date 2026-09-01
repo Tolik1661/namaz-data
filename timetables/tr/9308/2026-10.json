@@ -1,0 +1,25 @@
+{
+ "city": "Yedi̇su",
+ "slug": "tr/9308",
+ "country": "TR",
+ "lat": 39.4417,
+ "lon": 40.485,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9308/vakitler",
+ "updated": "2026-09-01T07:56:09Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:44",
+   "sunrise": "06:07",
+   "dhuhr": "12:13",
+   "asr": "15:31",
+   "maghrib": "18:09",
+   "isha": "19:26"
+  }
+ ]
+}

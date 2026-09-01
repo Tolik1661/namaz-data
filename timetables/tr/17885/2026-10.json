@@ -1,0 +1,25 @@
+{
+ "city": "Devrekani̇",
+ "slug": "tr/17885",
+ "country": "TR",
+ "lat": 41.6911,
+ "lon": 33.92,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17885/vakitler",
+ "updated": "2026-09-01T08:05:00Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:09",
+   "sunrise": "06:34",
+   "dhuhr": "12:39",
+   "asr": "15:56",
+   "maghrib": "18:35",
+   "isha": "19:55"
+  }
+ ]
+}

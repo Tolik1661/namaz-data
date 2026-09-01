@@ -1,0 +1,25 @@
+{
+ "city": "Buldan",
+ "slug": "tr/9387",
+ "country": "TR",
+ "lat": 38.1106,
+ "lon": 28.8142,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9387/vakitler",
+ "updated": "2026-09-01T07:58:29Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:32",
+   "sunrise": "06:53",
+   "dhuhr": "13:00",
+   "asr": "16:19",
+   "maghrib": "18:56",
+   "isha": "20:11"
+  }
+ ]
+}

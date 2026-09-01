@@ -1,0 +1,25 @@
+{
+ "city": "Elbeyli̇",
+ "slug": "tr/9628",
+ "country": "TR",
+ "lat": 36.7283,
+ "lon": 37.4372,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9628/vakitler",
+ "updated": "2026-09-01T08:05:36Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:59",
+   "sunrise": "06:18",
+   "dhuhr": "12:25",
+   "asr": "15:45",
+   "maghrib": "18:22",
+   "isha": "19:36"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Çameli̇",
+ "slug": "tr/9389",
+ "country": "TR",
+ "lat": 37.0543,
+ "lon": 29.2744,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9389/vakitler",
+ "updated": "2026-09-01T07:58:32Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:31",
+   "sunrise": "06:51",
+   "dhuhr": "12:57",
+   "asr": "16:18",
+   "maghrib": "18:54",
+   "isha": "20:09"
+  }
+ ]
+}

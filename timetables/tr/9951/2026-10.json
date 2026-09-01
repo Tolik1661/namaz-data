@@ -1,0 +1,25 @@
+{
+ "city": "Çaycuma",
+ "slug": "tr/9951",
+ "country": "TR",
+ "lat": 41.4618,
+ "lon": 32.1318,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9951/vakitler",
+ "updated": "2026-09-01T08:14:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:16",
+   "sunrise": "06:41",
+   "dhuhr": "12:47",
+   "asr": "16:04",
+   "maghrib": "18:42",
+   "isha": "20:02"
+  }
+ ]
+}

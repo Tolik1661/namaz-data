@@ -1,0 +1,25 @@
+{
+ "city": "Çinarcik",
+ "slug": "tr/9933",
+ "country": "TR",
+ "lat": 40.6068,
+ "lon": 29.0497,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9933/vakitler",
+ "updated": "2026-09-01T08:13:44Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:29",
+   "sunrise": "06:53",
+   "dhuhr": "12:58",
+   "asr": "16:16",
+   "maghrib": "18:54",
+   "isha": "20:13"
+  }
+ ]
+}

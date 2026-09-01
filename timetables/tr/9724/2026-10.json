@@ -1,0 +1,25 @@
+{
+ "city": "Deri̇k",
+ "slug": "tr/9724",
+ "country": "TR",
+ "lat": 37.3241,
+ "lon": 40.1523,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9724/vakitler",
+ "updated": "2026-09-01T08:08:18Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:47",
+   "sunrise": "06:07",
+   "dhuhr": "12:14",
+   "asr": "15:34",
+   "maghrib": "18:10",
+   "isha": "19:25"
+  }
+ ]
+}

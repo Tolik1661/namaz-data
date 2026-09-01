@@ -1,0 +1,25 @@
+{
+ "city": "Urla",
+ "slug": "tr/9570",
+ "country": "TR",
+ "lat": 38.2862,
+ "lon": 26.6633,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9570/vakitler",
+ "updated": "2026-09-01T08:04:02Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:40",
+   "sunrise": "07:01",
+   "dhuhr": "13:08",
+   "asr": "16:27",
+   "maghrib": "19:04",
+   "isha": "20:20"
+  }
+ ]
+}

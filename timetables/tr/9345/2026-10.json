@@ -1,0 +1,25 @@
+{
+ "city": "Orhangazi̇",
+ "slug": "tr/9345",
+ "country": "TR",
+ "lat": 40.456,
+ "lon": 29.3756,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9345/vakitler",
+ "updated": "2026-09-01T07:57:09Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:28",
+   "sunrise": "06:52",
+   "dhuhr": "12:58",
+   "asr": "16:15",
+   "maghrib": "18:53",
+   "isha": "20:12"
+  }
+ ]
+}

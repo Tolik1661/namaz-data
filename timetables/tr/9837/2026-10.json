@@ -1,0 +1,25 @@
+{
+ "city": "Kurtalan",
+ "slug": "tr/9837",
+ "country": "TR",
+ "lat": 37.8959,
+ "lon": 41.5985,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9837/vakitler",
+ "updated": "2026-09-01T08:11:08Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:41",
+   "sunrise": "06:02",
+   "dhuhr": "12:08",
+   "asr": "15:28",
+   "maghrib": "18:05",
+   "isha": "19:20"
+  }
+ ]
+}

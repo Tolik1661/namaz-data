@@ -1,0 +1,25 @@
+{
+ "city": "Kütahya",
+ "slug": "tr/9689",
+ "country": "TR",
+ "lat": 39.4206,
+ "lon": 29.9848,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9689/vakitler",
+ "updated": "2026-09-01T08:15:17Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:27",
+   "sunrise": "06:49",
+   "dhuhr": "12:55",
+   "asr": "16:14",
+   "maghrib": "18:51",
+   "isha": "20:08"
+  }
+ ]
+}

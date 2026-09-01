@@ -1,0 +1,25 @@
+{
+ "city": "Pervari̇",
+ "slug": "tr/9838",
+ "country": "TR",
+ "lat": 37.8465,
+ "lon": 42.5072,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9838/vakitler",
+ "updated": "2026-09-01T08:11:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:38",
+   "sunrise": "05:58",
+   "dhuhr": "12:05",
+   "asr": "15:24",
+   "maghrib": "18:01",
+   "isha": "19:16"
+  }
+ ]
+}

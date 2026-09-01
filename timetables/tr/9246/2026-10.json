@@ -1,0 +1,25 @@
+{
+ "city": "Artvi̇n",
+ "slug": "tr/9246",
+ "country": "TR",
+ "lat": 41.181,
+ "lon": 41.8203,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9246/vakitler",
+ "updated": "2026-09-01T08:14:25Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:37",
+   "sunrise": "06:02",
+   "dhuhr": "12:08",
+   "asr": "15:25",
+   "maghrib": "18:03",
+   "isha": "19:22"
+  }
+ ]
+}

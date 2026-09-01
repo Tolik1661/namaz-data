@@ -1,0 +1,25 @@
+{
+ "city": "Uzunköprü",
+ "slug": "tr/9427",
+ "country": "TR",
+ "lat": 41.237,
+ "lon": 26.7155,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9427/vakitler",
+ "updated": "2026-09-01T07:59:41Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:38",
+   "sunrise": "07:03",
+   "dhuhr": "13:08",
+   "asr": "16:25",
+   "maghrib": "19:04",
+   "isha": "20:23"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Feke",
+ "slug": "tr/9149",
+ "country": "TR",
+ "lat": 37.9064,
+ "lon": 35.8299,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9149/vakitler",
+ "updated": "2026-09-01T07:51:34Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:04",
+   "sunrise": "06:25",
+   "dhuhr": "12:31",
+   "asr": "15:51",
+   "maghrib": "18:28",
+   "isha": "19:43"
+  }
+ ]
+}

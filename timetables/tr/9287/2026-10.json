@@ -1,0 +1,25 @@
+{
+ "city": "Ulus",
+ "slug": "tr/9287",
+ "country": "TR",
+ "lat": 41.5349,
+ "lon": 32.6621,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9287/vakitler",
+ "updated": "2026-09-01T07:55:31Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:14",
+   "sunrise": "06:39",
+   "dhuhr": "12:44",
+   "asr": "16:01",
+   "maghrib": "18:40",
+   "isha": "20:00"
+  }
+ ]
+}

@@ -10,6 +10,7 @@ namazvakitleri.diyanet.gov.tr — Турция + города Европы (ди
 """
 
 import json
+import os
 import pathlib
 import re
 import sys
@@ -18,6 +19,14 @@ import urllib.request
 from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+
+# Все районы Турции (842, сгенерировано из GetRegList Диянета + центроиды
+# границ OSM). Их СТРАНИЦЫ парсятся только в еженедельном прогоне
+# (env DIYANET_DISTRICTS=1) — данные у Диянета на год вперёд, чаще не нужно.
+# В index.json районы попадают ВСЕГДА (чтобы приложение их находило).
+DISTRICTS_FILE = pathlib.Path(__file__).resolve().parent / "diyanet_districts.json"
+PARSE_DISTRICTS = os.environ.get("DIYANET_DISTRICTS") == "1"
+DISTRICT_MONTHS_HORIZON = 3   # хранить только текущий + 2 следующих месяца
 
 
 def _city(ilce, slug, name, country, lat, lon, tz):
@@ -149,11 +158,16 @@ def parse_city(city):
     return days
 
 
-def merge_months(city, days):
+def merge_months(city, days, months_horizon=None):
     """Слить дни скользящего окна в файлы месяцев (существующие дни обновляются)"""
     by_month = {}
     for date, d in days.items():
         by_month.setdefault(date[:7], {})[date] = d
+
+    # Для районов храним только ближайшие месяцы (иначе репозиторий распухнет)
+    if months_horizon:
+        keep = sorted(by_month)[:months_horizon]
+        by_month = {k: v for k, v in by_month.items() if k in keep}
 
     written = []
     for ym, month_days in by_month.items():
@@ -185,7 +199,55 @@ def merge_months(city, days):
     return written
 
 
+def district_cities():
+    """Районы Турции как city-структуры (кроме уже курируемых IlceID)"""
+    if not DISTRICTS_FILE.exists():
+        return []
+    curated = {c["ilce"] for c in CITIES}
+    out = []
+    for d in json.loads(DISTRICTS_FILE.read_text(encoding="utf-8")):
+        if int(d["ilce"]) in curated:
+            continue
+        out.append({
+            "ilce": int(d["ilce"]),
+            "slug": f"tr/{d['ilce']}",
+            "name": d["name"].title(),
+            "country": "TR",
+            "lat": d["lat"], "lon": d["lon"],
+            "timezone": "Europe/Istanbul",
+            "madhab": "shafi",
+        })
+    return out
+
+
 def collect(index, failures):
+    districts = district_cities()
+
+    # Районы всегда в индексе (приложение находит их по координатам);
+    # страницы районов парсим только в еженедельном прогоне
+    for d in districts:
+        index.append({
+            "slug": d["slug"], "name": d["name"], "country": d["country"],
+            "lat": d["lat"], "lon": d["lon"], "timezone": d["timezone"],
+            "madhab": d["madhab"],
+            "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+        })
+
+    if PARSE_DISTRICTS:
+        done = 0
+        for d in districts:
+            try:
+                days = parse_city(d)
+                merge_months(d, days, months_horizon=DISTRICT_MONTHS_HORIZON)
+                done += 1
+                if done % 50 == 0:
+                    print(f"[districts] {done}/{len(districts)}")
+            except Exception as e:                                # noqa: BLE001
+                print(f"[ERROR] {d['slug']}: {e}", file=sys.stderr)
+                failures.append(d["slug"])
+            time.sleep(0.5)
+        print(f"[OK] районы Турции: {done}/{len(districts)}")
+
     for city in CITIES:
         try:
             days = parse_city(city)

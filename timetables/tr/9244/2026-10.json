@@ -1,0 +1,25 @@
+{
+ "city": "Ardanuç",
+ "slug": "tr/9244",
+ "country": "TR",
+ "lat": 41.141,
+ "lon": 42.0641,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9244/vakitler",
+ "updated": "2026-09-01T07:54:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:36",
+   "sunrise": "06:01",
+   "dhuhr": "12:07",
+   "asr": "15:24",
+   "maghrib": "18:02",
+   "isha": "19:21"
+  }
+ ]
+}

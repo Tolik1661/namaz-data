@@ -1,0 +1,25 @@
+{
+ "city": "Üzümlü",
+ "slug": "tr/9447",
+ "country": "TR",
+ "lat": 39.6711,
+ "lon": 39.9085,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9447/vakitler",
+ "updated": "2026-09-01T08:00:34Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:47",
+   "sunrise": "06:10",
+   "dhuhr": "12:16",
+   "asr": "15:34",
+   "maghrib": "18:12",
+   "isha": "19:29"
+  }
+ ]
+}

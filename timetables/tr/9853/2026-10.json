@@ -1,0 +1,25 @@
+{
+ "city": "Si̇lopi̇",
+ "slug": "tr/9853",
+ "country": "TR",
+ "lat": 37.2513,
+ "lon": 42.5088,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9853/vakitler",
+ "updated": "2026-09-01T08:11:36Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:39",
+   "sunrise": "05:58",
+   "dhuhr": "12:05",
+   "asr": "15:25",
+   "maghrib": "18:02",
+   "isha": "19:16"
+  }
+ ]
+}

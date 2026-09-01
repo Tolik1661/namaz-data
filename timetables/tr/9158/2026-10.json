@@ -1,0 +1,25 @@
+{
+ "city": "Adiyaman",
+ "slug": "tr/9158",
+ "country": "TR",
+ "lat": 37.7643,
+ "lon": 38.2769,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9158/vakitler",
+ "updated": "2026-09-01T08:14:16Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:55",
+   "sunrise": "06:15",
+   "dhuhr": "12:22",
+   "asr": "15:41",
+   "maghrib": "18:18",
+   "isha": "19:33"
+  }
+ ]
+}

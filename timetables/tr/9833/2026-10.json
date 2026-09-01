@@ -1,0 +1,25 @@
+{
+ "city": "Suruç",
+ "slug": "tr/9833",
+ "country": "TR",
+ "lat": 36.9859,
+ "lon": 38.3912,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9833/vakitler",
+ "updated": "2026-09-01T08:11:02Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:55",
+   "sunrise": "06:14",
+   "dhuhr": "12:21",
+   "asr": "15:41",
+   "maghrib": "18:18",
+   "isha": "19:32"
+  }
+ ]
+}

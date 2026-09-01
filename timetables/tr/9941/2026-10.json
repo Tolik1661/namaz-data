@@ -1,0 +1,25 @@
+{
+ "city": "Çekerek",
+ "slug": "tr/9941",
+ "country": "TR",
+ "lat": 40.052,
+ "lon": 35.5058,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9941/vakitler",
+ "updated": "2026-09-01T08:13:55Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:04",
+   "sunrise": "06:27",
+   "dhuhr": "12:33",
+   "asr": "15:51",
+   "maghrib": "18:29",
+   "isha": "19:47"
+  }
+ ]
+}

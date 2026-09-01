@@ -1,0 +1,25 @@
+{
+ "city": "Yalvaç",
+ "slug": "tr/9533",
+ "country": "TR",
+ "lat": 38.3149,
+ "lon": 31.0695,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9533/vakitler",
+ "updated": "2026-09-01T08:03:03Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:23",
+   "sunrise": "06:44",
+   "dhuhr": "12:50",
+   "asr": "16:09",
+   "maghrib": "18:47",
+   "isha": "20:02"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Çemi̇şgezek",
+ "slug": "tr/9908",
+ "country": "TR",
+ "lat": 39.0504,
+ "lon": 38.9224,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9908/vakitler",
+ "updated": "2026-09-01T08:13:05Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:51",
+   "sunrise": "06:13",
+   "dhuhr": "12:19",
+   "asr": "15:38",
+   "maghrib": "18:15",
+   "isha": "19:32"
+  }
+ ]
+}

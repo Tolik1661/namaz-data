@@ -1,0 +1,25 @@
+{
+ "city": "Elmali",
+ "slug": "tr/9227",
+ "country": "TR",
+ "lat": 36.7094,
+ "lon": 29.9377,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9227/vakitler",
+ "updated": "2026-09-01T07:53:50Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:29",
+   "sunrise": "06:48",
+   "dhuhr": "12:55",
+   "asr": "16:15",
+   "maghrib": "18:52",
+   "isha": "20:06"
+  }
+ ]
+}

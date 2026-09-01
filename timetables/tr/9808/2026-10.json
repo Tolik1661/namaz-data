@@ -1,0 +1,25 @@
+{
+ "city": "Tarakli",
+ "slug": "tr/9808",
+ "country": "TR",
+ "lat": 40.4225,
+ "lon": 30.4963,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9808/vakitler",
+ "updated": "2026-09-01T08:10:19Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:23",
+   "sunrise": "06:47",
+   "dhuhr": "12:53",
+   "asr": "16:11",
+   "maghrib": "18:49",
+   "isha": "20:07"
+  }
+ ]
+}

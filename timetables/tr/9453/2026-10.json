@@ -1,0 +1,25 @@
+{
+ "city": "Horasan",
+ "slug": "tr/9453",
+ "country": "TR",
+ "lat": 40.0698,
+ "lon": 42.206,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9453/vakitler",
+ "updated": "2026-09-01T08:00:42Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:37",
+   "sunrise": "06:00",
+   "dhuhr": "12:06",
+   "asr": "15:24",
+   "maghrib": "18:02",
+   "isha": "19:20"
+  }
+ ]
+}

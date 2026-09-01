@@ -1,0 +1,25 @@
+{
+ "city": "Gömeç",
+ "slug": "tr/9276",
+ "country": "TR",
+ "lat": 39.3778,
+ "lon": 26.8751,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9276/vakitler",
+ "updated": "2026-09-01T07:55:09Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:39",
+   "sunrise": "07:01",
+   "dhuhr": "13:07",
+   "asr": "16:26",
+   "maghrib": "19:04",
+   "isha": "20:21"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Altintaş",
+ "slug": "tr/9682",
+ "country": "TR",
+ "lat": 39.0506,
+ "lon": 30.0074,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9682/vakitler",
+ "updated": "2026-09-01T08:07:14Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:26",
+   "sunrise": "06:48",
+   "dhuhr": "12:54",
+   "asr": "16:13",
+   "maghrib": "18:51",
+   "isha": "20:07"
+  }
+ ]
+}

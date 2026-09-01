@@ -1,0 +1,25 @@
+{
+ "city": "Murgul",
+ "slug": "tr/9249",
+ "country": "TR",
+ "lat": 41.2482,
+ "lon": 41.5756,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9249/vakitler",
+ "updated": "2026-09-01T07:54:21Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:38",
+   "sunrise": "06:03",
+   "dhuhr": "12:09",
+   "asr": "15:26",
+   "maghrib": "18:04",
+   "isha": "19:24"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Hadi̇m",
+ "slug": "tr/16704",
+ "country": "TR",
+ "lat": 36.9469,
+ "lon": 32.4973,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/16704/vakitler",
+ "updated": "2026-09-01T08:06:47Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:19",
+   "sunrise": "06:38",
+   "dhuhr": "12:45",
+   "asr": "16:05",
+   "maghrib": "18:42",
+   "isha": "19:56"
+  }
+ ]
+}

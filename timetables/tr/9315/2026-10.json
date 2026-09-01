@@ -1,0 +1,25 @@
+{
+ "city": "Bolu",
+ "slug": "tr/9315",
+ "country": "TR",
+ "lat": 40.7321,
+ "lon": 31.6107,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9315/vakitler",
+ "updated": "2026-09-01T08:14:36Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:19",
+   "sunrise": "06:43",
+   "dhuhr": "12:48",
+   "asr": "16:06",
+   "maghrib": "18:44",
+   "isha": "20:03"
+  }
+ ]
+}

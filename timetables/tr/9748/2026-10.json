@@ -1,0 +1,25 @@
+{
+ "city": "Ortaca",
+ "slug": "tr/9748",
+ "country": "TR",
+ "lat": 36.8004,
+ "lon": 28.724,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9748/vakitler",
+ "updated": "2026-09-01T08:08:50Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:34",
+   "sunrise": "06:53",
+   "dhuhr": "13:00",
+   "asr": "16:20",
+   "maghrib": "18:57",
+   "isha": "20:11"
+  }
+ ]
+}

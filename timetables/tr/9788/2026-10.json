@@ -1,0 +1,25 @@
+{
+ "city": "Osmani̇ye",
+ "slug": "tr/9788",
+ "country": "TR",
+ "lat": 37.0741,
+ "lon": 36.2458,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9788/vakitler",
+ "updated": "2026-09-01T08:15:30Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:04",
+   "sunrise": "06:23",
+   "dhuhr": "12:30",
+   "asr": "15:50",
+   "maghrib": "18:27",
+   "isha": "19:41"
+  }
+ ]
+}

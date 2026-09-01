@@ -1,0 +1,25 @@
+{
+ "city": "Aşkale",
+ "slug": "tr/9448",
+ "country": "TR",
+ "lat": 39.8932,
+ "lon": 40.5932,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9448/vakitler",
+ "updated": "2026-09-01T08:00:35Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:43",
+   "sunrise": "06:06",
+   "dhuhr": "12:12",
+   "asr": "15:30",
+   "maghrib": "18:08",
+   "isha": "19:26"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Balya",
+ "slug": "tr/9271",
+ "country": "TR",
+ "lat": 39.798,
+ "lon": 27.6065,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9271/vakitler",
+ "updated": "2026-09-01T07:54:56Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:36",
+   "sunrise": "06:59",
+   "dhuhr": "13:05",
+   "asr": "16:23",
+   "maghrib": "19:01",
+   "isha": "20:18"
+  }
+ ]
+}

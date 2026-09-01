@@ -1,0 +1,25 @@
+{
+ "city": "Bozcaada",
+ "slug": "tr/9350",
+ "country": "TR",
+ "lat": 39.8172,
+ "lon": 26.0227,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9350/vakitler",
+ "updated": "2026-09-01T07:57:19Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:42",
+   "sunrise": "07:05",
+   "dhuhr": "13:11",
+   "asr": "16:29",
+   "maghrib": "19:07",
+   "isha": "20:24"
+  }
+ ]
+}

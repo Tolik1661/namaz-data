@@ -1,0 +1,25 @@
+{
+ "city": "Patnos",
+ "slug": "tr/9189",
+ "country": "TR",
+ "lat": 39.1752,
+ "lon": 42.9065,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9189/vakitler",
+ "updated": "2026-09-01T07:52:44Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:35",
+   "sunrise": "05:57",
+   "dhuhr": "12:03",
+   "asr": "15:22",
+   "maghrib": "18:00",
+   "isha": "19:16"
+  }
+ ]
+}

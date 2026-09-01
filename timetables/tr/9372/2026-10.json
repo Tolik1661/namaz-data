@@ -1,0 +1,25 @@
+{
+ "city": "İski̇li̇p",
+ "slug": "tr/9372",
+ "country": "TR",
+ "lat": 40.7529,
+ "lon": 34.4586,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9372/vakitler",
+ "updated": "2026-09-01T07:58:01Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:07",
+   "sunrise": "06:31",
+   "dhuhr": "12:37",
+   "asr": "15:55",
+   "maghrib": "18:33",
+   "isha": "19:51"
+  }
+ ]
+}

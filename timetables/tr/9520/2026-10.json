@@ -1,0 +1,25 @@
+{
+ "city": "Samandağ",
+ "slug": "tr/9520",
+ "country": "TR",
+ "lat": 36.1606,
+ "lon": 35.9569,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9520/vakitler",
+ "updated": "2026-09-01T08:02:37Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:06",
+   "sunrise": "06:24",
+   "dhuhr": "12:31",
+   "asr": "15:52",
+   "maghrib": "18:28",
+   "isha": "19:41"
+  }
+ ]
+}

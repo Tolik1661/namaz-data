@@ -1,0 +1,25 @@
+{
+ "city": "Karayazi",
+ "slug": "tr/9456",
+ "country": "TR",
+ "lat": 39.6488,
+ "lon": 42.1306,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9456/vakitler",
+ "updated": "2026-09-01T08:00:47Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:38",
+   "sunrise": "06:00",
+   "dhuhr": "12:06",
+   "asr": "15:25",
+   "maghrib": "18:02",
+   "isha": "19:20"
+  }
+ ]
+}

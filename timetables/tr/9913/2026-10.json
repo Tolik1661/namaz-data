@@ -1,0 +1,25 @@
+{
+ "city": "Pülümür",
+ "slug": "tr/9913",
+ "country": "TR",
+ "lat": 39.4583,
+ "lon": 40.009,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9913/vakitler",
+ "updated": "2026-09-01T08:13:14Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:47",
+   "sunrise": "06:09",
+   "dhuhr": "12:15",
+   "asr": "15:34",
+   "maghrib": "18:11",
+   "isha": "19:28"
+  }
+ ]
+}

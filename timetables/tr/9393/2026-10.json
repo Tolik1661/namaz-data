@@ -1,0 +1,25 @@
+{
+ "city": "Honaz",
+ "slug": "tr/9393",
+ "country": "TR",
+ "lat": 37.7656,
+ "lon": 29.3368,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9393/vakitler",
+ "updated": "2026-09-01T07:58:40Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:31",
+   "sunrise": "06:51",
+   "dhuhr": "12:58",
+   "asr": "16:17",
+   "maghrib": "18:54",
+   "isha": "20:09"
+  }
+ ]
+}

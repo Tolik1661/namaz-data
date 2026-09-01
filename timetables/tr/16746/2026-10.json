@@ -1,0 +1,25 @@
+{
+ "city": "Kelki̇t",
+ "slug": "tr/16746",
+ "country": "TR",
+ "lat": 40.0648,
+ "lon": 39.4571,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/16746/vakitler",
+ "updated": "2026-09-01T08:02:06Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:48",
+   "sunrise": "06:11",
+   "dhuhr": "12:17",
+   "asr": "15:35",
+   "maghrib": "18:13",
+   "isha": "19:31"
+  }
+ ]
+}

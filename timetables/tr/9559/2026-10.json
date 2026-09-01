@@ -1,0 +1,25 @@
+{
+ "city": "Güzelbahçe",
+ "slug": "tr/9559",
+ "country": "TR",
+ "lat": 38.3353,
+ "lon": 26.8816,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9559/vakitler",
+ "updated": "2026-09-01T08:03:44Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:40",
+   "sunrise": "07:01",
+   "dhuhr": "13:07",
+   "asr": "16:27",
+   "maghrib": "19:04",
+   "isha": "20:19"
+  }
+ ]
+}

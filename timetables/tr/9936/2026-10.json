@@ -1,0 +1,25 @@
+{
+ "city": "Akdağmadeni̇",
+ "slug": "tr/9936",
+ "country": "TR",
+ "lat": 39.7271,
+ "lon": 35.8729,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9936/vakitler",
+ "updated": "2026-09-01T08:13:48Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:03",
+   "sunrise": "06:25",
+   "dhuhr": "12:31",
+   "asr": "15:50",
+   "maghrib": "18:27",
+   "isha": "19:45"
+  }
+ ]
+}

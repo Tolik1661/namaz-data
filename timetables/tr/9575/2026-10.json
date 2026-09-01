@@ -1,0 +1,25 @@
+{
+ "city": "Elbi̇stan",
+ "slug": "tr/9575",
+ "country": "TR",
+ "lat": 38.3266,
+ "lon": 37.3593,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9575/vakitler",
+ "updated": "2026-09-01T08:04:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:59",
+   "sunrise": "06:20",
+   "dhuhr": "12:26",
+   "asr": "15:46",
+   "maghrib": "18:23",
+   "isha": "19:38"
+  }
+ ]
+}

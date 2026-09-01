@@ -1,0 +1,25 @@
+{
+ "city": "Boğazkale",
+ "slug": "tr/9369",
+ "country": "TR",
+ "lat": 40.0344,
+ "lon": 34.5494,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9369/vakitler",
+ "updated": "2026-09-01T07:57:58Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:07",
+   "sunrise": "06:31",
+   "dhuhr": "12:36",
+   "asr": "15:55",
+   "maghrib": "18:32",
+   "isha": "19:50"
+  }
+ ]
+}

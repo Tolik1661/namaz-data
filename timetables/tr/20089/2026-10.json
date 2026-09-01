@@ -1,0 +1,25 @@
+{
+ "city": "Hatay",
+ "slug": "tr/20089",
+ "country": "TR",
+ "lat": 36.4337,
+ "lon": 36.2481,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/20089/vakitler",
+ "updated": "2026-09-01T08:14:56Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:05",
+   "sunrise": "06:23",
+   "dhuhr": "12:30",
+   "asr": "15:51",
+   "maghrib": "18:27",
+   "isha": "19:41"
+  }
+ ]
+}

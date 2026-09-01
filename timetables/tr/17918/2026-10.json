@@ -1,0 +1,25 @@
+{
+ "city": "Manyas",
+ "slug": "tr/17918",
+ "country": "TR",
+ "lat": 40.0639,
+ "lon": 27.9114,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17918/vakitler",
+ "updated": "2026-09-01T07:55:20Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:34",
+   "sunrise": "06:57",
+   "dhuhr": "13:03",
+   "asr": "16:21",
+   "maghrib": "18:59",
+   "isha": "20:17"
+  }
+ ]
+}

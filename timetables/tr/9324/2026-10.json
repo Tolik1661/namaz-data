@@ -1,0 +1,25 @@
+{
+ "city": "Ağlasun",
+ "slug": "tr/9324",
+ "country": "TR",
+ "lat": 37.6262,
+ "lon": 30.6234,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9324/vakitler",
+ "updated": "2026-09-01T07:56:35Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:26",
+   "sunrise": "06:46",
+   "dhuhr": "12:53",
+   "asr": "16:12",
+   "maghrib": "18:49",
+   "isha": "20:04"
+  }
+ ]
+}

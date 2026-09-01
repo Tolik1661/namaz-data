@@ -1,0 +1,25 @@
+{
+ "city": "Çeli̇khan",
+ "slug": "tr/9160",
+ "country": "TR",
+ "lat": 38.0597,
+ "lon": 38.2737,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9160/vakitler",
+ "updated": "2026-09-01T07:51:53Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:55",
+   "sunrise": "06:15",
+   "dhuhr": "12:22",
+   "asr": "15:41",
+   "maghrib": "18:18",
+   "isha": "19:34"
+  }
+ ]
+}

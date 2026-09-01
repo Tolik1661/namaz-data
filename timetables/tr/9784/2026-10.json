@@ -1,0 +1,25 @@
+{
+ "city": "Bahçe",
+ "slug": "tr/9784",
+ "country": "TR",
+ "lat": 37.2165,
+ "lon": 36.5585,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9784/vakitler",
+ "updated": "2026-09-01T08:09:46Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:02",
+   "sunrise": "06:22",
+   "dhuhr": "12:29",
+   "asr": "15:49",
+   "maghrib": "18:25",
+   "isha": "19:40"
+  }
+ ]
+}

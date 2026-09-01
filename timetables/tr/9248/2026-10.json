@@ -1,0 +1,25 @@
+{
+ "city": "Hopa",
+ "slug": "tr/9248",
+ "country": "TR",
+ "lat": 41.3864,
+ "lon": 41.4382,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9248/vakitler",
+ "updated": "2026-09-01T07:54:17Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:39",
+   "sunrise": "06:04",
+   "dhuhr": "12:09",
+   "asr": "15:26",
+   "maghrib": "18:05",
+   "isha": "19:24"
+  }
+ ]
+}

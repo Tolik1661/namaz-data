@@ -1,0 +1,25 @@
+{
+ "city": "Kestel",
+ "slug": "tr/17893",
+ "country": "TR",
+ "lat": 40.1869,
+ "lon": 29.3236,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17893/vakitler",
+ "updated": "2026-09-01T07:57:03Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:29",
+   "sunrise": "06:52",
+   "dhuhr": "12:58",
+   "asr": "16:16",
+   "maghrib": "18:54",
+   "isha": "20:12"
+  }
+ ]
+}

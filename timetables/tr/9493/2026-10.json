@@ -1,0 +1,25 @@
+{
+ "city": "Eynesi̇l",
+ "slug": "tr/9493",
+ "country": "TR",
+ "lat": 41.0152,
+ "lon": 39.1352,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9493/vakitler",
+ "updated": "2026-09-01T08:01:53Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:48",
+   "sunrise": "06:13",
+   "dhuhr": "12:18",
+   "asr": "15:36",
+   "maghrib": "18:14",
+   "isha": "19:33"
+  }
+ ]
+}

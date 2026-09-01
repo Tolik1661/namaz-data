@@ -1,0 +1,25 @@
+{
+ "city": "Kocaköy",
+ "slug": "tr/9407",
+ "country": "TR",
+ "lat": 38.2481,
+ "lon": 40.5226,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9407/vakitler",
+ "updated": "2026-09-01T07:59:08Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:46",
+   "sunrise": "06:06",
+   "dhuhr": "12:13",
+   "asr": "15:32",
+   "maghrib": "18:09",
+   "isha": "19:25"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Yatağan",
+ "slug": "tr/9750",
+ "country": "TR",
+ "lat": 37.3528,
+ "lon": 28.1654,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9750/vakitler",
+ "updated": "2026-09-01T08:08:54Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:36",
+   "sunrise": "06:56",
+   "dhuhr": "13:02",
+   "asr": "16:22",
+   "maghrib": "18:59",
+   "isha": "20:14"
+  }
+ ]
+}

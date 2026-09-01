@@ -1,0 +1,25 @@
+{
+ "city": "Hi̇lvan",
+ "slug": "tr/9830",
+ "country": "TR",
+ "lat": 37.5438,
+ "lon": 38.9166,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9830/vakitler",
+ "updated": "2026-09-01T08:10:58Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:52",
+   "sunrise": "06:12",
+   "dhuhr": "12:19",
+   "asr": "15:39",
+   "maghrib": "18:16",
+   "isha": "19:31"
+  }
+ ]
+}

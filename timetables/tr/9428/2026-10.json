@@ -1,0 +1,25 @@
+{
+ "city": "Ağin",
+ "slug": "tr/9428",
+ "country": "TR",
+ "lat": 38.9366,
+ "lon": 38.6801,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9428/vakitler",
+ "updated": "2026-09-01T07:59:43Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:52",
+   "sunrise": "06:14",
+   "dhuhr": "12:20",
+   "asr": "15:39",
+   "maghrib": "18:16",
+   "isha": "19:33"
+  }
+ ]
+}

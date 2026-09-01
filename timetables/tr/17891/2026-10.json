@@ -1,0 +1,25 @@
+{
+ "city": "Atabey",
+ "slug": "tr/17891",
+ "country": "TR",
+ "lat": 37.9801,
+ "lon": 30.6407,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17891/vakitler",
+ "updated": "2026-09-01T08:02:46Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:25",
+   "sunrise": "06:46",
+   "dhuhr": "12:52",
+   "asr": "16:12",
+   "maghrib": "18:49",
+   "isha": "20:04"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Yomra",
+ "slug": "tr/9907",
+ "country": "TR",
+ "lat": 40.8473,
+ "lon": 39.8346,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9907/vakitler",
+ "updated": "2026-09-01T08:13:03Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:45",
+   "sunrise": "06:10",
+   "dhuhr": "12:15",
+   "asr": "15:33",
+   "maghrib": "18:11",
+   "isha": "19:30"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Göle",
+ "slug": "tr/9241",
+ "country": "TR",
+ "lat": 40.8282,
+ "lon": 42.6112,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9241/vakitler",
+ "updated": "2026-09-01T07:54:07Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:35",
+   "sunrise": "05:59",
+   "dhuhr": "12:04",
+   "asr": "15:22",
+   "maghrib": "18:00",
+   "isha": "19:19"
+  }
+ ]
+}

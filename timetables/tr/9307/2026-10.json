@@ -1,0 +1,25 @@
+{
+ "city": "Yayladere",
+ "slug": "tr/9307",
+ "country": "TR",
+ "lat": 39.2058,
+ "lon": 40.0829,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9307/vakitler",
+ "updated": "2026-09-01T07:56:07Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:46",
+   "sunrise": "06:08",
+   "dhuhr": "12:15",
+   "asr": "15:33",
+   "maghrib": "18:11",
+   "isha": "19:28"
+  }
+ ]
+}

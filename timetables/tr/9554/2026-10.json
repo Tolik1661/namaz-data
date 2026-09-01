@@ -1,0 +1,25 @@
+{
+ "city": "Bergama",
+ "slug": "tr/9554",
+ "country": "TR",
+ "lat": 39.1185,
+ "lon": 27.1839,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9554/vakitler",
+ "updated": "2026-09-01T08:03:36Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:38",
+   "sunrise": "07:00",
+   "dhuhr": "13:06",
+   "asr": "16:25",
+   "maghrib": "19:02",
+   "isha": "20:19"
+  }
+ ]
+}

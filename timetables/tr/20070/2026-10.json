@@ -1,0 +1,25 @@
+{
+ "city": "Kemalpaşa",
+ "slug": "tr/20070",
+ "country": "TR",
+ "lat": 41.4715,
+ "lon": 41.5431,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/20070/vakitler",
+ "updated": "2026-09-01T07:54:19Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:38",
+   "sunrise": "06:03",
+   "dhuhr": "12:09",
+   "asr": "15:26",
+   "maghrib": "18:04",
+   "isha": "19:24"
+  }
+ ]
+}

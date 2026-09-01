@@ -1,0 +1,25 @@
+{
+ "city": "Çelti̇kci̇",
+ "slug": "tr/9329",
+ "country": "TR",
+ "lat": 37.5348,
+ "lon": 30.4632,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9329/vakitler",
+ "updated": "2026-09-01T07:56:43Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:26",
+   "sunrise": "06:46",
+   "dhuhr": "12:53",
+   "asr": "16:13",
+   "maghrib": "18:50",
+   "isha": "20:04"
+  }
+ ]
+}

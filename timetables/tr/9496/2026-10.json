@@ -1,0 +1,25 @@
+{
+ "city": "Güce",
+ "slug": "tr/9496",
+ "country": "TR",
+ "lat": 40.7445,
+ "lon": 38.8334,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9496/vakitler",
+ "updated": "2026-09-01T08:01:56Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:50",
+   "sunrise": "06:14",
+   "dhuhr": "12:20",
+   "asr": "15:37",
+   "maghrib": "18:15",
+   "isha": "19:34"
+  }
+ ]
+}

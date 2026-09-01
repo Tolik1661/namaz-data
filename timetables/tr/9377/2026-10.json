@@ -1,0 +1,25 @@
+{
+ "city": "Ortaköy",
+ "slug": "tr/9377",
+ "country": "TR",
+ "lat": 40.2894,
+ "lon": 35.231,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9377/vakitler",
+ "updated": "2026-09-01T07:58:12Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:05",
+   "sunrise": "06:28",
+   "dhuhr": "12:34",
+   "asr": "15:52",
+   "maghrib": "18:30",
+   "isha": "19:48"
+  }
+ ]
+}

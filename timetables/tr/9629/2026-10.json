@@ -1,0 +1,25 @@
+{
+ "city": "Ki̇li̇s",
+ "slug": "tr/9629",
+ "country": "TR",
+ "lat": 36.7162,
+ "lon": 37.115,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9629/vakitler",
+ "updated": "2026-09-01T08:15:11Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:01",
+   "sunrise": "06:20",
+   "dhuhr": "12:26",
+   "asr": "15:47",
+   "maghrib": "18:23",
+   "isha": "19:37"
+  }
+ ]
+}

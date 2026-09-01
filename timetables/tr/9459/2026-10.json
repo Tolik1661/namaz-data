@@ -1,0 +1,25 @@
+{
+ "city": "Oltu",
+ "slug": "tr/9459",
+ "country": "TR",
+ "lat": 40.5658,
+ "lon": 41.9286,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9459/vakitler",
+ "updated": "2026-09-01T08:00:53Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:37",
+   "sunrise": "06:01",
+   "dhuhr": "12:07",
+   "asr": "15:25",
+   "maghrib": "18:03",
+   "isha": "19:21"
+  }
+ ]
+}

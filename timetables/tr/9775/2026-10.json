@@ -1,0 +1,25 @@
+{
+ "city": "Gülyali",
+ "slug": "tr/9775",
+ "country": "TR",
+ "lat": 40.9297,
+ "lon": 38.0464,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9775/vakitler",
+ "updated": "2026-09-01T08:09:33Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:53",
+   "sunrise": "06:17",
+   "dhuhr": "12:23",
+   "asr": "15:40",
+   "maghrib": "18:18",
+   "isha": "19:37"
+  }
+ ]
+}

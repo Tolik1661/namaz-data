@@ -1,0 +1,25 @@
+{
+ "city": "Orta",
+ "slug": "tr/9364",
+ "country": "TR",
+ "lat": 40.6003,
+ "lon": 33.0696,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9364/vakitler",
+ "updated": "2026-09-01T07:57:48Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:13",
+   "sunrise": "06:37",
+   "dhuhr": "12:42",
+   "asr": "16:00",
+   "maghrib": "18:38",
+   "isha": "19:57"
+  }
+ ]
+}

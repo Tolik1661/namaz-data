@@ -1,0 +1,25 @@
+{
+ "city": "Pazarcik",
+ "slug": "tr/9579",
+ "country": "TR",
+ "lat": 37.4328,
+ "lon": 37.2846,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9579/vakitler",
+ "updated": "2026-09-01T08:04:15Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:59",
+   "sunrise": "06:19",
+   "dhuhr": "12:26",
+   "asr": "15:46",
+   "maghrib": "18:22",
+   "isha": "19:37"
+  }
+ ]
+}

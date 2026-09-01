@@ -1,0 +1,25 @@
+{
+ "city": "Güçlükonak",
+ "slug": "tr/9851",
+ "country": "TR",
+ "lat": 37.5429,
+ "lon": 41.9637,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9851/vakitler",
+ "updated": "2026-09-01T08:11:32Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:41",
+   "sunrise": "06:01",
+   "dhuhr": "12:07",
+   "asr": "15:27",
+   "maghrib": "18:04",
+   "isha": "19:19"
+  }
+ ]
+}

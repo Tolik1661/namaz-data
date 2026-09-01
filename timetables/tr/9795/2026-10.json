@@ -1,0 +1,25 @@
+{
+ "city": "Hemşi̇n",
+ "slug": "tr/9795",
+ "country": "TR",
+ "lat": 40.9879,
+ "lon": 40.8879,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9795/vakitler",
+ "updated": "2026-09-01T08:10:03Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:41",
+   "sunrise": "06:06",
+   "dhuhr": "12:11",
+   "asr": "15:29",
+   "maghrib": "18:07",
+   "isha": "19:26"
+  }
+ ]
+}

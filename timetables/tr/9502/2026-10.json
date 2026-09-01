@@ -1,0 +1,25 @@
+{
+ "city": "Köse",
+ "slug": "tr/9502",
+ "country": "TR",
+ "lat": 40.2023,
+ "lon": 39.6571,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9502/vakitler",
+ "updated": "2026-09-01T08:02:08Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:47",
+   "sunrise": "06:10",
+   "dhuhr": "12:16",
+   "asr": "15:34",
+   "maghrib": "18:12",
+   "isha": "19:30"
+  }
+ ]
+}

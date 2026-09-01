@@ -1,0 +1,25 @@
+{
+ "city": "Kovancilar",
+ "slug": "tr/9435",
+ "country": "TR",
+ "lat": 38.7617,
+ "lon": 39.8678,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9435/vakitler",
+ "updated": "2026-09-01T07:59:54Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:48",
+   "sunrise": "06:09",
+   "dhuhr": "12:15",
+   "asr": "15:34",
+   "maghrib": "18:12",
+   "isha": "19:28"
+  }
+ ]
+}

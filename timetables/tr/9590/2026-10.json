@@ -1,0 +1,25 @@
+{
+ "city": "Akyaka",
+ "slug": "tr/9590",
+ "country": "TR",
+ "lat": 40.7997,
+ "lon": 43.5908,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9590/vakitler",
+ "updated": "2026-09-01T08:04:31Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:31",
+   "sunrise": "05:55",
+   "dhuhr": "12:00",
+   "asr": "15:18",
+   "maghrib": "17:56",
+   "isha": "19:15"
+  }
+ ]
+}

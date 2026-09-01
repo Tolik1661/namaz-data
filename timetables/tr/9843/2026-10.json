@@ -1,0 +1,25 @@
+{
+ "city": "Durağan",
+ "slug": "tr/9843",
+ "country": "TR",
+ "lat": 41.4146,
+ "lon": 35.1953,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9843/vakitler",
+ "updated": "2026-09-01T08:11:19Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:04",
+   "sunrise": "06:29",
+   "dhuhr": "12:35",
+   "asr": "15:52",
+   "maghrib": "18:30",
+   "isha": "19:50"
+  }
+ ]
+}

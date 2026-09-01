@@ -1,0 +1,25 @@
+{
+ "city": "Görele",
+ "slug": "tr/9495",
+ "country": "TR",
+ "lat": 40.909,
+ "lon": 39.0411,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9495/vakitler",
+ "updated": "2026-09-01T08:01:54Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:49",
+   "sunrise": "06:13",
+   "dhuhr": "12:19",
+   "asr": "15:36",
+   "maghrib": "18:14",
+   "isha": "19:34"
+  }
+ ]
+}

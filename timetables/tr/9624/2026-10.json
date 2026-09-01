@@ -1,0 +1,25 @@
+{
+ "city": "Sariz",
+ "slug": "tr/9624",
+ "country": "TR",
+ "lat": 38.4783,
+ "lon": 36.4788,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9624/vakitler",
+ "updated": "2026-09-01T08:05:29Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:01",
+   "sunrise": "06:23",
+   "dhuhr": "12:29",
+   "asr": "15:48",
+   "maghrib": "18:25",
+   "isha": "19:41"
+  }
+ ]
+}

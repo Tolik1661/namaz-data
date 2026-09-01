@@ -1,0 +1,25 @@
+{
+ "city": "Sarayönü",
+ "slug": "tr/17874",
+ "country": "TR",
+ "lat": 38.4714,
+ "lon": 32.4803,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17874/vakitler",
+ "updated": "2026-09-01T08:07:02Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:18",
+   "sunrise": "06:39",
+   "dhuhr": "12:45",
+   "asr": "16:05",
+   "maghrib": "18:42",
+   "isha": "19:57"
+  }
+ ]
+}

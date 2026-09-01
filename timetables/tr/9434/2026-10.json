@@ -1,0 +1,25 @@
+{
+ "city": "Keban",
+ "slug": "tr/9434",
+ "country": "TR",
+ "lat": 38.7716,
+ "lon": 38.7161,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9434/vakitler",
+ "updated": "2026-09-01T07:59:52Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:52",
+   "sunrise": "06:14",
+   "dhuhr": "12:20",
+   "asr": "15:39",
+   "maghrib": "18:16",
+   "isha": "19:32"
+  }
+ ]
+}

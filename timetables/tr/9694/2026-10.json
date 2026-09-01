@@ -1,0 +1,25 @@
+{
+ "city": "Akçadağ",
+ "slug": "tr/9694",
+ "country": "TR",
+ "lat": 38.3695,
+ "lon": 37.8736,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9694/vakitler",
+ "updated": "2026-09-01T08:07:32Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:56",
+   "sunrise": "06:17",
+   "dhuhr": "12:23",
+   "asr": "15:42",
+   "maghrib": "18:19",
+   "isha": "19:35"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Ödemi̇ş",
+ "slug": "tr/9565",
+ "country": "TR",
+ "lat": 38.1922,
+ "lon": 27.9896,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9565/vakitler",
+ "updated": "2026-09-01T08:03:55Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:36",
+   "sunrise": "06:57",
+   "dhuhr": "13:03",
+   "asr": "16:22",
+   "maghrib": "18:59",
+   "isha": "20:15"
+  }
+ ]
+}

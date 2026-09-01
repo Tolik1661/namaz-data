@@ -1,0 +1,25 @@
+{
+ "city": "Özalp",
+ "slug": "tr/9928",
+ "country": "TR",
+ "lat": 38.7076,
+ "lon": 44.0501,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9928/vakitler",
+ "updated": "2026-09-01T08:13:39Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:31",
+   "sunrise": "05:53",
+   "dhuhr": "11:59",
+   "asr": "15:18",
+   "maghrib": "17:55",
+   "isha": "19:11"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Si̇nanpaşa",
+ "slug": "tr/9182",
+ "country": "TR",
+ "lat": 38.7103,
+ "lon": 30.2253,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9182/vakitler",
+ "updated": "2026-09-01T07:52:34Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:26",
+   "sunrise": "06:48",
+   "dhuhr": "12:54",
+   "asr": "16:13",
+   "maghrib": "18:50",
+   "isha": "20:06"
+  }
+ ]
+}

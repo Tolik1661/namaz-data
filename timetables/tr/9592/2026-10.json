@@ -1,0 +1,25 @@
+{
+ "city": "Di̇gor",
+ "slug": "tr/9592",
+ "country": "TR",
+ "lat": 40.3086,
+ "lon": 43.4536,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9592/vakitler",
+ "updated": "2026-09-01T08:04:35Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:32",
+   "sunrise": "05:55",
+   "dhuhr": "12:01",
+   "asr": "15:19",
+   "maghrib": "17:57",
+   "isha": "19:15"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Beytüşşebap",
+ "slug": "tr/9849",
+ "country": "TR",
+ "lat": 37.5858,
+ "lon": 43.0647,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9849/vakitler",
+ "updated": "2026-09-01T08:11:29Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:36",
+   "sunrise": "05:56",
+   "dhuhr": "12:02",
+   "asr": "15:22",
+   "maghrib": "17:59",
+   "isha": "19:14"
+  }
+ ]
+}

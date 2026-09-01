@@ -1,0 +1,25 @@
+{
+ "city": "Yalihüyük",
+ "slug": "tr/9680",
+ "country": "TR",
+ "lat": 37.3225,
+ "lon": 32.0771,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9680/vakitler",
+ "updated": "2026-09-01T08:07:10Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:20",
+   "sunrise": "06:40",
+   "dhuhr": "12:47",
+   "asr": "16:06",
+   "maghrib": "18:43",
+   "isha": "19:58"
+  }
+ ]
+}

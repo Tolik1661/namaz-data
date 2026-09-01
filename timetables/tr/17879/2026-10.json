@@ -1,0 +1,25 @@
+{
+ "city": "Şefaatli̇",
+ "slug": "tr/17879",
+ "country": "TR",
+ "lat": 39.4966,
+ "lon": 34.7981,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17879/vakitler",
+ "updated": "2026-09-01T08:14:02Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:07",
+   "sunrise": "06:30",
+   "dhuhr": "12:36",
+   "asr": "15:54",
+   "maghrib": "18:32",
+   "isha": "19:49"
+  }
+ ]
+}

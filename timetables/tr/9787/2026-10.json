@@ -1,0 +1,25 @@
+{
+ "city": "Kadi̇rli̇",
+ "slug": "tr/9787",
+ "country": "TR",
+ "lat": 37.462,
+ "lon": 36.0808,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9787/vakitler",
+ "updated": "2026-09-01T08:09:51Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:04",
+   "sunrise": "06:24",
+   "dhuhr": "12:30",
+   "asr": "15:50",
+   "maghrib": "18:27",
+   "isha": "19:42"
+  }
+ ]
+}

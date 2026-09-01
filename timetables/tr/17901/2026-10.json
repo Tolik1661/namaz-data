@@ -1,0 +1,25 @@
+{
+ "city": "Savur",
+ "slug": "tr/17901",
+ "country": "TR",
+ "lat": 37.5867,
+ "lon": 40.8885,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17901/vakitler",
+ "updated": "2026-09-01T08:08:28Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "04:45",
+   "sunrise": "06:05",
+   "dhuhr": "12:11",
+   "asr": "15:31",
+   "maghrib": "18:08",
+   "isha": "19:23"
+  }
+ ]
+}

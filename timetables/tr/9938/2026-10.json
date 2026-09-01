@@ -1,0 +1,25 @@
+{
+ "city": "Boğazliyan",
+ "slug": "tr/9938",
+ "country": "TR",
+ "lat": 39.2442,
+ "lon": 35.2432,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9938/vakitler",
+ "updated": "2026-09-01T08:13:49Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:06",
+   "sunrise": "06:28",
+   "dhuhr": "12:34",
+   "asr": "15:53",
+   "maghrib": "18:30",
+   "isha": "19:47"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Gökçeada",
+ "slug": "tr/9354",
+ "country": "TR",
+ "lat": 40.166,
+ "lon": 25.84,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9354/vakitler",
+ "updated": "2026-09-01T07:57:27Z",
+ "year": 2026,
+ "month": 10,
+ "days": [
+  {
+   "date": "2026-10-01",
+   "fajr": "05:42",
+   "sunrise": "07:05",
+   "dhuhr": "13:11",
+   "asr": "16:29",
+   "maghrib": "19:07",
+   "isha": "20:25"
+  }
+ ]
+}
