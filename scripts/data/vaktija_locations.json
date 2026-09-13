@@ -1,0 +1,946 @@
+[
+ {
+  "id": 0,
+  "vaktija": "Banovići",
+  "name": "Banovići",
+  "country": "BA",
+  "lat": 44.4089,
+  "lon": 18.5292
+ },
+ {
+  "id": 1,
+  "vaktija": "Banja Luka",
+  "name": "Banja Luka",
+  "country": "BA",
+  "lat": 44.7721,
+  "lon": 17.1918
+ },
+ {
+  "id": 2,
+  "vaktija": "Bihać",
+  "name": "Bihać",
+  "country": "BA",
+  "lat": 44.8147,
+  "lon": 15.869
+ },
+ {
+  "id": 3,
+  "vaktija": "Bijeljina",
+  "name": "Bijeljina",
+  "country": "BA",
+  "lat": 44.7568,
+  "lon": 19.2157
+ },
+ {
+  "id": 4,
+  "vaktija": "Bileća",
+  "name": "Bileća",
+  "country": "BA",
+  "lat": 42.8749,
+  "lon": 18.428
+ },
+ {
+  "id": 5,
+  "vaktija": "Bosanski Brod",
+  "name": "Brod",
+  "country": "BA",
+  "lat": 45.1464,
+  "lon": 17.9992
+ },
+ {
+  "id": 6,
+  "vaktija": "Bosanska Dubica",
+  "name": "Kozarska Dubica",
+  "country": "BA",
+  "lat": 45.1827,
+  "lon": 16.8086
+ },
+ {
+  "id": 7,
+  "vaktija": "Bosanska Gradiška",
+  "name": "Gradiška",
+  "country": "BA",
+  "lat": 45.1462,
+  "lon": 17.2521
+ },
+ {
+  "id": 8,
+  "vaktija": "Bosansko Grahovo",
+  "name": "Bosansko Grahovo",
+  "country": "BA",
+  "lat": 44.1795,
+  "lon": 16.364
+ },
+ {
+  "id": 9,
+  "vaktija": "Bosanska Krupa",
+  "name": "Bosanska Krupa",
+  "country": "BA",
+  "lat": 44.8824,
+  "lon": 16.1577
+ },
+ {
+  "id": 10,
+  "vaktija": "Bosanski Novi",
+  "name": "Novi Grad",
+  "country": "BA",
+  "lat": 45.049,
+  "lon": 16.3777
+ },
+ {
+  "id": 11,
+  "vaktija": "Bosanski Petrovac",
+  "name": "Bosanski Petrovac",
+  "country": "BA",
+  "lat": 44.5544,
+  "lon": 16.3687
+ },
+ {
+  "id": 12,
+  "vaktija": "Bosanski Šamac",
+  "name": "Šamac",
+  "country": "BA",
+  "lat": 45.0607,
+  "lon": 18.4693
+ },
+ {
+  "id": 13,
+  "vaktija": "Bratunac",
+  "name": "Bratunac",
+  "country": "BA",
+  "lat": 44.184,
+  "lon": 19.331
+ },
+ {
+  "id": 14,
+  "vaktija": "Brčko",
+  "name": "Brčko",
+  "country": "BA",
+  "lat": 44.8771,
+  "lon": 18.8095
+ },
+ {
+  "id": 15,
+  "vaktija": "Breza",
+  "name": "Breza",
+  "country": "BA",
+  "lat": 44.0183,
+  "lon": 18.2609
+ },
+ {
+  "id": 16,
+  "vaktija": "Bugojno",
+  "name": "Bugojno",
+  "country": "BA",
+  "lat": 44.0559,
+  "lon": 17.4509
+ },
+ {
+  "id": 17,
+  "vaktija": "Busovača",
+  "name": "Busovača",
+  "country": "BA",
+  "lat": 44.0985,
+  "lon": 17.8791
+ },
+ {
+  "id": 18,
+  "vaktija": "Bužim",
+  "name": "Bužim",
+  "country": "BA",
+  "lat": 45.0613,
+  "lon": 16.0324
+ },
+ {
+  "id": 19,
+  "vaktija": "Cazin",
+  "name": "Cazin",
+  "country": "BA",
+  "lat": 44.9665,
+  "lon": 15.9423
+ },
+ {
+  "id": 20,
+  "vaktija": "Čajniče",
+  "name": "Čajniče",
+  "country": "BA",
+  "lat": 43.5566,
+  "lon": 19.0722
+ },
+ {
+  "id": 21,
+  "vaktija": "Čapljina",
+  "name": "Čapljina",
+  "country": "BA",
+  "lat": 43.1134,
+  "lon": 17.705
+ },
+ {
+  "id": 22,
+  "vaktija": "Čelić",
+  "name": "Čelić",
+  "country": "BA",
+  "lat": 44.7225,
+  "lon": 18.82
+ },
+ {
+  "id": 23,
+  "vaktija": "Čelinac",
+  "name": "Čelinac",
+  "country": "BA",
+  "lat": 44.7242,
+  "lon": 17.3194
+ },
+ {
+  "id": 24,
+  "vaktija": "Čitluk",
+  "name": "Čitluk",
+  "country": "BA",
+  "lat": 43.2267,
+  "lon": 17.6963
+ },
+ {
+  "id": 25,
+  "vaktija": "Derventa",
+  "name": "Derventa",
+  "country": "BA",
+  "lat": 44.9767,
+  "lon": 17.907
+ },
+ {
+  "id": 26,
+  "vaktija": "Doboj",
+  "name": "Doboj",
+  "country": "BA",
+  "lat": 44.7325,
+  "lon": 18.085
+ },
+ {
+  "id": 27,
+  "vaktija": "Donji Vakuf",
+  "name": "Donji Vakuf",
+  "country": "BA",
+  "lat": 44.1445,
+  "lon": 17.395
+ },
+ {
+  "id": 28,
+  "vaktija": "Drvar",
+  "name": "Drvar",
+  "country": "BA",
+  "lat": 44.3741,
+  "lon": 16.3846
+ },
+ {
+  "id": 29,
+  "vaktija": "Foča",
+  "name": "Foča",
+  "country": "BA",
+  "lat": 43.5059,
+  "lon": 18.7744
+ },
+ {
+  "id": 30,
+  "vaktija": "Fojnica",
+  "name": "Fojnica",
+  "country": "BA",
+  "lat": 43.9634,
+  "lon": 17.899
+ },
+ {
+  "id": 31,
+  "vaktija": "Gacko",
+  "name": "Gacko",
+  "country": "BA",
+  "lat": 43.1664,
+  "lon": 18.5358
+ },
+ {
+  "id": 32,
+  "vaktija": "Glamoč",
+  "name": "Glamoč",
+  "country": "BA",
+  "lat": 44.045,
+  "lon": 16.8499
+ },
+ {
+  "id": 33,
+  "vaktija": "Goražde",
+  "name": "Goražde",
+  "country": "BA",
+  "lat": 43.6684,
+  "lon": 18.9759
+ },
+ {
+  "id": 34,
+  "vaktija": "Gornji Vakuf",
+  "name": "Gornji Vakuf-Uskoplje",
+  "country": "BA",
+  "lat": 43.9386,
+  "lon": 17.5853
+ },
+ {
+  "id": 35,
+  "vaktija": "Gračanica",
+  "name": "Gračanica",
+  "country": "BA",
+  "lat": 44.7043,
+  "lon": 18.3101
+ },
+ {
+  "id": 36,
+  "vaktija": "Gradačac",
+  "name": "Gradačac",
+  "country": "BA",
+  "lat": 44.8781,
+  "lon": 18.4255
+ },
+ {
+  "id": 37,
+  "vaktija": "Grude",
+  "name": "Grude",
+  "country": "BA",
+  "lat": 43.3723,
+  "lon": 17.4142
+ },
+ {
+  "id": 38,
+  "vaktija": "Hadžići",
+  "name": "Hadžići",
+  "country": "BA",
+  "lat": 43.8223,
+  "lon": 18.2031
+ },
+ {
+  "id": 39,
+  "vaktija": "Han-Pijesak",
+  "name": "Han Pijesak",
+  "country": "BA",
+  "lat": 44.0813,
+  "lon": 18.9531
+ },
+ {
+  "id": 40,
+  "vaktija": "Hlivno",
+  "name": "Livno",
+  "country": "BA",
+  "lat": 43.8259,
+  "lon": 17.0042
+ },
+ {
+  "id": 41,
+  "vaktija": "Ilijaš",
+  "name": "Ilijaš",
+  "country": "BA",
+  "lat": 43.9564,
+  "lon": 18.2662
+ },
+ {
+  "id": 42,
+  "vaktija": "Jablanica",
+  "name": "Jablanica",
+  "country": "BA",
+  "lat": 43.6617,
+  "lon": 17.7618
+ },
+ {
+  "id": 43,
+  "vaktija": "Jajce",
+  "name": "Jajce",
+  "country": "BA",
+  "lat": 44.3397,
+  "lon": 17.2712
+ },
+ {
+  "id": 44,
+  "vaktija": "Kakanj",
+  "name": "Kakanj",
+  "country": "BA",
+  "lat": 44.1286,
+  "lon": 18.1184
+ },
+ {
+  "id": 45,
+  "vaktija": "Kalesija",
+  "name": "Kalesija",
+  "country": "BA",
+  "lat": 44.443,
+  "lon": 18.8757
+ },
+ {
+  "id": 46,
+  "vaktija": "Kalinovik",
+  "name": "Kalinovik",
+  "country": "BA",
+  "lat": 43.5043,
+  "lon": 18.4467
+ },
+ {
+  "id": 47,
+  "vaktija": "Kiseljak",
+  "name": "Kiseljak",
+  "country": "BA",
+  "lat": 43.9432,
+  "lon": 18.0775
+ },
+ {
+  "id": 48,
+  "vaktija": "Kladanj",
+  "name": "Kladanj",
+  "country": "BA",
+  "lat": 44.2252,
+  "lon": 18.6941
+ },
+ {
+  "id": 49,
+  "vaktija": "Ključ",
+  "name": "Ključ",
+  "country": "BA",
+  "lat": 44.5333,
+  "lon": 16.7762
+ },
+ {
+  "id": 50,
+  "vaktija": "Konjic",
+  "name": "Konjic",
+  "country": "BA",
+  "lat": 43.6544,
+  "lon": 17.9607
+ },
+ {
+  "id": 51,
+  "vaktija": "Kotor-Varoš",
+  "name": "Kotor Varoš",
+  "country": "BA",
+  "lat": 44.6203,
+  "lon": 17.3701
+ },
+ {
+  "id": 52,
+  "vaktija": "Kreševo",
+  "name": "Kreševo",
+  "country": "BA",
+  "lat": 43.8657,
+  "lon": 18.0422
+ },
+ {
+  "id": 53,
+  "vaktija": "Kupres",
+  "name": "Kupres",
+  "country": "BA",
+  "lat": 43.9928,
+  "lon": 17.2775
+ },
+ {
+  "id": 54,
+  "vaktija": "Laktaši",
+  "name": "Laktaši",
+  "country": "BA",
+  "lat": 44.9068,
+  "lon": 17.3018
+ },
+ {
+  "id": 55,
+  "vaktija": "Lopare",
+  "name": "Lopare",
+  "country": "BA",
+  "lat": 44.6356,
+  "lon": 18.8441
+ },
+ {
+  "id": 56,
+  "vaktija": "Lukavac",
+  "name": "Lukavac",
+  "country": "BA",
+  "lat": 44.5344,
+  "lon": 18.5325
+ },
+ {
+  "id": 57,
+  "vaktija": "Ljubinje",
+  "name": "Ljubinje",
+  "country": "BA",
+  "lat": 42.9517,
+  "lon": 18.0862
+ },
+ {
+  "id": 58,
+  "vaktija": "Ljubuški",
+  "name": "Ljubuški",
+  "country": "BA",
+  "lat": 43.1963,
+  "lon": 17.5448
+ },
+ {
+  "id": 59,
+  "vaktija": "Maglaj",
+  "name": "Maglaj",
+  "country": "BA",
+  "lat": 44.5469,
+  "lon": 18.101
+ },
+ {
+  "id": 60,
+  "vaktija": "Modriča",
+  "name": "Modriča",
+  "country": "BA",
+  "lat": 44.9565,
+  "lon": 18.3011
+ },
+ {
+  "id": 61,
+  "vaktija": "Mostar",
+  "name": "Mostar",
+  "country": "BA",
+  "lat": 43.3436,
+  "lon": 17.8077
+ },
+ {
+  "id": 62,
+  "vaktija": "Mrkonjić-Grad",
+  "name": "Mrkonjić Grad",
+  "country": "BA",
+  "lat": 44.4166,
+  "lon": 17.0843
+ },
+ {
+  "id": 63,
+  "vaktija": "Neum",
+  "name": "Neum",
+  "country": "BA",
+  "lat": 42.9259,
+  "lon": 17.6157
+ },
+ {
+  "id": 64,
+  "vaktija": "Nevesinje",
+  "name": "Nevesinje",
+  "country": "BA",
+  "lat": 43.2573,
+  "lon": 18.1119
+ },
+ {
+  "id": 65,
+  "vaktija": "Novi Travnik",
+  "name": "Novi Travnik",
+  "country": "BA",
+  "lat": 44.1708,
+  "lon": 17.6577
+ },
+ {
+  "id": 66,
+  "vaktija": "Odžak",
+  "name": "Odžak",
+  "country": "BA",
+  "lat": 45.012,
+  "lon": 18.3261
+ },
+ {
+  "id": 67,
+  "vaktija": "Olovo",
+  "name": "Olovo",
+  "country": "BA",
+  "lat": 44.1269,
+  "lon": 18.5802
+ },
+ {
+  "id": 68,
+  "vaktija": "Orašje",
+  "name": "Orašje",
+  "country": "BA",
+  "lat": 45.0343,
+  "lon": 18.6943
+ },
+ {
+  "id": 69,
+  "vaktija": "Pale",
+  "name": "Pale",
+  "country": "BA",
+  "lat": 43.8142,
+  "lon": 18.5696
+ },
+ {
+  "id": 70,
+  "vaktija": "Posušje",
+  "name": "Posušje",
+  "country": "BA",
+  "lat": 43.4712,
+  "lon": 17.3271
+ },
+ {
+  "id": 71,
+  "vaktija": "Prijedor",
+  "name": "Prijedor",
+  "country": "BA",
+  "lat": 44.9801,
+  "lon": 16.7124
+ },
+ {
+  "id": 72,
+  "vaktija": "Prnjavor",
+  "name": "Prnjavor",
+  "country": "BA",
+  "lat": 44.8686,
+  "lon": 17.6632
+ },
+ {
+  "id": 73,
+  "vaktija": "Prozor",
+  "name": "Prozor",
+  "country": "BA",
+  "lat": 43.8217,
+  "lon": 17.6089
+ },
+ {
+  "id": 74,
+  "vaktija": "Rogatica",
+  "name": "Rogatica",
+  "country": "BA",
+  "lat": 43.7997,
+  "lon": 19.0022
+ },
+ {
+  "id": 75,
+  "vaktija": "Rudo",
+  "name": "Rudo",
+  "country": "BA",
+  "lat": 43.6174,
+  "lon": 19.3656
+ },
+ {
+  "id": 76,
+  "vaktija": "Sanski Most",
+  "name": "Sanski Most",
+  "country": "BA",
+  "lat": 44.7652,
+  "lon": 16.6657
+ },
+ {
+  "id": 77,
+  "vaktija": "Sarajevo",
+  "name": "Sarajevo",
+  "country": "BA",
+  "lat": 43.8571,
+  "lon": 18.4126
+ },
+ {
+  "id": 78,
+  "vaktija": "Skender-Vakuf",
+  "name": "Kneževo",
+  "country": "BA",
+  "lat": 44.4899,
+  "lon": 17.3801
+ },
+ {
+  "id": 79,
+  "vaktija": "Sokolac",
+  "name": "Sokolac",
+  "country": "BA",
+  "lat": 43.9359,
+  "lon": 18.7963
+ },
+ {
+  "id": 80,
+  "vaktija": "Srbac",
+  "name": "Srbac",
+  "country": "BA",
+  "lat": 45.0954,
+  "lon": 17.5199
+ },
+ {
+  "id": 81,
+  "vaktija": "Srebrenica",
+  "name": "Srebrenica",
+  "country": "BA",
+  "lat": 44.1063,
+  "lon": 19.2953
+ },
+ {
+  "id": 82,
+  "vaktija": "Srebrenik",
+  "name": "Srebrenik",
+  "country": "BA",
+  "lat": 44.7049,
+  "lon": 18.4913
+ },
+ {
+  "id": 83,
+  "vaktija": "Stolac",
+  "name": "Stolac",
+  "country": "BA",
+  "lat": 43.0831,
+  "lon": 17.958
+ },
+ {
+  "id": 84,
+  "vaktija": "Šekovići",
+  "name": "Šekovići",
+  "country": "BA",
+  "lat": 44.2978,
+  "lon": 18.8524
+ },
+ {
+  "id": 85,
+  "vaktija": "Šipovo",
+  "name": "Šipovo",
+  "country": "BA",
+  "lat": 44.2809,
+  "lon": 17.0853
+ },
+ {
+  "id": 86,
+  "vaktija": "Široki Brijeg",
+  "name": "Široki Brijeg",
+  "country": "BA",
+  "lat": 43.3832,
+  "lon": 17.5929
+ },
+ {
+  "id": 87,
+  "vaktija": "Teslić",
+  "name": "Teslić",
+  "country": "BA",
+  "lat": 44.6066,
+  "lon": 17.8595
+ },
+ {
+  "id": 88,
+  "vaktija": "Tešanj",
+  "name": "Tešanj",
+  "country": "BA",
+  "lat": 44.6129,
+  "lon": 17.9858
+ },
+ {
+  "id": 89,
+  "vaktija": "Tomislav-Grad",
+  "name": "Tomislavgrad",
+  "country": "BA",
+  "lat": 43.7169,
+  "lon": 17.2278
+ },
+ {
+  "id": 90,
+  "vaktija": "Travnik",
+  "name": "Travnik",
+  "country": "BA",
+  "lat": 44.2259,
+  "lon": 17.6662
+ },
+ {
+  "id": 91,
+  "vaktija": "Trebinje",
+  "name": "Trebinje",
+  "country": "BA",
+  "lat": 42.7115,
+  "lon": 18.3447
+ },
+ {
+  "id": 92,
+  "vaktija": "Trnovo",
+  "name": "Trnovo",
+  "country": "BA",
+  "lat": 43.6722,
+  "lon": 18.4488
+ },
+ {
+  "id": 93,
+  "vaktija": "Tuzla",
+  "name": "Tuzla",
+  "country": "BA",
+  "lat": 44.5393,
+  "lon": 18.6749
+ },
+ {
+  "id": 94,
+  "vaktija": "Ugljevik",
+  "name": "Ugljevik",
+  "country": "BA",
+  "lat": 44.6931,
+  "lon": 18.9946
+ },
+ {
+  "id": 95,
+  "vaktija": "Vareš",
+  "name": "Vareš",
+  "country": "BA",
+  "lat": 44.1634,
+  "lon": 18.3285
+ },
+ {
+  "id": 96,
+  "vaktija": "Velika Kladuša",
+  "name": "Velika Kladuša",
+  "country": "BA",
+  "lat": 45.1843,
+  "lon": 15.8069
+ },
+ {
+  "id": 97,
+  "vaktija": "Visoko",
+  "name": "Visoko",
+  "country": "BA",
+  "lat": 43.9895,
+  "lon": 18.1816
+ },
+ {
+  "id": 98,
+  "vaktija": "Višegrad",
+  "name": "Višegrad",
+  "country": "BA",
+  "lat": 43.7864,
+  "lon": 19.2941
+ },
+ {
+  "id": 99,
+  "vaktija": "Vitez",
+  "name": "Vitez",
+  "country": "BA",
+  "lat": 44.1508,
+  "lon": 17.7915
+ },
+ {
+  "id": 100,
+  "vaktija": "Vlasenica",
+  "name": "Vlasenica",
+  "country": "BA",
+  "lat": 44.1821,
+  "lon": 18.9412
+ },
+ {
+  "id": 101,
+  "vaktija": "Zavidovići",
+  "name": "Zavidovići",
+  "country": "BA",
+  "lat": 44.4389,
+  "lon": 18.1458
+ },
+ {
+  "id": 102,
+  "vaktija": "Zenica",
+  "name": "Zenica",
+  "country": "BA",
+  "lat": 44.1998,
+  "lon": 17.9093
+ },
+ {
+  "id": 103,
+  "vaktija": "Zvornik",
+  "name": "Zvornik",
+  "country": "BA",
+  "lat": 44.3854,
+  "lon": 19.1028
+ },
+ {
+  "id": 104,
+  "vaktija": "Žepa",
+  "name": "Žepa",
+  "country": "BA",
+  "lat": 43.9534,
+  "lon": 19.1324
+ },
+ {
+  "id": 105,
+  "vaktija": "Žepče",
+  "name": "Žepče",
+  "country": "BA",
+  "lat": 44.4242,
+  "lon": 18.0376
+ },
+ {
+  "id": 106,
+  "vaktija": "Živinice",
+  "name": "Živinice",
+  "country": "BA",
+  "lat": 44.4516,
+  "lon": 18.6501
+ },
+ {
+  "id": 107,
+  "vaktija": "Bijelo Polje",
+  "name": "Bijelo Polje",
+  "country": "ME",
+  "lat": 43.0342,
+  "lon": 19.7474
+ },
+ {
+  "id": 108,
+  "vaktija": "Gusinje",
+  "name": "Gusinje",
+  "country": "ME",
+  "lat": 42.5638,
+  "lon": 19.8333
+ },
+ {
+  "id": 109,
+  "vaktija": "Nova Varoš",
+  "name": "Nova Varoš",
+  "country": "RS",
+  "lat": 43.4604,
+  "lon": 19.8153
+ },
+ {
+  "id": 110,
+  "vaktija": "Novi Pazar",
+  "name": "Novi Pazar",
+  "country": "RS",
+  "lat": 43.1407,
+  "lon": 20.5181
+ },
+ {
+  "id": 111,
+  "vaktija": "Plav",
+  "name": "Plav",
+  "country": "ME",
+  "lat": 42.5969,
+  "lon": 19.9442
+ },
+ {
+  "id": 112,
+  "vaktija": "Pljevlja",
+  "name": "Pljevlja",
+  "country": "ME",
+  "lat": 43.3562,
+  "lon": 19.3579
+ },
+ {
+  "id": 113,
+  "vaktija": "Priboj",
+  "name": "Priboj",
+  "country": "RS",
+  "lat": 43.5828,
+  "lon": 19.5258
+ },
+ {
+  "id": 114,
+  "vaktija": "Prijepolje",
+  "name": "Prijepolje",
+  "country": "RS",
+  "lat": 43.3892,
+  "lon": 19.6494
+ },
+ {
+  "id": 115,
+  "vaktija": "Rožaje",
+  "name": "Rožaje",
+  "country": "ME",
+  "lat": 42.8433,
+  "lon": 20.168
+ },
+ {
+  "id": 116,
+  "vaktija": "Sjenica",
+  "name": "Sjenica",
+  "country": "RS",
+  "lat": 43.2729,
+  "lon": 19.9992
+ },
+ {
+  "id": 117,
+  "vaktija": "Tutin",
+  "name": "Tutin",
+  "country": "RS",
+  "lat": 42.9904,
+  "lon": 20.3367
+ }
+]

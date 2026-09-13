@@ -1,0 +1,290 @@
+[
+ {
+  "town": "aytos",
+  "name": "Айтос",
+  "lat": 42.7019,
+  "lon": 27.252
+ },
+ {
+  "town": "balchik",
+  "name": "Балчик",
+  "lat": 43.4049,
+  "lon": 28.1681
+ },
+ {
+  "town": "blagoevgrad",
+  "name": "Благоевград",
+  "lat": 42.0111,
+  "lon": 23.0906
+ },
+ {
+  "town": "burgas",
+  "name": "Бургас",
+  "lat": 42.4937,
+  "lon": 27.4721
+ },
+ {
+  "town": "byala",
+  "name": "Бяла",
+  "lat": 43.4594,
+  "lon": 25.7366
+ },
+ {
+  "town": "varna",
+  "name": "Варна",
+  "lat": 43.2074,
+  "lon": 27.9167
+ },
+ {
+  "town": "velikipreslav",
+  "name": "Велики Преслав",
+  "lat": 43.1608,
+  "lon": 26.8121
+ },
+ {
+  "town": "velikotarnovo",
+  "name": "Велико Търново",
+  "lat": 43.0821,
+  "lon": 25.6321
+ },
+ {
+  "town": "velingrad",
+  "name": "Велинград",
+  "lat": 42.0277,
+  "lon": 23.9914
+ },
+ {
+  "town": "gornaoryahovitsa",
+  "name": "Горна Оряховица",
+  "lat": 43.1223,
+  "lon": 25.6888
+ },
+ {
+  "town": "gotzedelchev",
+  "name": "Гоце Делчев",
+  "lat": 41.5733,
+  "lon": 23.7281
+ },
+ {
+  "town": "dobrich",
+  "name": "Добрич",
+  "lat": 43.5688,
+  "lon": 27.8297
+ },
+ {
+  "town": "isperih",
+  "name": "Исперих",
+  "lat": 43.7169,
+  "lon": 26.8301
+ },
+ {
+  "town": "kavarna",
+  "name": "Каварна",
+  "lat": 43.4333,
+  "lon": 28.339
+ },
+ {
+  "town": "kaolinovo",
+  "name": "Каолиново",
+  "lat": 43.6206,
+  "lon": 27.1071
+ },
+ {
+  "town": "karlovo",
+  "name": "Карлово",
+  "lat": 42.6358,
+  "lon": 24.8048
+ },
+ {
+  "town": "karnobat",
+  "name": "Карнобат",
+  "lat": 42.6499,
+  "lon": 26.9823
+ },
+ {
+  "town": "kneja",
+  "name": "Кнежа",
+  "lat": 43.499,
+  "lon": 24.0745
+ },
+ {
+  "town": "kotel",
+  "name": "Котел",
+  "lat": 42.8874,
+  "lon": 26.4492
+ },
+ {
+  "town": "krumovgrad",
+  "name": "Крумовград",
+  "lat": 41.4731,
+  "lon": 25.6546
+ },
+ {
+  "town": "kubrat",
+  "name": "Кубрат",
+  "lat": 43.7967,
+  "lon": 26.5007
+ },
+ {
+  "town": "kardjali",
+  "name": "Кърджали",
+  "lat": 41.6437,
+  "lon": 25.3722
+ },
+ {
+  "town": "lovech",
+  "name": "Ловеч",
+  "lat": 43.135,
+  "lon": 24.7154
+ },
+ {
+  "town": "madan",
+  "name": "Мадан",
+  "lat": 41.4986,
+  "lon": 24.9394
+ },
+ {
+  "town": "montana",
+  "name": "Монтана",
+  "lat": 43.4089,
+  "lon": 23.2203
+ },
+ {
+  "town": "nikipol",
+  "name": "Никопол",
+  "lat": 43.7071,
+  "lon": 24.8997
+ },
+ {
+  "town": "novazagora",
+  "name": "Нова Загора",
+  "lat": 42.4935,
+  "lon": 26.009
+ },
+ {
+  "town": "novipazar",
+  "name": "Нови пазар",
+  "lat": 43.3472,
+  "lon": 27.1956
+ },
+ {
+  "town": "pazardzhik",
+  "name": "Пазарджик",
+  "lat": 42.1884,
+  "lon": 24.3318
+ },
+ {
+  "town": "pleven",
+  "name": "Плевен",
+  "lat": 43.409,
+  "lon": 24.618
+ },
+ {
+  "town": "plovdiv",
+  "name": "Пловдив",
+  "lat": 42.1419,
+  "lon": 24.7499
+ },
+ {
+  "town": "provadiya",
+  "name": "Провадия",
+  "lat": 43.1786,
+  "lon": 27.4439
+ },
+ {
+  "town": "razgrad",
+  "name": "Разград",
+  "lat": 43.5258,
+  "lon": 26.5231
+ },
+ {
+  "town": "ruse",
+  "name": "Русе",
+  "lat": 43.848,
+  "lon": 25.9542
+ },
+ {
+  "town": "svistov",
+  "name": "Свищов",
+  "lat": 43.6159,
+  "lon": 25.351
+ },
+ {
+  "town": "silistra",
+  "name": "Силистра",
+  "lat": 44.1183,
+  "lon": 27.26
+ },
+ {
+  "town": "sitovo",
+  "name": "Ситово",
+  "lat": 44.0257,
+  "lon": 27.0182
+ },
+ {
+  "town": "sliven",
+  "name": "Сливен",
+  "lat": 42.6818,
+  "lon": 26.3154
+ },
+ {
+  "town": "smolyan",
+  "name": "Смолян",
+  "lat": 41.5754,
+  "lon": 24.7127
+ },
+ {
+  "town": "sofia",
+  "name": "София",
+  "lat": 42.6977,
+  "lon": 23.3217
+ },
+ {
+  "town": "starazagora",
+  "name": "Стара Загора",
+  "lat": 42.4248,
+  "lon": 25.6257
+ },
+ {
+  "town": "tvarditza",
+  "name": "Твърдица",
+  "lat": 42.7014,
+  "lon": 25.8979
+ },
+ {
+  "town": "targoviste",
+  "name": "Търговище",
+  "lat": 43.2468,
+  "lon": 26.5723
+ },
+ {
+  "town": "harmanli",
+  "name": "Харманли",
+  "lat": 41.9303,
+  "lon": 25.9015
+ },
+ {
+  "town": "haskovo",
+  "name": "Хасково",
+  "lat": 41.9346,
+  "lon": 25.5557
+ },
+ {
+  "town": "shumen",
+  "name": "Шумен",
+  "lat": 43.2704,
+  "lon": 26.9247
+ },
+ {
+  "town": "yakoruda",
+  "name": "Якоруда",
+  "lat": 42.0173,
+  "lon": 23.6678
+ },
+ {
+  "town": "yambol",
+  "name": "Ямбол",
+  "lat": 42.4839,
+  "lon": 26.5106
+ }
+]

@@ -20,6 +20,7 @@ import parse_islamdag   # noqa: E402
 import parse_jakim      # noqa: E402
 import parse_muftiyatkg # noqa: E402
 import parse_umma       # noqa: E402
+import regional_feeds   # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -38,6 +39,7 @@ def main() -> int:
     parse_diyanet.collect(index, failures)
     local_authorities.collect(index, failures)
     official_feeds.collect(index, failures)
+    regional_feeds.collect(index, failures)
 
     # Сбой источника не должен выкидывать город из индекса: иначе приложение
     # молча перейдёт на собственный расчёт с другой методикой. Оставляем город,
