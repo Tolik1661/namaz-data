@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T15:26:49Z",
+ "updated": "2026-09-13T15:54:14Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -14064,6 +14064,116 @@
    "timezone": "Europe/Sofia",
    "madhab": "shafi",
    "source": "grandmufti.bg (Главное муфтийство Болгарии — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/nalchik",
+   "name": "Нальчик",
+   "country": "RU",
+   "lat": 43.4846,
+   "lon": 43.6071,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/baksan",
+   "name": "Баксан",
+   "country": "RU",
+   "lat": 43.6819,
+   "lon": 43.5345,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/prokhladny",
+   "name": "Прохладный",
+   "country": "RU",
+   "lat": 43.7575,
+   "lon": 44.0297,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/tyrnyauz",
+   "name": "Тырныауз",
+   "country": "RU",
+   "lat": 43.3981,
+   "lon": 42.9214,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/nartkala",
+   "name": "Нарткала",
+   "country": "RU",
+   "lat": 43.5578,
+   "lon": 43.8575,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/terek",
+   "name": "Терек",
+   "country": "RU",
+   "lat": 43.4839,
+   "lon": 44.1402,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/mayskiy",
+   "name": "Майский",
+   "country": "RU",
+   "lat": 43.6281,
+   "lon": 44.0517,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/chegem",
+   "name": "Чегем",
+   "country": "RU",
+   "lat": 43.5667,
+   "lon": 43.5833,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/zalukokoazhe",
+   "name": "Залукокоаже",
+   "country": "RU",
+   "lat": 43.9,
+   "lon": 43.2167,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/kashkhatau",
+   "name": "Кашхатау",
+   "country": "RU",
+   "lat": 43.3181,
+   "lon": 43.6069,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   }
  ]

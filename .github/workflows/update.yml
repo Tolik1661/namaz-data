@@ -20,6 +20,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      # pypdf — только чтобы подхватить новый годовой PDF ДУМ КБР; без него работают снимки
+      - name: Install pypdf
+        continue-on-error: true
+        run: pip install "pypdf==6.*"
+
       - name: Parse all sources
         id: parse
         # Сбой одного источника не должен лишать обновления все остальные города

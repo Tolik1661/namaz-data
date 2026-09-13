@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
+import dumkbr           # noqa: E402
 import local_authorities  # noqa: E402
 import official_feeds   # noqa: E402
 import parse_diyanet    # noqa: E402
@@ -40,6 +41,7 @@ def main() -> int:
     local_authorities.collect(index, failures)
     official_feeds.collect(index, failures)
     regional_feeds.collect(index, failures)
+    dumkbr.collect(index, failures)
 
     # Сбой источника не должен выкидывать город из индекса: иначе приложение
     # молча перейдёт на собственный расчёт с другой методикой. Оставляем город,
