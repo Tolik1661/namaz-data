@@ -11,7 +11,7 @@ scripts/data/dumkbr/<год>.json (2026 сверен с PDF: 365 дней). Ес
 
 Формулой таблица не воспроизводится (Фаджр = восход − 90…109 мин, Иша =
 Магриб + 100…110 мин по сезонам), поэтому резервного расчёта нет: где таблицы
-нет, приложение считает само. Аср в таблице — по тени ×1 (+8…11 мин).
+нет, приложение считает само. Мазхаб таблицы — ханафитский (решение владельца).
 """
 
 import calendar as cal
@@ -138,11 +138,11 @@ def collect(index, failures, today=None):
             days[ds] = {"date": ds, **dict(zip(KEYS, times))}
     for city in CITIES:
         # Таблица «по КБР» — как есть для всех городов республики (решение владельца)
-        written = write_horizon(city, today, days, *OFFICIAL, None, None, "shafi")
+        written = write_horizon(city, today, days, *OFFICIAL, None, None, "hanafi")
         print(f"[OK] {city['slug']}: {' '.join(written) or 'нет данных'}")
         current = f"{today.year}-{today.month:02d}"
         if any(w.startswith(current) for w in written):
-            index.append(entry(city, "shafi", OFFICIAL[0], "official"))
+            index.append(entry(city, "hanafi", OFFICIAL[0], "official"))
 
 
 if __name__ == "__main__":

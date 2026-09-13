@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T16:02:54Z",
+ "updated": "2026-09-13T19:26:57Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -14073,7 +14073,7 @@
    "lat": 43.4846,
    "lon": 43.6071,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14084,7 +14084,7 @@
    "lat": 43.6819,
    "lon": 43.5345,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14095,7 +14095,7 @@
    "lat": 43.7575,
    "lon": 44.0297,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14106,7 +14106,7 @@
    "lat": 43.3981,
    "lon": 42.9214,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14117,7 +14117,7 @@
    "lat": 43.5578,
    "lon": 43.8575,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14128,7 +14128,7 @@
    "lat": 43.4839,
    "lon": 44.1402,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14139,7 +14139,7 @@
    "lat": 43.6281,
    "lon": 44.0517,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14150,7 +14150,7 @@
    "lat": 43.5667,
    "lon": 43.5833,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14161,7 +14161,7 @@
    "lat": 43.9,
    "lon": 43.2167,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   },
@@ -14172,7 +14172,7 @@
    "lat": 43.3181,
    "lon": 43.6069,
    "timezone": "Europe/Moscow",
-   "madhab": "shafi",
+   "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
   }
