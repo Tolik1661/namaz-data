@@ -13,6 +13,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
+import local_authorities  # noqa: E402
 import parse_diyanet    # noqa: E402
 import parse_islamdag   # noqa: E402
 import parse_jakim      # noqa: E402
@@ -25,6 +26,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 def main() -> int:
     index, failures = [], []
+    index_file = ROOT / "index.json"
+    previous = (json.loads(index_file.read_text(encoding="utf-8"))["cities"]
+                if index_file.exists() else [])
 
     parse_umma.collect(index, failures)
     parse_islamdag.collect(index, failures)
@@ -32,6 +36,25 @@ def main() -> int:
     parse_namozvaqti.collect(index, failures)
     parse_muftiyatkg.collect(index, failures)
     parse_diyanet.collect(index, failures)
+    local_authorities.collect(index, failures)
+
+    # Сбой источника не должен выкидывать город из индекса: иначе приложение
+    # молча перейдёт на собственный расчёт с другой методикой. Оставляем город,
+    # если на сегодня у него лежат данные; алерт всё равно придёт через failures.
+    got = {c["slug"] for c in index}
+    today = datetime.now(timezone.utc).date()
+    kept = []
+    for entry in previous:
+        if entry["slug"] in got:
+            continue
+        month_file = ROOT / "timetables" / entry["slug"] / f"{today:%Y-%m}.json"
+        if month_file.exists():
+            days = json.loads(month_file.read_text(encoding="utf-8")).get("days", [])
+            if any(d.get("date") == today.isoformat() for d in days):
+                index.append(entry)
+                kept.append(entry["slug"])
+    if kept:
+        print(f"[WARN] город(а) оставлены в индексе после сбоя источника: {kept}", file=sys.stderr)
 
     if index:
         (ROOT / "index.json").write_text(

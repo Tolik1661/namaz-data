@@ -19,12 +19,32 @@ jobs:
         with:
           python-version: "3.12"
       - name: Parse all sources incl. districts
+        id: parse
+        continue-on-error: true
         run: python scripts/build_all.py
         env:
           DIYANET_DISTRICTS: "1"
+
+      # Ворота перед коммитом: если данные битые — ничего не публикуем,
+      # в репозитории остаются последние проверенные данные
+      - name: Check data (audit + compatibility with released app versions)
+        run: |
+          python scripts/audit_timetables.py
+          python scripts/compat/check_schema.py
+          if command -v swift >/dev/null 2>&1; then
+            swift scripts/compat/check_app_decoding.swift .
+          else
+            echo "Swift недоступен на раннере — проверка JSONDecoder пропущена, check_schema.py выполнен"
+          fi
       - name: Commit & push if changed
         run: |
           git config user.name "namaz-data-bot"
           git config user.email "actions@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || { git commit -m "Районы Турции: еженедельное обновление $(date -u +%Y-%m-%d)"; git push; }
+
+      - name: Fail if some sources failed
+        if: steps.parse.outcome == 'failure'
+        run: |
+          echo "::error::Часть источников не обновилась — подробности в шаге сбора данных"
+          exit 1

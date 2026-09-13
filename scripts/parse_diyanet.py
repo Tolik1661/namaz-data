@@ -82,40 +82,8 @@ CITIES = [
     _city(13980, "nl/rotterdam", "Роттердам", "NL", 51.9244,  4.4777, "Europe/Amsterdam"),
     # Австрия
     _city(11618, "at/vienna",    "Вена",      "AT", 48.2082, 16.3738, "Europe/Vienna"),
-    # Азербайджан (Diyanet, суннитская методика)
-    _city(11631, "az/baku",       "Баку",        "AZ", 40.4093, 49.8671, "Asia/Baku"),
-    _city(11634, "az/gence",      "Гянджа",      "AZ", 40.6828, 46.3606, "Asia/Baku"),
-    _city(11641, "az/sumqayit",   "Сумгаит",     "AZ", 40.5897, 49.6686, "Asia/Baku"),
-    _city(11625, "az/mingacevir", "Мингечевир",  "AZ", 40.7703, 47.0496, "Asia/Baku"),
-    _city(11645, "az/lenkeran",   "Ленкорань",   "AZ", 38.7529, 48.8475, "Asia/Baku"),
-    _city(11635, "az/seki",       "Шеки",        "AZ", 41.1919, 47.1706, "Asia/Baku"),
-    _city(11637, "az/nahcivan",   "Нахичевань",  "AZ", 39.2089, 45.4122, "Asia/Baku"),
-    _city(11632, "az/quba",       "Губа",        "AZ", 41.3611, 48.5125, "Asia/Baku"),
-    _city(11643, "az/samaxi",     "Шемаха",      "AZ", 40.6319, 48.6414, "Asia/Baku"),
-    _city(11638, "az/yevlax",     "Евлах",       "AZ", 40.6172, 47.1500, "Asia/Baku"),
-    _city(11624, "az/salyan",     "Сальян",      "AZ", 39.5942, 48.9787, "Asia/Baku"),
-    _city(11642, "az/astara",     "Астара",      "AZ", 38.4561, 48.8786, "Asia/Baku"),
-    _city(11626, "az/tovuz",      "Товуз",       "AZ", 40.9922, 45.6289, "Asia/Baku"),
-    _city(11649, "az/zaqatala",   "Закаталы",    "AZ", 41.6336, 46.6433, "Asia/Baku"),
-    # Залив и Ближний Восток (Diyanet)
-    _city(16309, "sa/mekke",     "Мекка",      "SA", 21.4225, 39.8262, "Asia/Riyadh"),
-    _city(16308, "sa/medine",    "Медина",     "SA", 24.5247, 39.5692, "Asia/Riyadh"),
-    _city(16307, "sa/riyadh",    "Эр-Рияд",    "SA", 24.7136, 46.6753, "Asia/Riyadh"),
-    _city(16310, "sa/jeddah",    "Джидда",     "SA", 21.4858, 39.1925, "Asia/Riyadh"),
-    _city(16311, "sa/dammam",    "Даммам",     "SA", 26.4207, 50.0888, "Asia/Riyadh"),
-    _city(11947, "ae/dubai",     "Дубай",      "AE", 25.2048, 55.2708, "Asia/Dubai"),
-    _city(11942, "ae/abu-dhabi", "Абу-Даби",   "AE", 24.4539, 54.3773, "Asia/Dubai"),
-    _city(11943, "ae/sharjah",   "Шарджа",     "AE", 25.3463, 55.4209, "Asia/Dubai"),
-    _city(14879, "qa/doha",      "Доха",       "QA", 25.2854, 51.5310, "Asia/Qatar"),
-    _city(15149, "kw/kuwait",    "Эль-Кувейт", "KW", 29.3759, 47.9774, "Asia/Kuwait"),
-    _city(11667, "bh/manama",    "Манама",     "BH", 26.2285, 50.5860, "Asia/Bahrain"),
-    _city(16527, "om/muscat",    "Маскат",     "OM", 23.5880, 58.3829, "Asia/Muscat"),
-    _city(15474, "eg/cairo",     "Каир",       "EG", 30.0444, 31.2357, "Africa/Cairo"),
-    _city(15454, "eg/alexandria","Александрия","EG", 31.2001, 29.9187, "Africa/Cairo"),
-    # Великобритания
-    _city(14096, "gb/london",     "Лондон",     "GB", 51.5074, -0.1278, "Europe/London"),
-    _city(14105, "gb/birmingham", "Бирмингем",  "GB", 52.4862, -1.8904, "Europe/London"),
-    _city(14098, "gb/manchester", "Манчестер",  "GB", 53.4808, -2.2426, "Europe/London"),
+    # Азербайджан, страны Залива, Египет и Великобритания перенесены в local_authorities.py:
+    # у Diyanet для них другая методика, чем у местных управлений (расхождения до 49 минут).
 ]
 
 TR_MONTHS = {

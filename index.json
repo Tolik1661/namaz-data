@@ -9138,8 +9138,9 @@
    "lat": 40.4093,
    "lon": 49.8671,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/gence",
@@ -9148,8 +9149,9 @@
    "lat": 40.6828,
    "lon": 46.3606,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/sumqayit",
@@ -9158,8 +9160,9 @@
    "lat": 40.5897,
    "lon": 49.6686,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/mingacevir",
@@ -9168,8 +9171,9 @@
    "lat": 40.7703,
    "lon": 47.0496,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/lenkeran",
@@ -9178,8 +9182,9 @@
    "lat": 38.7529,
    "lon": 48.8475,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/seki",
@@ -9188,8 +9193,9 @@
    "lat": 41.1919,
    "lon": 47.1706,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/nahcivan",
@@ -9198,8 +9204,9 @@
    "lat": 39.2089,
    "lon": 45.4122,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/quba",
@@ -9208,8 +9215,9 @@
    "lat": 41.3611,
    "lon": 48.5125,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/samaxi",
@@ -9218,8 +9226,9 @@
    "lat": 40.6319,
    "lon": 48.6414,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/yevlax",
@@ -9228,8 +9237,9 @@
    "lat": 40.6172,
    "lon": 47.15,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/salyan",
@@ -9238,8 +9248,9 @@
    "lat": 39.5942,
    "lon": 48.9787,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/astara",
@@ -9248,8 +9259,9 @@
    "lat": 38.4561,
    "lon": 48.8786,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/tovuz",
@@ -9258,8 +9270,9 @@
    "lat": 40.9922,
    "lon": 45.6289,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "az/zaqatala",
@@ -9268,8 +9281,9 @@
    "lat": 41.6336,
    "lon": 46.6433,
    "timezone": "Asia/Baku",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "madhab": "hanafi",
+   "source": "QMİ (расчёт по методике Управления мусульман Кавказа)",
+   "kind": "calculated"
   },
   {
    "slug": "sa/mekke",
@@ -9279,7 +9293,8 @@
    "lon": 39.8262,
    "timezone": "Asia/Riyadh",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
   },
   {
    "slug": "sa/medine",
@@ -9289,7 +9304,8 @@
    "lon": 39.5692,
    "timezone": "Asia/Riyadh",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
   },
   {
    "slug": "sa/riyadh",
@@ -9299,7 +9315,8 @@
    "lon": 46.6753,
    "timezone": "Asia/Riyadh",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
   },
   {
    "slug": "sa/jeddah",
@@ -9309,7 +9326,8 @@
    "lon": 39.1925,
    "timezone": "Asia/Riyadh",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
   },
   {
    "slug": "sa/dammam",
@@ -9319,7 +9337,8 @@
    "lon": 50.0888,
    "timezone": "Asia/Riyadh",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
   },
   {
    "slug": "ae/dubai",
@@ -9329,7 +9348,8 @@
    "lon": 55.2708,
    "timezone": "Asia/Dubai",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Awqaf (расчёт по методике Awqaf ОАЭ)",
+   "kind": "calculated"
   },
   {
    "slug": "ae/abu-dhabi",
@@ -9339,7 +9359,8 @@
    "lon": 54.3773,
    "timezone": "Asia/Dubai",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Awqaf (расчёт по методике Awqaf ОАЭ)",
+   "kind": "calculated"
   },
   {
    "slug": "ae/sharjah",
@@ -9349,7 +9370,8 @@
    "lon": 55.4209,
    "timezone": "Asia/Dubai",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Awqaf (расчёт по методике Awqaf ОАЭ)",
+   "kind": "calculated"
   },
   {
    "slug": "qa/doha",
@@ -9359,7 +9381,8 @@
    "lon": 51.531,
    "timezone": "Asia/Qatar",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "islam.gov.qa (Министерство вакфов и исламских дел Катара — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kw/kuwait",
@@ -9369,7 +9392,8 @@
    "lon": 47.9774,
    "timezone": "Asia/Kuwait",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Awqaf (расчёт по методике Министерства вакфов Кувейта)",
+   "kind": "calculated"
   },
   {
    "slug": "bh/manama",
@@ -9379,7 +9403,8 @@
    "lon": 50.586,
    "timezone": "Asia/Bahrain",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "almajles.gov.bh (расчёт по методике Высшего совета по исламским делам Бахрейна)",
+   "kind": "calculated"
   },
   {
    "slug": "om/muscat",
@@ -9389,7 +9414,8 @@
    "lon": 58.3829,
    "timezone": "Asia/Muscat",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "mara.gov.om (Министерство вакфов и религиозных дел Омана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "eg/cairo",
@@ -9399,7 +9425,8 @@
    "lon": 31.2357,
    "timezone": "Africa/Cairo",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "ESA (расчёт по методике Египетской службы геодезии)",
+   "kind": "calculated"
   },
   {
    "slug": "eg/alexandria",
@@ -9409,7 +9436,8 @@
    "lon": 29.9187,
    "timezone": "Africa/Cairo",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "ESA (расчёт по методике Египетской службы геодезии)",
+   "kind": "calculated"
   },
   {
    "slug": "gb/london",
@@ -9419,7 +9447,8 @@
    "lon": -0.1278,
    "timezone": "Europe/London",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Moonsighting (расчёт Moonsighting Committee с поправками к единому расписанию Лондона)",
+   "kind": "calculated"
   },
   {
    "slug": "gb/birmingham",
@@ -9429,7 +9458,8 @@
    "lon": -1.8904,
    "timezone": "Europe/London",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Moonsighting (расчёт по методике Moonsighting Committee)",
+   "kind": "calculated"
   },
   {
    "slug": "gb/manchester",
@@ -9439,7 +9469,8 @@
    "lon": -2.2426,
    "timezone": "Europe/London",
    "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+   "source": "Moonsighting (расчёт по методике Moonsighting Committee)",
+   "kind": "calculated"
   }
  ]
 }

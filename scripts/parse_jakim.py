@@ -50,9 +50,16 @@ def hhmm(ts):
     return datetime.fromtimestamp(ts, MYT).strftime("%H:%M")
 
 
-def parse_city(city):
-    data = fetch_json(f"https://api.waktusolat.app/v2/solat/{city['zone']}")
-    year, month = int(data["year"]), int(data["month_number"])
+def parse_city(city, year=None, month=None):
+    """Месяц по зоне JAKIM. Без year/month — текущий месяц (так отдаёт API)."""
+    url = f"https://api.waktusolat.app/v2/solat/{city['zone']}"
+    if year and month:
+        url += f"?year={year}&month={month}"
+    data = fetch_json(url)
+    got_year, got_month = int(data["year"]), int(data["month_number"])
+    if year and month and (got_year, got_month) != (year, month):
+        raise ValueError(f"{city['slug']}: запрошен {year}-{month:02d}, пришёл {got_year}-{got_month:02d}")
+    year, month = got_year, got_month
     if data.get("zone") != city["zone"]:
         raise ValueError(f"{city['slug']}: ответ для другой зоны {data.get('zone')!r}")
 
@@ -85,25 +92,33 @@ def parse_city(city):
         "lat": city["lat"], "lon": city["lon"], "timezone": city["timezone"],
         "madhab": city["madhab"],
         "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)",
-        "source_url": f"https://api.waktusolat.app/v2/solat/{city['zone']}",
+        "source_url": url,
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "year": year, "month": month, "days": days,
     }
 
 
 def collect(index, failures):
+    # Текущий и следующий месяц: иначе в конце месяца запас данных падает до нуля
+    now = datetime.now(MYT)
+    months = [(now.year, now.month), (now.year + (now.month == 12), now.month % 12 + 1)]
     for city in CITIES:
-        try:
-            data = parse_city(city)
-        except Exception as e:                                    # noqa: BLE001
-            print(f"[ERROR] {city['slug']}: {e}", file=sys.stderr)
-            failures.append(city["slug"])
+        data = None
+        for year, month in months:
+            try:
+                got = parse_city(city, year, month)
+            except Exception as e:                                # noqa: BLE001
+                print(f"[ERROR] {city['slug']} {year}-{month:02d}: {e}", file=sys.stderr)
+                failures.append(f"{city['slug']}:{year}-{month:02d}")
+                continue
+            out_dir = ROOT / "timetables" / got["slug"]
+            out_dir.mkdir(parents=True, exist_ok=True)
+            (out_dir / f"{got['year']:04d}-{got['month']:02d}.json").write_text(
+                json.dumps(got, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(f"[OK] {got['slug']} {got['year']}-{got['month']:02d} — {len(got['days'])} дней")
+            data = data or got
+        if not data:
             continue
-        out_dir = ROOT / "timetables" / data["slug"]
-        out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / f"{data['year']:04d}-{data['month']:02d}.json").write_text(
-            json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-        print(f"[OK] {data['slug']} — {len(data['days'])} дней")
         index.append({
             "slug": data["slug"], "name": data["city"], "country": data["country"],
             "lat": data["lat"], "lon": data["lon"], "timezone": data["timezone"],

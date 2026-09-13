@@ -21,7 +21,22 @@ jobs:
           python-version: "3.12"
 
       - name: Parse all sources
+        id: parse
+        # Сбой одного источника не должен лишать обновления все остальные города
+        continue-on-error: true
         run: python scripts/build_all.py
+
+      # Ворота перед коммитом: если данные битые — ничего не публикуем,
+      # в репозитории остаются последние проверенные данные
+      - name: Check data (audit + compatibility with released app versions)
+        run: |
+          python scripts/audit_timetables.py
+          python scripts/compat/check_schema.py
+          if command -v swift >/dev/null 2>&1; then
+            swift scripts/compat/check_app_decoding.swift .
+          else
+            echo "Swift недоступен на раннере — проверка JSONDecoder пропущена, check_schema.py выполнен"
+          fi
 
       - name: Commit & push if changed
         run: |
@@ -34,3 +49,9 @@ jobs:
             git commit -m "Автообновление расписаний: $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      - name: Fail if some sources failed
+        if: steps.parse.outcome == 'failure'
+        run: |
+          echo "::error::Часть источников не обновилась — подробности в шаге сбора данных"
+          exit 1
