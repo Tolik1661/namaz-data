@@ -29,6 +29,7 @@ import ssl
 import sys
 import time
 import urllib.parse
+import zlib
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
@@ -148,6 +149,30 @@ CITIES = [
 # Первое слово подписи — короткое имя источника: вышедшие версии приложения показывают
 # «официальная таблица (<первое слово>)». Поле kind в index.json различает официальные
 # таблицы и расчёт по методике (новые версии приложения подписывают их по-разному).
+def sa_kacst_cities():
+    """Города календаря Умм-аль-Кура (снимок ummulqura.org.sa/assets/data/cities.json).
+    Пропускаем точки в 10 км от уже известных городов и дубли ближе 2 км."""
+    import math
+    raw = json.loads((pathlib.Path(__file__).resolve().parent / "data" / "sa_cities_kacst.json").read_text(encoding="utf-8"))
+    known = [(c["lat"], c["lon"]) for c in CITIES if c["country"] == "SA"]
+
+    def km(a, b):
+        return math.hypot((a[0] - b[0]) * 111, (a[1] - b[1]) * 111 * math.cos(math.radians(a[0])))
+    out, used = [], {c["slug"] for c in CITIES}
+    for c in raw:
+        p = (c["latitude"], c["longitude"])
+        if any(km(p, k) < 10 for k in known) or any(km(p, (o["lat"], o["lon"])) < 2 for o in out):
+            continue
+        slug = "sa/" + (re.sub(r"[^a-z0-9]+", "-", c["name_en"].lower()).strip("-") or str(c["id"]))
+        while slug in used:
+            slug += "-2"
+        used.add(slug)
+        out.append(_c(slug, c["name_en"], "SA", c["latitude"], c["longitude"], "Asia/Riyadh"))
+    return out
+
+
+CITIES += sa_kacst_cities()
+
 OFFICIAL_SOURCE = {
     "SA": ("KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
            "https://www.ummulqura.org.sa/en/prayer-times"),
@@ -185,6 +210,11 @@ def http(url, data=None, tries=3, timeout=40, headers=None, context=None):
             if i == tries - 1:
                 raise
             time.sleep(2 * (i + 1))
+
+
+def due_today(slug, today):
+    """Годовые источники обновляем раз в неделю; дни недели разнесены по городам."""
+    return zlib.crc32(slug.encode()) % 7 == today.toordinal() % 7
 
 
 def minutes(t):
@@ -328,10 +358,13 @@ def build_city(city, today, failures, reset=False):
 
     try:
         if country == "SA":
-            years = sorted({y for y, _ in horizon(today)})
-            for y in years:
-                official.update(fetch_kacst_year(city, y))
-                time.sleep(0.5)
+            months = list(horizon(today))
+            have_all = all((stored_month(city, y, m) or {}).get("source") == OFFICIAL_SOURCE["SA"][0]
+                           for y, m in months[:2])
+            if not have_all or due_today(city["slug"], today):
+                for y in sorted({y for y, _ in months}):
+                    official.update(fetch_kacst_year(city, y))
+                    time.sleep(0.5)
         elif country == "QA":
             # Текущий и следующий месяц: только дни, которых ещё нет в официальных файлах
             for y, m in list(horizon(today))[:2]:
@@ -372,7 +405,10 @@ def build_city(city, today, failures, reset=False):
         write_month(city, y, m, days, calc_source, CALC_URL, profile.madhab)
         written.append(f"{y}-{m:02d}")
 
-    is_official = country in OFFICIAL_SOURCE and bool(official)
+    # Официальный — если данные ведомства получены сегодня или текущий месяц уже лежит официальным
+    # (годовые источники вроде KACST опрашиваются раз в неделю)
+    current = stored_month(city, today.year, today.month) or {}
+    is_official = country in OFFICIAL_SOURCE and (bool(official) or current.get("source") == OFFICIAL_SOURCE[country][0])
     primary = OFFICIAL_SOURCE[country][0] if is_official else calc_source
     print(f"[OK] {city['slug']}: {' '.join(written)}")
     return {"slug": city["slug"], "name": city["name"], "country": country,

@@ -8,8 +8,8 @@
    "lat": 55.7558,
    "lon": 37.6173,
    "timezone": "Europe/Moscow",
-   "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "madhab": "shafi",
+   "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)"
   },
   {
    "slug": "ru/kazan",
@@ -19,7 +19,8 @@
    "lon": 49.1088,
    "timezone": "Europe/Moscow",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "dumrt.ru (Духовное управление мусульман Республики Татарстан — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/almaty",
@@ -29,7 +30,8 @@
    "lon": 76.9452,
    "timezone": "Asia/Almaty",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/astana",
@@ -39,7 +41,8 @@
    "lon": 71.4704,
    "timezone": "Asia/Almaty",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/shymkent",
@@ -49,27 +52,30 @@
    "lon": 69.5901,
    "timezone": "Asia/Almaty",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/karaganda",
-   "name": "Караганда",
+   "name": "Қарағанды",
    "country": "KZ",
    "lat": 49.8047,
    "lon": 73.1094,
    "timezone": "Asia/Almaty",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/aktau",
-   "name": "Актау",
+   "name": "Ақтау",
    "country": "KZ",
    "lat": 43.641,
    "lon": 51.1985,
    "timezone": "Asia/Aqtau",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/atyrau",
@@ -79,27 +85,30 @@
    "lon": 51.883,
    "timezone": "Asia/Atyrau",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/uralsk",
-   "name": "Уральск",
+   "name": "Орал",
    "country": "KZ",
    "lat": 51.2333,
    "lon": 51.3667,
    "timezone": "Asia/Oral",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "kz/kostanay",
-   "name": "Костанай",
+   "name": "Қостанай",
    "country": "KZ",
    "lat": 53.2198,
    "lon": 63.6354,
    "timezone": "Asia/Qostanay",
    "madhab": "hanafi",
-   "source": "umma.ru (официальная таблица, ханафитский мазхаб)"
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "ru/mahachkala",
@@ -289,7 +298,8 @@
    "lon": 69.2401,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/samarqand",
@@ -299,7 +309,8 @@
    "lon": 66.975,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/buxoro",
@@ -309,7 +320,8 @@
    "lon": 64.4286,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/andijon",
@@ -319,7 +331,8 @@
    "lon": 72.3442,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/namangan",
@@ -329,7 +342,8 @@
    "lon": 71.6726,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/fargona",
@@ -339,7 +353,8 @@
    "lon": 71.7864,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/qarshi",
@@ -349,7 +364,8 @@
    "lon": 65.789,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/nukus",
@@ -359,7 +375,8 @@
    "lon": 59.62,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/urganch",
@@ -369,7 +386,8 @@
    "lon": 60.6333,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/xiva",
@@ -379,7 +397,8 @@
    "lon": 60.3639,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/termiz",
@@ -389,7 +408,8 @@
    "lon": 67.2783,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/jizzax",
@@ -399,7 +419,8 @@
    "lon": 67.8422,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/guliston",
@@ -409,7 +430,8 @@
    "lon": 68.7842,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/navoiy",
@@ -419,7 +441,8 @@
    "lon": 65.3792,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/qoqon",
@@ -429,7 +452,8 @@
    "lon": 70.9425,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/margilon",
@@ -439,7 +463,8 @@
    "lon": 71.7246,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
   },
   {
    "slug": "uz/olmaliq",
@@ -449,7 +474,8 @@
    "lon": 69.5983,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
+   "kind": "calculated"
   },
   {
    "slug": "uz/angren",
@@ -459,7 +485,8 @@
    "lon": 70.1436,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
+   "kind": "calculated"
   },
   {
    "slug": "uz/shahrisabz",
@@ -469,7 +496,8 @@
    "lon": 66.8342,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
+   "kind": "calculated"
   },
   {
    "slug": "uz/zarafshon",
@@ -479,7 +507,8 @@
    "lon": 64.2,
    "timezone": "Asia/Tashkent",
    "madhab": "hanafi",
-   "source": "namozvaqti.uz (Управление мусульман Узбекистана)"
+   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
+   "kind": "calculated"
   },
   {
    "slug": "kg/bishkek",
@@ -9471,6 +9500,2734 @@
    "madhab": "shafi",
    "source": "Moonsighting (расчёт по методике Moonsighting Committee)",
    "kind": "calculated"
+  },
+  {
+   "slug": "sa/al-aflaj",
+   "name": "Al Aflaj",
+   "country": "SA",
+   "lat": 22.22,
+   "lon": 46.656,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-hayr",
+   "name": "Al Hayr",
+   "country": "SA",
+   "lat": 24.404568,
+   "lon": 46.839516,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-hariq",
+   "name": "Al Hariq",
+   "country": "SA",
+   "lat": 23.62,
+   "lon": 46.52,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-kharj",
+   "name": "Al Kharj",
+   "country": "SA",
+   "lat": 24.15,
+   "lon": 47.32,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ad-diriyah",
+   "name": "Ad Diriyah",
+   "country": "SA",
+   "lat": 24.74,
+   "lon": 46.58,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ad-dilam",
+   "name": "Ad Dilam",
+   "country": "SA",
+   "lat": 23.99649,
+   "lon": 47.138344,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-duwadimi",
+   "name": "Al Duwadimi",
+   "country": "SA",
+   "lat": 24.5,
+   "lon": 44.38,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/az-zulfi",
+   "name": "Az Zulfi",
+   "country": "SA",
+   "lat": 26.3,
+   "lon": 44.82,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/as-sulayyil",
+   "name": "As Sulayyil",
+   "country": "SA",
+   "lat": 20.47,
+   "lon": 45.57,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-uyaynah",
+   "name": "Al Uyaynah",
+   "country": "SA",
+   "lat": 24.9018,
+   "lon": 46.3865,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-ghat",
+   "name": "Al Ghat",
+   "country": "SA",
+   "lat": 26.03,
+   "lon": 44.95,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-quwaiiyah",
+   "name": "Al Quwaiiyah",
+   "country": "SA",
+   "lat": 24.05,
+   "lon": 45.25,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-majmaah",
+   "name": "Al Majmaah",
+   "country": "SA",
+   "lat": 25.9,
+   "lon": 45.34,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-muzahimiyah",
+   "name": "Al Muzahimiyah",
+   "country": "SA",
+   "lat": 24.48,
+   "lon": 46.29,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tumair",
+   "name": "Tumair",
+   "country": "SA",
+   "lat": 25.7134,
+   "lon": 45.8707,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/thadig",
+   "name": "Thadig",
+   "country": "SA",
+   "lat": 25.28,
+   "lon": 45.86,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/jalajil",
+   "name": "Jalajil",
+   "country": "SA",
+   "lat": 25.6834,
+   "lon": 45.4592,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/huraymila",
+   "name": "Huraymila",
+   "country": "SA",
+   "lat": 25.11,
+   "lon": 46.1,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/howtat-bani-tamim",
+   "name": "Howtat Bani Tamim",
+   "country": "SA",
+   "lat": 23.49,
+   "lon": 46.86,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/hawtat-sudayr",
+   "name": "Hawtat Sudayr",
+   "country": "SA",
+   "lat": 25.5947,
+   "lon": 45.6184,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/rumah",
+   "name": "Rumah",
+   "country": "SA",
+   "lat": 25.56,
+   "lon": 47.17,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/rawdat-sudayr",
+   "name": "Rawdat Sudayr",
+   "country": "SA",
+   "lat": 25.6187,
+   "lon": 45.5543,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/sudus",
+   "name": "Sudus",
+   "country": "SA",
+   "lat": 24.993744,
+   "lon": 46.207878,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/shagra",
+   "name": "Shagra",
+   "country": "SA",
+   "lat": 25.26,
+   "lon": 45.26,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dhurma",
+   "name": "Dhurma",
+   "country": "SA",
+   "lat": 24.6,
+   "lon": 46.13,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/afif",
+   "name": "Afif",
+   "country": "SA",
+   "lat": 23.91,
+   "lon": 42.92,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/layla",
+   "name": "Layla",
+   "country": "SA",
+   "lat": 22.2899,
+   "lon": 46.7188,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/marat",
+   "name": "Marat",
+   "country": "SA",
+   "lat": 25.0699,
+   "lon": 45.4639,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/malham",
+   "name": "Malham",
+   "country": "SA",
+   "lat": 25.1625,
+   "lon": 46.3337,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/wadi-ad-dawasir",
+   "name": "Wadi ad-Dawasir",
+   "country": "SA",
+   "lat": 20.4722,
+   "lon": 44.783,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ar-rayn",
+   "name": "Ar Rayn",
+   "country": "SA",
+   "lat": 23.542,
+   "lon": 45.5159,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/adham",
+   "name": "Adham",
+   "country": "SA",
+   "lat": 20.423,
+   "lon": 40.8624,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-jumum",
+   "name": "Al Jumum",
+   "country": "SA",
+   "lat": 21.63,
+   "lon": 39.7,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-khurma",
+   "name": "Al Khurma",
+   "country": "SA",
+   "lat": 21.91,
+   "lon": 42.02,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/taif",
+   "name": "Taif",
+   "country": "SA",
+   "lat": 21.25,
+   "lon": 40.4,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-ardhiyat",
+   "name": "Al Ardhiyat",
+   "country": "SA",
+   "lat": 19.41604388,
+   "lon": 41.74531637,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-qunfudhah",
+   "name": "Al Qunfudhah",
+   "country": "SA",
+   "lat": 19.13,
+   "lon": 41.08,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-kamil",
+   "name": "Al Kamil",
+   "country": "SA",
+   "lat": 22.26,
+   "lon": 39.79,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-lith",
+   "name": "Al Lith",
+   "country": "SA",
+   "lat": 20.15,
+   "lon": 40.28,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/turbah",
+   "name": "Turbah",
+   "country": "SA",
+   "lat": 21.23,
+   "lon": 41.65,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/thuwal",
+   "name": "Thuwal",
+   "country": "SA",
+   "lat": 22.2758,
+   "lon": 39.1132,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/khulais",
+   "name": "Khulais",
+   "country": "SA",
+   "lat": 22.11,
+   "lon": 39.31,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dhahban",
+   "name": "Dhahban",
+   "country": "SA",
+   "lat": 21.9309,
+   "lon": 39.116,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/rabigh",
+   "name": "Rabigh",
+   "country": "SA",
+   "lat": 22.79,
+   "lon": 39.03,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ranyah",
+   "name": "Ranyah",
+   "country": "SA",
+   "lat": 21.28,
+   "lon": 42.82,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/maysan",
+   "name": "Maysan",
+   "country": "SA",
+   "lat": 20.74756002,
+   "lon": 40.85031999,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-muwayh",
+   "name": "Al Muwayh",
+   "country": "SA",
+   "lat": 22.4341,
+   "lon": 41.7615,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/bahrah",
+   "name": "Bahrah",
+   "country": "SA",
+   "lat": 21.4023,
+   "lon": 39.4631,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-henakiyah",
+   "name": "Al Henakiyah",
+   "country": "SA",
+   "lat": 24.88,
+   "lon": 40.52,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-ula",
+   "name": "Al Ula",
+   "country": "SA",
+   "lat": 26.55,
+   "lon": 37.96,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-is",
+   "name": "Al 'Is",
+   "country": "SA",
+   "lat": 25.0598,
+   "lon": 38.1167,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/badr",
+   "name": "Badr",
+   "country": "SA",
+   "lat": 23.78,
+   "lon": 38.8,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/khaybar",
+   "name": "Khaybar",
+   "country": "SA",
+   "lat": 25.71,
+   "lon": 39.28,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/mahd-al-thahab",
+   "name": "Mahd Al Thahab",
+   "country": "SA",
+   "lat": 23.52,
+   "lon": 40.89,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/yanbu",
+   "name": "Yanbu",
+   "country": "SA",
+   "lat": 24.09,
+   "lon": 38.07,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/wadi-al-fara",
+   "name": "Wadi Al Fara",
+   "country": "SA",
+   "lat": 23.3127,
+   "lon": 39.7776,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/buraydah",
+   "name": "Buraydah",
+   "country": "SA",
+   "lat": 26.35,
+   "lon": 43.96,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/alasyah",
+   "name": "Alasyah",
+   "country": "SA",
+   "lat": 26.77,
+   "lon": 44.22,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-badayea",
+   "name": "Al Badayea",
+   "country": "SA",
+   "lat": 26.0,
+   "lon": 43.73,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-bukayriyah",
+   "name": "Al Bukayriyah",
+   "country": "SA",
+   "lat": 26.15,
+   "lon": 43.67,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-busur",
+   "name": "Al Busur",
+   "country": "SA",
+   "lat": 26.2888,
+   "lon": 43.8612,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ar-rass",
+   "name": "Ar Rass",
+   "country": "SA",
+   "lat": 25.86,
+   "lon": 43.48,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ash-shimasiyah",
+   "name": "Ash Shimasiyah",
+   "country": "SA",
+   "lat": 26.3189,
+   "lon": 44.2574,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-mithnab",
+   "name": "Al Mithnab",
+   "country": "SA",
+   "lat": 25.87,
+   "lon": 44.21,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/an-nabhaniyah",
+   "name": "An Nabhaniyah",
+   "country": "SA",
+   "lat": 25.94,
+   "lon": 42.95,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/riyadh-al-khabra",
+   "name": "Riyadh Al Khabra",
+   "country": "SA",
+   "lat": 26.04,
+   "lon": 43.55,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dariyah",
+   "name": "Dariyah",
+   "country": "SA",
+   "lat": 24.7225,
+   "lon": 42.9327,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/uqlat-as-suqur",
+   "name": "Uqlat As Suqur",
+   "country": "SA",
+   "lat": 25.8311,
+   "lon": 42.1879,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/unayzah",
+   "name": "Unayzah",
+   "country": "SA",
+   "lat": 26.09,
+   "lon": 43.97,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/uyun-al-jawa",
+   "name": "Uyun Al Jawa",
+   "country": "SA",
+   "lat": 26.51,
+   "lon": 43.62,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-quwarah",
+   "name": "Al Quwarah",
+   "country": "SA",
+   "lat": 26.7716,
+   "lon": 43.4742,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/abanat",
+   "name": "Abanat",
+   "country": "SA",
+   "lat": 25.5057,
+   "lon": 42.8464,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-jubail",
+   "name": "Al Jubail",
+   "country": "SA",
+   "lat": 27.0,
+   "lon": 49.66,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-khobar",
+   "name": "Al Khobar",
+   "country": "SA",
+   "lat": 26.26,
+   "lon": 50.21,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/khafji",
+   "name": "Khafji",
+   "country": "SA",
+   "lat": 28.42,
+   "lon": 48.49,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dhahran",
+   "name": "Dhahran",
+   "country": "SA",
+   "lat": 26.239291,
+   "lon": 50.040259,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-qatif",
+   "name": "Al Qatif",
+   "country": "SA",
+   "lat": 26.56,
+   "lon": 50.0,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-mubarraz",
+   "name": "Al Mubarraz",
+   "country": "SA",
+   "lat": 25.405807,
+   "lon": 49.548469,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/nairyah",
+   "name": "Nairyah",
+   "country": "SA",
+   "lat": 27.47,
+   "lon": 48.47,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-hofuf",
+   "name": "Al Hofuf",
+   "country": "SA",
+   "lat": 25.408,
+   "lon": 49.6132,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/abqaiq",
+   "name": "Abqaiq",
+   "country": "SA",
+   "lat": 25.93,
+   "lon": 49.66,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tarut",
+   "name": "Tarut",
+   "country": "SA",
+   "lat": 26.57110001,
+   "lon": 50.07269982,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/hafar-al-batin",
+   "name": "Hafar Al Batin",
+   "country": "SA",
+   "lat": 28.4,
+   "lon": 45.97,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ras-tanura",
+   "name": "Ras Tanura",
+   "country": "SA",
+   "lat": 26.71,
+   "lon": 50.07,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/qaryat-al-ulya",
+   "name": "Qaryat Al Ulya",
+   "country": "SA",
+   "lat": 27.56,
+   "lon": 47.7,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-ahsa",
+   "name": "Al Ahsa",
+   "country": "SA",
+   "lat": 24.1389,
+   "lon": 49.4277,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-udayd",
+   "name": "Al Udayd",
+   "country": "SA",
+   "lat": 24.147,
+   "lon": 50.919,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-bayda",
+   "name": "Al Bayda",
+   "country": "SA",
+   "lat": 26.361417,
+   "lon": 49.969591,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/abha",
+   "name": "Abha",
+   "country": "SA",
+   "lat": 18.22,
+   "lon": 42.51,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ahad-rafidah",
+   "name": "Ahad Rafidah",
+   "country": "SA",
+   "lat": 18.17,
+   "lon": 42.84,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-amwah",
+   "name": "Al Amwah",
+   "country": "SA",
+   "lat": 18.7141,
+   "lon": 43.6591,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-birk",
+   "name": "Al Birk",
+   "country": "SA",
+   "lat": 18.2071,
+   "lon": 41.5363,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-harajah",
+   "name": "Al Harajah",
+   "country": "SA",
+   "lat": 17.9204,
+   "lon": 43.3729,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/almajaridah",
+   "name": "Almajaridah",
+   "country": "SA",
+   "lat": 19.13,
+   "lon": 41.93,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-namas",
+   "name": "Al Namas",
+   "country": "SA",
+   "lat": 19.14,
+   "lon": 42.14,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/bariq",
+   "name": "Bariq",
+   "country": "SA",
+   "lat": 18.9305,
+   "lon": 41.9296,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/belqarn",
+   "name": "Belqarn",
+   "country": "SA",
+   "lat": 19.57,
+   "lon": 41.96,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/bishah",
+   "name": "Bishah",
+   "country": "SA",
+   "lat": 20.0,
+   "lon": 42.6,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tathleeth",
+   "name": "Tathleeth",
+   "country": "SA",
+   "lat": 19.55,
+   "lon": 43.52,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tanumah",
+   "name": "Tanumah",
+   "country": "SA",
+   "lat": 18.929,
+   "lon": 42.177,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/khamis-mushait",
+   "name": "Khamis Mushait",
+   "country": "SA",
+   "lat": 18.31,
+   "lon": 42.73,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/rojal",
+   "name": "Rojal",
+   "country": "SA",
+   "lat": 18.23,
+   "lon": 42.28,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/sarat-abidah",
+   "name": "Sarat Abidah",
+   "country": "SA",
+   "lat": 18.08,
+   "lon": 43.14,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tarib",
+   "name": "Tarib",
+   "country": "SA",
+   "lat": 18.5667607,
+   "lon": 43.20690401,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dhahran-al-janub",
+   "name": "Dhahran Al Janub",
+   "country": "SA",
+   "lat": 17.69,
+   "lon": 43.51,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/muhayil",
+   "name": "Muhayil",
+   "country": "SA",
+   "lat": 18.54,
+   "lon": 42.05,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-farshah",
+   "name": "Al Farshah",
+   "country": "SA",
+   "lat": 17.7532,
+   "lon": 43.1529,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tabuk",
+   "name": "Tabuk",
+   "country": "SA",
+   "lat": 28.4,
+   "lon": 36.58,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/umluj",
+   "name": "Umluj",
+   "country": "SA",
+   "lat": 25.03,
+   "lon": 37.26,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-wajh",
+   "name": "Al Wajh",
+   "country": "SA",
+   "lat": 26.23,
+   "lon": 36.47,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tayma",
+   "name": "Tayma",
+   "country": "SA",
+   "lat": 28.63,
+   "lon": 38.55,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/haql",
+   "name": "Haql",
+   "country": "SA",
+   "lat": 29.3,
+   "lon": 34.95,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/duba",
+   "name": "Duba",
+   "country": "SA",
+   "lat": 27.35,
+   "lon": 35.69,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-bada",
+   "name": "Al Bada",
+   "country": "SA",
+   "lat": 28.473,
+   "lon": 35.0278,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/hail",
+   "name": "Hail",
+   "country": "SA",
+   "lat": 27.52,
+   "lon": 41.7,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-hait",
+   "name": "Al Hait",
+   "country": "SA",
+   "lat": 25.9933,
+   "lon": 40.4669,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/as-sulaymi",
+   "name": "As Sulaymi",
+   "country": "SA",
+   "lat": 26.2896,
+   "lon": 41.3661,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ash-shamli",
+   "name": "Ash Shamli",
+   "country": "SA",
+   "lat": 26.858595,
+   "lon": 40.328537,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ash-shinan",
+   "name": "Ash Shinan",
+   "country": "SA",
+   "lat": 27.17,
+   "lon": 42.44,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-ghazalah",
+   "name": "Al Ghazalah",
+   "country": "SA",
+   "lat": 26.79,
+   "lon": 41.32,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/baqaa",
+   "name": "Baqaa",
+   "country": "SA",
+   "lat": 27.9,
+   "lon": 42.4,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/simira",
+   "name": "Simira'",
+   "country": "SA",
+   "lat": 26.49941,
+   "lon": 42.12939001,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/mawqaq",
+   "name": "Mawqaq",
+   "country": "SA",
+   "lat": 27.378545,
+   "lon": 41.179762,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/arar",
+   "name": "Arar",
+   "country": "SA",
+   "lat": 30.99,
+   "lon": 41.02,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-uwayqiliyah",
+   "name": "Al 'Uwayqiliyah",
+   "country": "SA",
+   "lat": 30.361771,
+   "lon": 42.250924,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/rafha",
+   "name": "Rafha",
+   "country": "SA",
+   "lat": 29.63,
+   "lon": 43.5,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/turaif",
+   "name": "Turaif",
+   "country": "SA",
+   "lat": 31.68,
+   "lon": 38.66,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/jazan",
+   "name": "Jazan",
+   "country": "SA",
+   "lat": 16.89,
+   "lon": 42.54,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/abu-arish",
+   "name": "Abu Arish",
+   "country": "SA",
+   "lat": 16.97,
+   "lon": 42.83,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ahad-al-masarihah",
+   "name": "Ahad Al Masarihah",
+   "country": "SA",
+   "lat": 16.7,
+   "lon": 42.95,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/alharth",
+   "name": "Alharth",
+   "country": "SA",
+   "lat": 16.78,
+   "lon": 43.22,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/addayer",
+   "name": "Addayer",
+   "country": "SA",
+   "lat": 17.34,
+   "lon": 43.14,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/aldarb",
+   "name": "Aldarb",
+   "country": "SA",
+   "lat": 17.71,
+   "lon": 42.09,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-reeth",
+   "name": "Al Reeth",
+   "country": "SA",
+   "lat": 17.6,
+   "lon": 42.86,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/at-tuwal",
+   "name": "At Tuwal",
+   "country": "SA",
+   "lat": 16.528,
+   "lon": 42.9685,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-aridhah",
+   "name": "Al Aridhah",
+   "country": "SA",
+   "lat": 17.04,
+   "lon": 43.09,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-edabi",
+   "name": "Al Edabi",
+   "country": "SA",
+   "lat": 17.24,
+   "lon": 42.95,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/baish",
+   "name": "Baish",
+   "country": "SA",
+   "lat": 17.378,
+   "lon": 42.538,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/farasan-island",
+   "name": "Farasan Island",
+   "country": "SA",
+   "lat": 16.71,
+   "lon": 42.12,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/samtah",
+   "name": "Samtah",
+   "country": "SA",
+   "lat": 16.59,
+   "lon": 42.94,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/sabya",
+   "name": "Sabya",
+   "country": "SA",
+   "lat": 17.15,
+   "lon": 42.62,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/damad",
+   "name": "Damad",
+   "country": "SA",
+   "lat": 17.1,
+   "lon": 42.78,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/fayfa",
+   "name": "Fayfa",
+   "country": "SA",
+   "lat": 17.2473,
+   "lon": 43.1069,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/harub",
+   "name": "Harub",
+   "country": "SA",
+   "lat": 17.435,
+   "lon": 42.8857,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/najran",
+   "name": "Najran",
+   "country": "SA",
+   "lat": 17.52,
+   "lon": 44.2,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-kharkhir",
+   "name": "Al Kharkhir",
+   "country": "SA",
+   "lat": 18.85,
+   "lon": 51.819,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/badr-al-janoub",
+   "name": "Badr Al Janoub",
+   "country": "SA",
+   "lat": 17.88,
+   "lon": 43.72,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/thar",
+   "name": "Thar",
+   "country": "SA",
+   "lat": 17.97,
+   "lon": 44.11,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/hubuna",
+   "name": "Hubuna",
+   "country": "SA",
+   "lat": 17.85,
+   "lon": 43.02,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/khbash",
+   "name": "Khbash",
+   "country": "SA",
+   "lat": 17.6,
+   "lon": 45.066,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/sharorah",
+   "name": "Sharorah",
+   "country": "SA",
+   "lat": 17.49,
+   "lon": 47.11,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/yadamah",
+   "name": "Yadamah",
+   "country": "SA",
+   "lat": 18.53,
+   "lon": 44.21,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-bahah",
+   "name": "Al Bahah",
+   "country": "SA",
+   "lat": 20.01,
+   "lon": 41.47,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-hajrah",
+   "name": "Al Hajrah",
+   "country": "SA",
+   "lat": 20.1954,
+   "lon": 41.0722,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-aqiq",
+   "name": "Al Aqiq",
+   "country": "SA",
+   "lat": 20.27,
+   "lon": 41.66,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/alqura",
+   "name": "Alqura",
+   "country": "SA",
+   "lat": 20.25,
+   "lon": 41.36,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-makhwah",
+   "name": "Al Makhwah",
+   "country": "SA",
+   "lat": 19.78,
+   "lon": 41.43,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/almandaq",
+   "name": "Almandaq",
+   "country": "SA",
+   "lat": 20.16,
+   "lon": 41.29,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/baljurashi",
+   "name": "Baljurashi",
+   "country": "SA",
+   "lat": 19.86,
+   "lon": 41.57,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/ghamid-az-zinad",
+   "name": "Ghamid Az Zinad",
+   "country": "SA",
+   "lat": 19.6033,
+   "lon": 41.4813,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/qilwah",
+   "name": "Qilwah",
+   "country": "SA",
+   "lat": 19.95,
+   "lon": 41.24,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/bani-hasan",
+   "name": "Bani Hasan",
+   "country": "SA",
+   "lat": 20.051578,
+   "lon": 41.37405,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/sakaka",
+   "name": "Sakaka",
+   "country": "SA",
+   "lat": 29.97,
+   "lon": 40.2,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/al-qurayyat",
+   "name": "Al Qurayyat",
+   "country": "SA",
+   "lat": 31.33,
+   "lon": 37.34,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/dumah-al-jandal",
+   "name": "Dumah Al Jandal",
+   "country": "SA",
+   "lat": 29.81,
+   "lon": 39.87,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/tubarjal",
+   "name": "Tubarjal",
+   "country": "SA",
+   "lat": 30.50098005,
+   "lon": 38.22183997,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "sa/suwayr",
+   "name": "Suwayr",
+   "country": "SA",
+   "lat": 30.1147,
+   "lon": 40.3803,
+   "timezone": "Asia/Riyadh",
+   "madhab": "shafi",
+   "source": "KACST (календарь Умм-аль-Кура — официальная таблица Саудовской Аравии)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/aral",
+   "name": "Арал",
+   "country": "KZ",
+   "lat": 46.797738,
+   "lon": 61.660792,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/lisakov",
+   "name": "Лисаков",
+   "country": "KZ",
+   "lat": 52.544079,
+   "lon": 62.492641,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zharkent",
+   "name": "Жаркент",
+   "country": "KZ",
+   "lat": 44.169365,
+   "lon": 80.003842,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kyzylorda",
+   "name": "Қызылорда",
+   "country": "KZ",
+   "lat": 44.842544,
+   "lon": 65.502563,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/aksai",
+   "name": "Ақсай",
+   "country": "KZ",
+   "lat": 51.164945,
+   "lon": 53.020868,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/aktobe",
+   "name": "Ақтөбе",
+   "country": "KZ",
+   "lat": 50.300377,
+   "lon": 57.154555,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kandyagash",
+   "name": "Қандыағаш",
+   "country": "KZ",
+   "lat": 49.474444,
+   "lon": 57.423333,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/khromtau",
+   "name": "Хромтау",
+   "country": "KZ",
+   "lat": 50.250278,
+   "lon": 58.434722,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shalkar",
+   "name": "Шалқар",
+   "country": "KZ",
+   "lat": 47.831392,
+   "lon": 59.61929,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/konaev",
+   "name": "Қонаев",
+   "country": "KZ",
+   "lat": 43.883333,
+   "lon": 77.083333,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kokshetau",
+   "name": "Көкшетау",
+   "country": "KZ",
+   "lat": 53.291667,
+   "lon": 69.391667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/stepnogorsk",
+   "name": "Степногорск",
+   "country": "KZ",
+   "lat": 52.346944,
+   "lon": 71.881667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/usharal",
+   "name": "Үшарал",
+   "country": "KZ",
+   "lat": 46.169722,
+   "lon": 80.939444,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/atbasar",
+   "name": "Атбасар",
+   "country": "KZ",
+   "lat": 51.815761,
+   "lon": 68.358335,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/ayagoz",
+   "name": "Аягөз",
+   "country": "KZ",
+   "lat": 47.966667,
+   "lon": 80.433333,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/oskemen",
+   "name": "Өскемен",
+   "country": "KZ",
+   "lat": 49.948325,
+   "lon": 82.627848,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/ridder",
+   "name": "Риддер",
+   "country": "KZ",
+   "lat": 50.33886,
+   "lon": 83.506329,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/semei",
+   "name": "Семей",
+   "country": "KZ",
+   "lat": 50.404976,
+   "lon": 80.249235,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zhanatas",
+   "name": "Жаңатас",
+   "country": "KZ",
+   "lat": 43.55465,
+   "lon": 69.722525,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/karatau",
+   "name": "Қаратау",
+   "country": "KZ",
+   "lat": 43.166667,
+   "lon": 70.466667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/taraz",
+   "name": "Тараз",
+   "country": "KZ",
+   "lat": 42.883333,
+   "lon": 71.366667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/balkash",
+   "name": "Балқаш",
+   "country": "KZ",
+   "lat": 46.843721,
+   "lon": 74.977301,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zhezkazgan",
+   "name": "Жезқазған",
+   "country": "KZ",
+   "lat": 47.799711,
+   "lon": 67.71409,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/satpaev",
+   "name": "Сәтпаев",
+   "country": "KZ",
+   "lat": 47.907455,
+   "lon": 67.528112,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/arkalyk",
+   "name": "Арқалық",
+   "country": "KZ",
+   "lat": 50.248611,
+   "lon": 66.911389,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/rudnyi",
+   "name": "Рудный",
+   "country": "KZ",
+   "lat": 52.966667,
+   "lon": 63.116667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/petropavl",
+   "name": "Петропавл",
+   "country": "KZ",
+   "lat": 54.862222,
+   "lon": 69.140833,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/ekibastuz",
+   "name": "Екібастұз",
+   "country": "KZ",
+   "lat": 51.729778,
+   "lon": 75.326583,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/pavlodar",
+   "name": "Павлодар",
+   "country": "KZ",
+   "lat": 52.315556,
+   "lon": 76.956389,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zhetisai",
+   "name": "Жетісай",
+   "country": "KZ",
+   "lat": 40.775278,
+   "lon": 68.327222,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/saryagash",
+   "name": "Сарыағаш",
+   "country": "KZ",
+   "lat": 41.466667,
+   "lon": 69.166667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shardara",
+   "name": "Шардара",
+   "country": "KZ",
+   "lat": 41.254722,
+   "lon": 67.969167,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kulsary",
+   "name": "Құлсары",
+   "country": "KZ",
+   "lat": 46.983333,
+   "lon": 54.016667,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zhanaozen",
+   "name": "Жаңаөзен",
+   "country": "KZ",
+   "lat": 43.343266,
+   "lon": 52.865792,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/fort-shevchenko",
+   "name": "Форт-Шевченко",
+   "country": "KZ",
+   "lat": 44.507463,
+   "lon": 50.262833,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/turkistan",
+   "name": "Түркістан",
+   "country": "KZ",
+   "lat": 43.302025,
+   "lon": 68.268979,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/talgar",
+   "name": "Талғар",
+   "country": "KZ",
+   "lat": 43.302813,
+   "lon": 77.23969,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kaskelen",
+   "name": "Қаскелең",
+   "country": "KZ",
+   "lat": 43.202449,
+   "lon": 76.622278,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shu",
+   "name": "Шу",
+   "country": "KZ",
+   "lat": 43.611782,
+   "lon": 73.760237,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/karazhal",
+   "name": "Қаражал",
+   "country": "KZ",
+   "lat": 48.001042,
+   "lon": 70.785762,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/lenger",
+   "name": "Ленгер",
+   "country": "KZ",
+   "lat": 42.182051,
+   "lon": 69.88212,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/embi",
+   "name": "Ембі",
+   "country": "KZ",
+   "lat": 48.823344,
+   "lon": 58.148397,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zaisan",
+   "name": "Зайсан",
+   "country": "KZ",
+   "lat": 47.453008,
+   "lon": 84.969846,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kentau",
+   "name": "Кентау",
+   "country": "KZ",
+   "lat": 43.518131,
+   "lon": 68.504652,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/taiynsha",
+   "name": "Тайынша",
+   "country": "KZ",
+   "lat": 53.852738,
+   "lon": 69.782631,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/temirtau",
+   "name": "Теміртау",
+   "country": "KZ",
+   "lat": 50.058756,
+   "lon": 72.953424,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/alga",
+   "name": "Алға",
+   "country": "KZ",
+   "lat": 49.89673,
+   "lon": 57.328586,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/aksu",
+   "name": "Ақсу",
+   "country": "KZ",
+   "lat": 52.03789,
+   "lon": 76.920582,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kurchatov",
+   "name": "Курчатов",
+   "country": "KZ",
+   "lat": 50.7549,
+   "lon": 78.544826,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/arys",
+   "name": "Арыс",
+   "country": "KZ",
+   "lat": 42.432744,
+   "lon": 68.813798,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kosshy",
+   "name": "Қосшы",
+   "country": "KZ",
+   "lat": 50.970262,
+   "lon": 71.355366,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/tekeli",
+   "name": "Текелі",
+   "country": "KZ",
+   "lat": 44.863094,
+   "lon": 78.764266,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/karkaraly",
+   "name": "Қарқаралы",
+   "country": "KZ",
+   "lat": 49.41224,
+   "lon": 75.470095,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shar",
+   "name": "Шар",
+   "country": "KZ",
+   "lat": 49.584964,
+   "lon": 81.047173,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/akkol",
+   "name": "Ақкөл",
+   "country": "KZ",
+   "lat": 51.995855,
+   "lon": 70.952948,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/derzhavinsk",
+   "name": "Державинск",
+   "country": "KZ",
+   "lat": 51.098685,
+   "lon": 66.314712,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/ereimentau",
+   "name": "Ерейментау",
+   "country": "KZ",
+   "lat": 51.619626,
+   "lon": 73.102598,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/esil",
+   "name": "Есіл",
+   "country": "KZ",
+   "lat": 51.958004,
+   "lon": 66.406215,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/makinsk",
+   "name": "Макинск",
+   "country": "KZ",
+   "lat": 52.63281,
+   "lon": 70.417677,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/stepnyak",
+   "name": "Степняк",
+   "country": "KZ",
+   "lat": 52.832,
+   "lon": 70.783427,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shchuchinsk",
+   "name": "Щучинск",
+   "country": "KZ",
+   "lat": 52.942096,
+   "lon": 70.21014,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
+   "kind": "calculated"
+  },
+  {
+   "slug": "kz/zhem",
+   "name": "Жем",
+   "country": "KZ",
+   "lat": 48.774532,
+   "lon": 58.072436,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/temir",
+   "name": "Темір",
+   "country": "KZ",
+   "lat": 49.143142,
+   "lon": 57.12633,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/alatau",
+   "name": "Алатау",
+   "country": "KZ",
+   "lat": 43.681261,
+   "lon": 77.116046,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/esik",
+   "name": "Есік",
+   "country": "KZ",
+   "lat": 43.365179,
+   "lon": 77.450893,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
+   "kind": "calculated"
+  },
+  {
+   "slug": "kz/sarkan",
+   "name": "Сарқан",
+   "country": "KZ",
+   "lat": 45.413666,
+   "lon": 79.916894,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/taldykorgan",
+   "name": "Талдықорған",
+   "country": "KZ",
+   "lat": 45.017837,
+   "lon": 78.382123,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/ushtobe",
+   "name": "Үштөбе",
+   "country": "KZ",
+   "lat": 45.251221,
+   "lon": 77.980827,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/abai",
+   "name": "Абай",
+   "country": "KZ",
+   "lat": 49.631899,
+   "lon": 72.859245,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
+   "kind": "calculated"
+  },
+  {
+   "slug": "kz/priozersk",
+   "name": "Приозёрск",
+   "country": "KZ",
+   "lat": 46.028969,
+   "lon": 73.708027,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/saran",
+   "name": "Саран",
+   "country": "KZ",
+   "lat": 49.801993,
+   "lon": 72.828387,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shakhtinsk",
+   "name": "Шахтинск",
+   "country": "KZ",
+   "lat": 49.705868,
+   "lon": 72.594637,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/zhitikara",
+   "name": "Жітіқара",
+   "country": "KZ",
+   "lat": 52.183928,
+   "lon": 61.189833,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
+   "kind": "calculated"
+  },
+  {
+   "slug": "kz/tobyl",
+   "name": "Тобыл",
+   "country": "KZ",
+   "lat": 53.207372,
+   "lon": 63.705088,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
+   "kind": "calculated"
+  },
+  {
+   "slug": "kz/kazaly",
+   "name": "Қазалы",
+   "country": "KZ",
+   "lat": 45.760633,
+   "lon": 62.105836,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/bulaev",
+   "name": "Булаев",
+   "country": "KZ",
+   "lat": 54.896056,
+   "lon": 70.448157,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/mamlyut",
+   "name": "Мамлют",
+   "country": "KZ",
+   "lat": 54.94112,
+   "lon": 68.546199,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/sergeev",
+   "name": "Сергеев",
+   "country": "KZ",
+   "lat": 53.888542,
+   "lon": 67.416271,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/altai",
+   "name": "Алтай",
+   "country": "KZ",
+   "lat": 49.725218,
+   "lon": 84.273562,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/serebryansk",
+   "name": "Серебрянск",
+   "country": "KZ",
+   "lat": 49.679277,
+   "lon": 83.300651,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shemonaikha",
+   "name": "Шемонаиха",
+   "country": "KZ",
+   "lat": 50.627624,
+   "lon": 81.916697,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
   }
  ]
 }

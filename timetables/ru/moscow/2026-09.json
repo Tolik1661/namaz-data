@@ -5,10 +5,10 @@
  "lat": 55.7558,
  "lon": 37.6173,
  "timezone": "Europe/Moscow",
- "madhab": "hanafi",
- "source": "umma.ru (официальная таблица, ханафитский мазхаб)",
+ "madhab": "shafi",
+ "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)",
  "source_url": "https://umma.ru/raspisanie-namaza/moscow",
- "updated": "2026-09-13T09:19:03Z",
+ "updated": "2026-09-13T10:12:56Z",
  "year": 2026,
  "month": 9,
  "days": [

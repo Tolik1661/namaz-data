@@ -14,11 +14,11 @@ from datetime import datetime, timezone
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
 import local_authorities  # noqa: E402
+import official_feeds   # noqa: E402
 import parse_diyanet    # noqa: E402
 import parse_islamdag   # noqa: E402
 import parse_jakim      # noqa: E402
 import parse_muftiyatkg # noqa: E402
-import parse_namozvaqti # noqa: E402
 import parse_umma       # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -33,10 +33,11 @@ def main() -> int:
     parse_umma.collect(index, failures)
     parse_islamdag.collect(index, failures)
     parse_jakim.collect(index, failures)
-    parse_namozvaqti.collect(index, failures)
+    # Узбекистан: официальный API Управления мусульман (official_feeds) вместо namozvaqti.uz
     parse_muftiyatkg.collect(index, failures)
     parse_diyanet.collect(index, failures)
     local_authorities.collect(index, failures)
+    official_feeds.collect(index, failures)
 
     # Сбой источника не должен выкидывать город из индекса: иначе приложение
     # молча перейдёт на собственный расчёт с другой методикой. Оставляем город,

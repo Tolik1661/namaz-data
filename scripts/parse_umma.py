@@ -34,18 +34,10 @@ def _city(umma_slug, country, name, lat, lon, tz):
 # ВАЖНО: неизвестный slug сайт молча отдаёт как Москву — поэтому парсер
 # сверяет имя города в <title> (см. parse_city).
 CITIES = [
-    # Россия
-    _city("moscow",          "RU", "Москва",          55.7558, 37.6173, "Europe/Moscow"),
-    _city("kazan",           "RU", "Казань",          55.7963, 49.1088, "Europe/Moscow"),
-    # Казахстан
-    _city("almaty",          "KZ", "Алматы",          43.2380, 76.9452, "Asia/Almaty"),
-    _city("astana",          "KZ", "Астана",          51.1605, 71.4704, "Asia/Almaty"),
-    _city("shymkent",        "KZ", "Шымкент",         42.3417, 69.5901, "Asia/Almaty"),
-    _city("karaganda",       "KZ", "Караганда",       49.8047, 73.1094, "Asia/Almaty"),
-    _city("aktau",           "KZ", "Актау",           43.6410, 51.1985, "Asia/Aqtau"),
-    _city("atyrau",          "KZ", "Атырау",          47.1164, 51.8830, "Asia/Atyrau"),
-    _city("uralsk",          "KZ", "Уральск",         51.2333, 51.3667, "Asia/Oral"),
-    _city("kostanay",        "KZ", "Костанай",        53.2198, 63.6354, "Asia/Qostanay"),
+    # Москва: у ДУМ РФ машиночитаемой таблицы нет (только картинка), umma.ru её зеркалирует —
+    # сверено минута в минуту. Аср в таблице ДУМ РФ шафиитский.
+    # Казахстан и Казань перенесены на официальные потоки (official_feeds.py).
+    dict(_city("moscow", "RU", "Москва", 55.7558, 37.6173, "Europe/Moscow"), madhab="shafi"),
 ]
 
 RU_MONTHS = {
@@ -136,7 +128,7 @@ def parse_city(city: dict) -> dict:
         "lon": city["lon"],
         "timezone": city["timezone"],
         "madhab": city["madhab"],
-        "source": "umma.ru (официальная таблица, ханафитский мазхаб)",
+        "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)",
         "source_url": url,
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "year": year,
