@@ -29,24 +29,6 @@ DATA = pathlib.Path(__file__).resolve().parent / "data" / "dumkbr"
 KEYS = ("fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha")
 OFFICIAL = ("kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
             "https://kbrdum.ru")
-SHIFTED = "kbrdum.ru (официальная таблица ДУМ КБР, сдвинута на долготу города)"
-# Таблица составлена по Нальчику; республика растянута на 1,4° долготы (±3 мин по Солнцу).
-# Без сдвига в Тырныаузе Магриб выпал бы раньше местного заката — сдвигаем на 4 мин/градус
-NALCHIK_LON = 43.6071
-
-
-def shift_minutes(lon):
-    return round((NALCHIK_LON - lon) * 4)
-
-
-def shifted(day, minutes):
-    if not minutes:
-        return day
-    out = {"date": day["date"]}
-    for k in KEYS:
-        t = int(day[k][:2]) * 60 + int(day[k][3:]) + minutes
-        out[k] = f"{t // 60:02d}:{t % 60:02d}"
-    return out
 
 # Таблица «по КБР» действует для всей республики
 CITIES = [
@@ -155,14 +137,12 @@ def collect(index, failures, today=None):
         for ds, times in table.items():
             days[ds] = {"date": ds, **dict(zip(KEYS, times))}
     for city in CITIES:
-        minutes = shift_minutes(city["lon"])
-        label = OFFICIAL[0] if minutes == 0 else SHIFTED
-        city_days = {ds: shifted(d, minutes) for ds, d in days.items()}
-        written = write_horizon(city, today, city_days, label, OFFICIAL[1], None, None, "shafi")
+        # Таблица «по КБР» — как есть для всех городов республики (решение владельца)
+        written = write_horizon(city, today, days, *OFFICIAL, None, None, "shafi")
         print(f"[OK] {city['slug']}: {' '.join(written) or 'нет данных'}")
         current = f"{today.year}-{today.month:02d}"
         if any(w.startswith(current) for w in written):
-            index.append(entry(city, "shafi", label, "official"))
+            index.append(entry(city, "shafi", OFFICIAL[0], "official"))
 
 
 if __name__ == "__main__":

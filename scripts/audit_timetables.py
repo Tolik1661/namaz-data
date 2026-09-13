@@ -32,6 +32,9 @@ KEYS = ("fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha")
 # Источники, у которых Магриб по методике наступает по углу Солнца под горизонтом
 # (QMİ: 3,5°, ≈15 мин после заката) — для них абсолютный порог Магриба не применяем.
 ANGLE_MAGHRIB_SOURCES = {"QMİ"}
+# Одна таблица на всю республику (ДУМ КБР): в восточных городах Зухр дальше от
+# астрономического полудня — ихтият +10 мин плюс до ±3 мин разницы долгот
+REPUBLIC_TABLE_SOURCES = {"kbrdum.ru"}
 
 
 # ── Астрономия (NOAA) ──────────────────────────────────────────────────────
@@ -202,6 +205,8 @@ def audit(today):
         for k, lim in absolute.items():
             if k == "maghrib" and info["source"].split(" · ")[0] in ANGLE_MAGHRIB_SOURCES:
                 continue
+            if info["source"].split(" · ")[0] in REPUBLIC_TABLE_SOURCES:
+                lim += 4
             v = info["median"].get(k)
             if v is not None and abs(v) > lim:
                 issues.append(("ERROR", info["source"], slug, f"{k}: расхождение с астрономией {v:+.1f} мин"))
