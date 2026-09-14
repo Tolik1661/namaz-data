@@ -6,9 +6,9 @@
  "lon": 64.2,
  "timezone": "Asia/Tashkent",
  "madhab": "hanafi",
- "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
- "source_url": "https://github.com/Tolik1661/namaz-data/blob/main/scripts/official_feeds.py",
- "updated": "2026-09-13T10:28:36Z",
+ "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+ "source_url": "https://fatvo.uz",
+ "updated": "2026-09-14T08:42:59Z",
  "year": 2026,
  "month": 9,
  "days": [

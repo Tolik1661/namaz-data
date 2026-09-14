@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T19:26:57Z",
+ "updated": "2026-09-14T08:43:51Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -10,105 +10,6 @@
    "timezone": "Europe/Moscow",
    "madhab": "shafi",
    "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)"
-  },
-  {
-   "slug": "ru/kazan",
-   "name": "Казань",
-   "country": "RU",
-   "lat": 55.7963,
-   "lon": 49.1088,
-   "timezone": "Europe/Moscow",
-   "madhab": "hanafi",
-   "source": "dumrt.ru (Духовное управление мусульман Республики Татарстан — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/almaty",
-   "name": "Алматы",
-   "country": "KZ",
-   "lat": 43.238,
-   "lon": 76.9452,
-   "timezone": "Asia/Almaty",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/astana",
-   "name": "Астана",
-   "country": "KZ",
-   "lat": 51.1605,
-   "lon": 71.4704,
-   "timezone": "Asia/Almaty",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/shymkent",
-   "name": "Шымкент",
-   "country": "KZ",
-   "lat": 42.3417,
-   "lon": 69.5901,
-   "timezone": "Asia/Almaty",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/karaganda",
-   "name": "Қарағанды",
-   "country": "KZ",
-   "lat": 49.8047,
-   "lon": 73.1094,
-   "timezone": "Asia/Almaty",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/aktau",
-   "name": "Ақтау",
-   "country": "KZ",
-   "lat": 43.641,
-   "lon": 51.1985,
-   "timezone": "Asia/Aqtau",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/atyrau",
-   "name": "Атырау",
-   "country": "KZ",
-   "lat": 47.1164,
-   "lon": 51.883,
-   "timezone": "Asia/Atyrau",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/uralsk",
-   "name": "Орал",
-   "country": "KZ",
-   "lat": 51.2333,
-   "lon": 51.3667,
-   "timezone": "Asia/Oral",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "kz/kostanay",
-   "name": "Қостанай",
-   "country": "KZ",
-   "lat": 53.2198,
-   "lon": 63.6354,
-   "timezone": "Asia/Qostanay",
-   "madhab": "hanafi",
-   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
-   "kind": "official"
   },
   {
    "slug": "ru/mahachkala",
@@ -289,226 +190,6 @@
    "timezone": "Asia/Kuala_Lumpur",
    "madhab": "shafi",
    "source": "JAKIM e-Solat (api.waktusolat.app, шафиитский мазхаб)"
-  },
-  {
-   "slug": "uz/toshkent",
-   "name": "Ташкент",
-   "country": "UZ",
-   "lat": 41.2995,
-   "lon": 69.2401,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/samarqand",
-   "name": "Самарканд",
-   "country": "UZ",
-   "lat": 39.627,
-   "lon": 66.975,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/buxoro",
-   "name": "Бухара",
-   "country": "UZ",
-   "lat": 39.7747,
-   "lon": 64.4286,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/andijon",
-   "name": "Андижан",
-   "country": "UZ",
-   "lat": 40.7821,
-   "lon": 72.3442,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/namangan",
-   "name": "Наманган",
-   "country": "UZ",
-   "lat": 40.9983,
-   "lon": 71.6726,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/fargona",
-   "name": "Фергана",
-   "country": "UZ",
-   "lat": 40.3864,
-   "lon": 71.7864,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/qarshi",
-   "name": "Карши",
-   "country": "UZ",
-   "lat": 38.86,
-   "lon": 65.789,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/nukus",
-   "name": "Нукус",
-   "country": "UZ",
-   "lat": 42.46,
-   "lon": 59.62,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/urganch",
-   "name": "Ургенч",
-   "country": "UZ",
-   "lat": 41.55,
-   "lon": 60.6333,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/xiva",
-   "name": "Хива",
-   "country": "UZ",
-   "lat": 41.3783,
-   "lon": 60.3639,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/termiz",
-   "name": "Термез",
-   "country": "UZ",
-   "lat": 37.2242,
-   "lon": 67.2783,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/jizzax",
-   "name": "Джизак",
-   "country": "UZ",
-   "lat": 40.1158,
-   "lon": 67.8422,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/guliston",
-   "name": "Гулистан",
-   "country": "UZ",
-   "lat": 40.4897,
-   "lon": 68.7842,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/navoiy",
-   "name": "Навои",
-   "country": "UZ",
-   "lat": 40.0844,
-   "lon": 65.3792,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/qoqon",
-   "name": "Коканд",
-   "country": "UZ",
-   "lat": 40.5286,
-   "lon": 70.9425,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/margilon",
-   "name": "Маргилан",
-   "country": "UZ",
-   "lat": 40.4712,
-   "lon": 71.7246,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
-   "kind": "official"
-  },
-  {
-   "slug": "uz/olmaliq",
-   "name": "Алмалык",
-   "country": "UZ",
-   "lat": 40.8442,
-   "lon": 69.5983,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
-   "kind": "calculated"
-  },
-  {
-   "slug": "uz/angren",
-   "name": "Ангрен",
-   "country": "UZ",
-   "lat": 41.0167,
-   "lon": 70.1436,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
-   "kind": "calculated"
-  },
-  {
-   "slug": "uz/shahrisabz",
-   "name": "Шахрисабз",
-   "country": "UZ",
-   "lat": 39.0578,
-   "lon": 66.8342,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
-   "kind": "calculated"
-  },
-  {
-   "slug": "uz/zarafshon",
-   "name": "Зарафшан",
-   "country": "UZ",
-   "lat": 41.5847,
-   "lon": 64.2,
-   "timezone": "Asia/Tashkent",
-   "madhab": "hanafi",
-   "source": "fatvo.uz (расчёт по методике Управления мусульман Узбекистана)",
-   "kind": "calculated"
   },
   {
    "slug": "kg/bishkek",
@@ -11339,6 +11020,39 @@
    "kind": "official"
   },
   {
+   "slug": "kz/astana",
+   "name": "Астана",
+   "country": "KZ",
+   "lat": 51.1605,
+   "lon": 71.4704,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/almaty",
+   "name": "Алматы",
+   "country": "KZ",
+   "lat": 43.238,
+   "lon": 76.9452,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/shymkent",
+   "name": "Шымкент",
+   "country": "KZ",
+   "lat": 42.3417,
+   "lon": 69.5901,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
    "slug": "kz/aral",
    "name": "Арал",
    "country": "KZ",
@@ -11603,12 +11317,34 @@
    "kind": "official"
   },
   {
+   "slug": "kz/karaganda",
+   "name": "Қарағанды",
+   "country": "KZ",
+   "lat": 49.8047,
+   "lon": 73.1094,
+   "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
    "slug": "kz/arkalyk",
    "name": "Арқалық",
    "country": "KZ",
    "lat": 50.248611,
    "lon": 66.911389,
    "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/kostanay",
+   "name": "Қостанай",
+   "country": "KZ",
+   "lat": 53.2198,
+   "lon": 63.6354,
+   "timezone": "Asia/Qostanay",
    "madhab": "hanafi",
    "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
    "kind": "official"
@@ -11691,12 +11427,34 @@
    "kind": "official"
   },
   {
+   "slug": "kz/atyrau",
+   "name": "Атырау",
+   "country": "KZ",
+   "lat": 47.1164,
+   "lon": 51.883,
+   "timezone": "Asia/Atyrau",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
    "slug": "kz/kulsary",
    "name": "Құлсары",
    "country": "KZ",
    "lat": 46.983333,
    "lon": 54.016667,
    "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/aktau",
+   "name": "Ақтау",
+   "country": "KZ",
+   "lat": 43.641,
+   "lon": 51.1985,
+   "timezone": "Asia/Aqtau",
    "madhab": "hanafi",
    "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
    "kind": "official"
@@ -11719,6 +11477,17 @@
    "lat": 44.507463,
    "lon": 50.262833,
    "timezone": "Asia/Almaty",
+   "madhab": "hanafi",
+   "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "kz/uralsk",
+   "name": "Орал",
+   "country": "KZ",
+   "lat": 51.2333,
+   "lon": 51.3667,
+   "timezone": "Asia/Oral",
    "madhab": "hanafi",
    "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
    "kind": "official"
@@ -12227,6 +11996,237 @@
    "timezone": "Asia/Almaty",
    "madhab": "hanafi",
    "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/toshkent",
+   "name": "Ташкент",
+   "country": "UZ",
+   "lat": 41.2995,
+   "lon": 69.2401,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/samarqand",
+   "name": "Самарканд",
+   "country": "UZ",
+   "lat": 39.627,
+   "lon": 66.975,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/buxoro",
+   "name": "Бухара",
+   "country": "UZ",
+   "lat": 39.7747,
+   "lon": 64.4286,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/andijon",
+   "name": "Андижан",
+   "country": "UZ",
+   "lat": 40.7821,
+   "lon": 72.3442,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/namangan",
+   "name": "Наманган",
+   "country": "UZ",
+   "lat": 40.9983,
+   "lon": 71.6726,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/fargona",
+   "name": "Фергана",
+   "country": "UZ",
+   "lat": 40.3864,
+   "lon": 71.7864,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/qarshi",
+   "name": "Карши",
+   "country": "UZ",
+   "lat": 38.86,
+   "lon": 65.789,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/nukus",
+   "name": "Нукус",
+   "country": "UZ",
+   "lat": 42.46,
+   "lon": 59.62,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/urganch",
+   "name": "Ургенч",
+   "country": "UZ",
+   "lat": 41.55,
+   "lon": 60.6333,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/xiva",
+   "name": "Хива",
+   "country": "UZ",
+   "lat": 41.3783,
+   "lon": 60.3639,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/termiz",
+   "name": "Термез",
+   "country": "UZ",
+   "lat": 37.2242,
+   "lon": 67.2783,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/jizzax",
+   "name": "Джизак",
+   "country": "UZ",
+   "lat": 40.1158,
+   "lon": 67.8422,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/guliston",
+   "name": "Гулистан",
+   "country": "UZ",
+   "lat": 40.4897,
+   "lon": 68.7842,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/navoiy",
+   "name": "Навои",
+   "country": "UZ",
+   "lat": 40.0844,
+   "lon": 65.3792,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/qoqon",
+   "name": "Коканд",
+   "country": "UZ",
+   "lat": 40.5286,
+   "lon": 70.9425,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/margilon",
+   "name": "Маргилан",
+   "country": "UZ",
+   "lat": 40.4712,
+   "lon": 71.7246,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/olmaliq",
+   "name": "Алмалык",
+   "country": "UZ",
+   "lat": 40.8442,
+   "lon": 69.5983,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/angren",
+   "name": "Ангрен",
+   "country": "UZ",
+   "lat": 41.0167,
+   "lon": 70.1436,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/shahrisabz",
+   "name": "Шахрисабз",
+   "country": "UZ",
+   "lat": 39.0578,
+   "lon": 66.8342,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "uz/zarafshon",
+   "name": "Зарафшан",
+   "country": "UZ",
+   "lat": 41.5847,
+   "lon": 64.2,
+   "timezone": "Asia/Tashkent",
+   "madhab": "hanafi",
+   "source": "fatvo.uz (Управление мусульман Узбекистана — официальная таблица)",
+   "kind": "official"
+  },
+  {
+   "slug": "ru/kazan",
+   "name": "Казань",
+   "country": "RU",
+   "lat": 55.7963,
+   "lon": 49.1088,
+   "timezone": "Europe/Moscow",
+   "madhab": "hanafi",
+   "source": "dumrt.ru (Духовное управление мусульман Республики Татарстан — официальная таблица)",
    "kind": "official"
   },
   {
