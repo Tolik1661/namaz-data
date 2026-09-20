@@ -8,7 +8,7 @@
  "madhab": "shafi",
  "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
  "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9600/vakitler",
- "updated": "2026-09-13T09:46:38Z",
+ "updated": "2026-09-20T09:33:42Z",
  "year": 2026,
  "month": 10,
  "days": [
@@ -128,6 +128,69 @@
    "asr": "15:44",
    "maghrib": "18:17",
    "isha": "19:37"
+  },
+  {
+   "date": "2026-10-14",
+   "fajr": "05:25",
+   "sunrise": "06:50",
+   "dhuhr": "12:38",
+   "asr": "15:43",
+   "maghrib": "18:16",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-10-15",
+   "fajr": "05:26",
+   "sunrise": "06:51",
+   "dhuhr": "12:38",
+   "asr": "15:41",
+   "maghrib": "18:14",
+   "isha": "19:34"
+  },
+  {
+   "date": "2026-10-16",
+   "fajr": "05:27",
+   "sunrise": "06:53",
+   "dhuhr": "12:37",
+   "asr": "15:40",
+   "maghrib": "18:12",
+   "isha": "19:32"
+  },
+  {
+   "date": "2026-10-17",
+   "fajr": "05:28",
+   "sunrise": "06:54",
+   "dhuhr": "12:37",
+   "asr": "15:39",
+   "maghrib": "18:11",
+   "isha": "19:31"
+  },
+  {
+   "date": "2026-10-18",
+   "fajr": "05:29",
+   "sunrise": "06:55",
+   "dhuhr": "12:37",
+   "asr": "15:38",
+   "maghrib": "18:09",
+   "isha": "19:29"
+  },
+  {
+   "date": "2026-10-19",
+   "fajr": "05:31",
+   "sunrise": "06:56",
+   "dhuhr": "12:37",
+   "asr": "15:37",
+   "maghrib": "18:08",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-10-20",
+   "fajr": "05:32",
+   "sunrise": "06:57",
+   "dhuhr": "12:37",
+   "asr": "15:35",
+   "maghrib": "18:06",
+   "isha": "19:26"
   }
  ]
 }
