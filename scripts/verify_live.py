@@ -17,16 +17,20 @@ import pathlib
 import random
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
+import official_feeds    # noqa: E402
 import parse_diyanet     # noqa: E402
 import parse_islamdag    # noqa: E402
 import parse_jakim       # noqa: E402
 import parse_muftiyatkg  # noqa: E402
-import parse_namozvaqti  # noqa: E402
 import parse_umma        # noqa: E402
+
+# Узбекистан: API fatvo.uz отдаёт по одному дню и после ~1000 запросов отвечает 429 —
+# сверяем выборку дней (сегодня, через неделю, через две)
+UZ_SAMPLE_DAYS = (0, 7, 14)
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 KEYS = ("fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha")
@@ -42,11 +46,9 @@ def stored_days(slug):
 
 def as_day_map(result):
     """Приводит ответы разных парсеров к {дата: день}."""
-    if isinstance(result, tuple):                     # namozvaqti: (год, дни)
-        result = result[1]
     if isinstance(result, dict) and "days" in result:  # islamdag/jakim/umma: {…, "days": [...]}
         result = result["days"]
-    if isinstance(result, dict):                      # diyanet: {дата: день}
+    if isinstance(result, dict):                      # diyanet, fatvo.uz, dumrt.ru: {дата: день}
         return result
     return {d["date"]: d for d in result}
 
@@ -93,10 +95,14 @@ def main():
         jobs.append(("muftiyat.kg", c["slug"],
                      lambda c=c: parse_muftiyatkg.parse_month(c, now.year, now.month)
                      + parse_muftiyatkg.parse_month(c, next_year, next_month)))
-    for c in parse_namozvaqti.CITIES:
-        jobs.append(("namozvaqti.uz", c["slug"],
-                     lambda c=c: parse_namozvaqti.parse_month(c, now.month)[1]
-                     + parse_namozvaqti.parse_month(c, next_month)[1]))
+    # Узбекистан берётся с официального API fatvo.uz (official_feeds), а не с namozvaqti.uz:
+    # у namozvaqti Магриб на 3 мин раньше — сверка с ним давала ложные расхождения
+    uz_days = [now.date() + timedelta(k) for k in UZ_SAMPLE_DAYS]
+    for c in official_feeds.uz_cities():
+        jobs.append(("fatvo.uz", c["slug"],
+                     lambda c=c: {d.isoformat(): official_feeds.fetch_uz_day(c, d) for d in uz_days}))
+    for c in official_feeds.RT_CITIES:
+        jobs.append(("dumrt.ru", c["slug"], lambda c=c: official_feeds.fetch_rt_csv(c, now.date())))
 
     totals = {}
     problems = []
