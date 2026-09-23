@@ -9,12 +9,14 @@
 поля дня — fajr, sunrise, dhuhr, asr, maghrib, isha (строки "H:MM").
 """
 
-import json
 import pathlib
 import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from local_authorities import write_json_if_changed  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
@@ -150,8 +152,7 @@ def collect(index, failures):
         out_dir = ROOT / "timetables" / data["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
         out_file = out_dir / f"{data['year']:04d}-{data['month']:02d}.json"
-        out_file.write_text(
-            json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+        write_json_if_changed(out_file, data)   # не переписываем ради одного поля updated
         print(f"[OK] {out_file.relative_to(ROOT)} — {len(data['days'])} дней")
 
         index.append({

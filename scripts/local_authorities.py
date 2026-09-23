@@ -253,16 +253,35 @@ def stored_month(city, y, m):
     return json.loads(f.read_text()) if f.exists() else None
 
 
+def write_json_if_changed(path, data):
+    """Пишет файл месяца, только если он изменился не считая поля updated.
+    Иначе каждый прогон перезаписывал ~3900 файлов ради одной метки времени (клиенты
+    её не читают). Сравнивается весь объект: смена имени, координат, пояса или
+    source_url тоже попадает в файл. Возвращает True, если файл записан."""
+    def essence(obj):
+        return {k: v for k, v in obj.items() if k != "updated"} if isinstance(obj, dict) else obj
+    path = pathlib.Path(path)
+    if path.exists():
+        try:
+            old = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:                                             # noqa: BLE001
+            old = None                                                # битый файл — перезаписываем
+        if old is not None and essence(old) == essence(data):
+            return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
+    return True
+
+
 def write_month(city, y, m, days, source, source_url, madhab):
     out = ROOT / "timetables" / city["slug"]
-    out.mkdir(parents=True, exist_ok=True)
-    (out / f"{y:04d}-{m:02d}.json").write_text(json.dumps({
+    write_json_if_changed(out / f"{y:04d}-{m:02d}.json", {
         "city": city["name"], "slug": city["slug"], "country": city["country"],
         "lat": city["lat"], "lon": city["lon"], "timezone": city["timezone"],
         "madhab": madhab, "source": source, "source_url": source_url,
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "year": y, "month": m, "days": days,
-    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    })
 
 
 # ── Официальные потоки ─────────────────────────────────────────────────────

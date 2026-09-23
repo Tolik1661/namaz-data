@@ -14,6 +14,9 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from local_authorities import write_json_if_changed  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
@@ -99,7 +102,8 @@ def collect(index, failures):
                 continue
             out_dir = ROOT / "timetables" / city["slug"]
             out_dir.mkdir(parents=True, exist_ok=True)
-            (out_dir / f"{year:04d}-{month:02d}.json").write_text(json.dumps({
+            # не переписываем ради одного поля updated
+            write_json_if_changed(out_dir / f"{year:04d}-{month:02d}.json", {
                 "city": city["name"], "slug": city["slug"], "country": city["country"],
                 "lat": city["lat"], "lon": city["lon"], "timezone": city["timezone"],
                 "madhab": city["madhab"],
@@ -107,7 +111,7 @@ def collect(index, failures):
                 "source_url": "https://muftiyat.kg/ru/calendar/",
                 "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "year": year, "month": month, "days": days,
-            }, ensure_ascii=False, indent=1), encoding="utf-8")
+            })
             ok_any = True
             time.sleep(0.6)
         if ok_any:

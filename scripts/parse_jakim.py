@@ -13,6 +13,9 @@ import sys
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from local_authorities import write_json_if_changed  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 MYT = timezone(timedelta(hours=8))   # Malaysia Time, UTC+8
 
@@ -113,8 +116,8 @@ def collect(index, failures):
                 continue
             out_dir = ROOT / "timetables" / got["slug"]
             out_dir.mkdir(parents=True, exist_ok=True)
-            (out_dir / f"{got['year']:04d}-{got['month']:02d}.json").write_text(
-                json.dumps(got, ensure_ascii=False, indent=1), encoding="utf-8")
+            # не переписываем ради одного поля updated
+            write_json_if_changed(out_dir / f"{got['year']:04d}-{got['month']:02d}.json", got)
             print(f"[OK] {got['slug']} {got['year']}-{got['month']:02d} — {len(got['days'])} дней")
             data = data or got
         if not data:

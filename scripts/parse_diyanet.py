@@ -18,6 +18,9 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from local_authorities import write_json_if_changed  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 # Все районы Турции (842, сгенерировано из GetRegList Диянета + центроиды
@@ -183,7 +186,8 @@ def merge_months(city, days, months_horizon=None):
         existing.update(month_days)
         merged = sorted(existing.values(), key=lambda d: d["date"])
 
-        out_file.write_text(json.dumps({
+        # Файл переписывается, только если данные изменились (не ради поля updated)
+        write_json_if_changed(out_file, {
             "city": city["name"], "slug": city["slug"], "country": city["country"],
             "lat": city["lat"], "lon": city["lon"], "timezone": city["timezone"],
             "madhab": city["madhab"],
@@ -192,7 +196,7 @@ def merge_months(city, days, months_horizon=None):
             "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "year": int(ym[:4]), "month": int(ym[5:7]),
             "days": merged,
-        }, ensure_ascii=False, indent=1), encoding="utf-8")
+        })
         written.append(f"{ym}({len(merged)}д)")
     return written
 
