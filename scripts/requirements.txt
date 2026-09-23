@@ -1,0 +1,7 @@
+# Зависимости GitHub Actions (update.yml): pip install --require-hashes -r scripts/requirements.txt
+# pypdf нужен только dumkbr.py — разобрать новый годовой PDF ДУМ КБР.
+# Точная версия и хэши с PyPI: новая или подменённая версия не установится.
+# Обновление: версия и оба sha256 со страницы https://pypi.org/project/pypdf/<версия>/#files
+pypdf==6.16.1 \
+    --hash=sha256:63fec31c4092ae50b6729beedcb469055b60d20c834bde1c402df241f371f644 \
+    --hash=sha256:c4d1b43ddae921387321cf63936cd16a7743b91d2da92f165c149a195c972ba9
