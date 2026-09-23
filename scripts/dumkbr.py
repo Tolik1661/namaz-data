@@ -86,14 +86,19 @@ def fetch_online():
     page = http("https://kbrdum.ru/").decode("utf-8", "replace")
     found = {}
     for link in sorted(set(re.findall(r"https://cloud\.mail\.ru/public/[\w/]+", page))):
-        public = link.split("/public/", 1)[1]
-        html = http(link).decode("utf-8", "replace")
-        name = re.search(r'"name":"(\d{4})kbr\.pdf"', html)
-        server = re.search(r'weblink_get[^}]*?"url":\s*"([^"]+)"', html)
-        if not (name and server):
+        # Каждая ссылка отдельно: битая или удалённая старая PDF не должна мешать подхватить новую
+        try:
+            public = link.split("/public/", 1)[1]
+            html = http(link).decode("utf-8", "replace")
+            name = re.search(r'"name":"(\d{4})kbr\.pdf"', html)
+            server = re.search(r'weblink_get[^}]*?"url":\s*"([^"]+)"', html)
+            if not (name and server):
+                continue
+            data = http(f"{server.group(1)}/{public}", headers={"Referer": link})
+            year, table = parse_pdf(data)
+        except Exception as e:                                        # noqa: BLE001
+            print(f"[WARN] ДУМ КБР: {link} не разобран: {e}", file=sys.stderr)
             continue
-        data = http(f"{server.group(1)}/{public}", headers={"Referer": link})
-        year, table = parse_pdf(data)
         found[year] = table
     return found
 
@@ -131,7 +136,15 @@ def collect(index, failures, today=None):
         print(f"[ERROR] ДУМ КБР: нет таблицы на {today.year} год", file=sys.stderr)
         failures.append("ru/nalchik")
     if today.month == 12 and today.year + 1 not in known:
-        print(f"[WARN] ДУМ КБР: таблица на {today.year + 1} год ещё не опубликована", file=sys.stderr)
+        if today >= date(today.year, 12, 15):
+            # Ранний алерт: 1 января без таблицы 10 городов КБР уйдут на расчёт приложения.
+            # Commit всё равно выполнится (шаг «Fail if some sources failed» идёт после него)
+            print(f"[ERROR] ДУМ КБР: до 1 января нет таблицы на {today.year + 1} год — добавьте снимок "
+                  f"scripts/data/dumkbr/{today.year + 1}.json", file=sys.stderr)
+            if "ru/nalchik" not in failures:
+                failures.append("ru/nalchik")
+        else:
+            print(f"[WARN] ДУМ КБР: таблица на {today.year + 1} год ещё не опубликована", file=sys.stderr)
     days = {}
     for table in known.values():
         for ds, times in table.items():

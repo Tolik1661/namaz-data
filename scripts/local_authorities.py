@@ -222,9 +222,14 @@ def minutes(t):
     return int(h) * 60 + int(m)
 
 
+# Строго 00–23 ч и 00–59 мин, только ASCII-цифры: \d пропускал «25:00», «12:75» и «٠٤:٣٠»
+TIME_24H = re.compile(r"(?:[01][0-9]|2[0-3]):[0-5][0-9]", re.ASCII)
+
+
 def validate_day(slug, d):
     for k in KEYS:
-        if not re.fullmatch(r"\d{2}:\d{2}", d.get(k) or ""):
+        v = d.get(k)
+        if not isinstance(v, str) or not TIME_24H.fullmatch(v):
             raise ValueError(f"{slug}: битое время {k} в {d}")
     seq = [minutes(d[k]) for k in KEYS]
     if seq != sorted(seq):

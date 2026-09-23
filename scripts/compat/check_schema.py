@@ -7,8 +7,13 @@
 типом лишает старое приложение официальных таблиц для ВСЕХ городов.
 
 Повторяет контракт Swift строго (обязательные ключи, типы, без null) и дополнительно
-проверяет формат времени, соответствие slug папке и наличие данных на сегодня.
+проверяет формат времени (строго 0–23 ч, 00–59 мин, только ASCII-цифры), соответствие
+slug папке и наличие данных на сегодня.
 Та же проверка настоящим JSONDecoder: scripts/compat/check_app_decoding.swift.
+
+Файлы города, которого нет в индексе, — только предупреждение: вышедшие версии
+читают из индекса лишь slug, а build_all убирает из индекса города без данных на
+сегодня. Иначе сбой одного источника останавливал публикацию для всех городов.
 
 Запуск: python3 scripts/compat/check_schema.py   (код выхода 1 при ошибках)
 """
@@ -21,7 +26,9 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
-TIME = re.compile(r"^\d{1,2}:\d{2}$")
+# \d в Python — любые Unicode-цифры («٠٤:٣٠»), и прежняя регулярка пропускала «25:00» и «12:75»:
+# DateFormatter в приложении возвращает для них nil, и намаз молча выпадает
+TIME = re.compile(r"^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$", re.ASCII)
 INDEX_FIELDS = {"slug": str, "name": str, "country": str, "lat": (int, float), "lon": (int, float),
                 "timezone": str, "madhab": str, "source": str}
 DAY_FIELDS = ("date", "fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha")
@@ -33,7 +40,7 @@ def is_type(value, expected):
 
 
 def main():
-    errors = []
+    errors, warnings = [], []
     index = json.loads((ROOT / "index.json").read_text(encoding="utf-8"))
     if not is_type(index.get("updated"), str) or not isinstance(index.get("cities"), list):
         print("❌ index.json: нет updated (строка) или cities (массив)")
@@ -58,6 +65,7 @@ def main():
             errors.append(f"{where}: часовой пояс {c.get('timezone')!r}")
 
     files = days = 0
+    orphans = set()
     for f in (ROOT / "timetables").rglob("*.json"):
         files += 1
         rel = "/".join(f.parent.relative_to(ROOT / "timetables").parts)
@@ -71,8 +79,9 @@ def main():
             continue
         if data["slug"] != rel:
             errors.append(f"{rel}/{f.name}: slug {data['slug']!r} не совпадает с папкой")
-        if rel not in slugs:
-            errors.append(f"{rel}: файлы есть, а города нет в индексе")
+        if rel not in slugs and rel not in orphans:
+            orphans.add(rel)
+            warnings.append(f"{rel}: файлы есть, а города нет в индексе")
         for d in data["days"]:
             days += 1
             if not isinstance(d, dict) or any(not is_type(d.get(k), str) for k in DAY_FIELDS):
@@ -81,7 +90,7 @@ def main():
             if not d["date"].startswith(f.stem):
                 errors.append(f"{rel}/{f.name}: день {d['date']} не из месяца")
             for k in DAY_FIELDS[1:]:
-                if not TIME.match(d[k]):
+                if not TIME.fullmatch(d[k]):
                     errors.append(f"{rel}/{f.name}: {d['date']} {k}={d[k]!r}")
 
     today = datetime.now(timezone.utc).date().isoformat()
@@ -92,6 +101,10 @@ def main():
             errors.append(f"{slug}: нет данных на {today}")
 
     print(f"Индекс: {len(index['cities'])} городов; файлов месяцев: {files}; дней: {days}")
+    if warnings:
+        print(f"⚠️ предупреждений: {len(warnings)} (публикацию не останавливают)")
+        for w in warnings[:40]:
+            print("  " + w)
     if errors:
         print(f"❌ ошибок совместимости: {len(errors)}")
         for e in errors[:40]:

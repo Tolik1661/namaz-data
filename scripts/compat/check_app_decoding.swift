@@ -23,9 +23,16 @@ struct WidgetOfficialMonth: Decodable {
 
 let root = URL(fileURLWithPath: CommandLine.arguments.count > 1 ? CommandLine.arguments[1] : ".")
 var errors: [String] = []
+var warnings: [String] = []
 let decoder = JSONDecoder()
-let hhmm = try! NSRegularExpression(pattern: "^\\d{1,2}:\\d{2}$")
-func isTime(_ s: String) -> Bool { hhmm.firstMatch(in: s, range: NSRange(s.startIndex..., in: s)) != nil }
+// Строго 0–23 ч и 00–59 мин, только ASCII-цифры: \d пропускал «25:00», «12:75» и арабско-индийские
+// цифры, а DateFormatter приложения возвращает для них nil. Совпадение должно покрыть всю строку
+// ($ в ICU срабатывает и перед завершающим переводом строки)
+let hhmm = try! NSRegularExpression(pattern: "^([01]?[0-9]|2[0-3]):[0-5][0-9]$")
+func isTime(_ s: String) -> Bool {
+    let whole = NSRange(s.startIndex..., in: s)
+    return hhmm.firstMatch(in: s, range: whole)?.range == whole
+}
 
 // 1. Индекс
 let indexData = try Data(contentsOf: root.appendingPathComponent("index.json"))
@@ -45,6 +52,7 @@ for c in index.cities {
 
 // 2. Месяцы: декодирование приложением и виджетом, формат времени, дата внутри файла
 var files = 0, days = 0
+var orphanSlugs = Set<String>()
 let fm = FileManager.default
 let timetables = root.appendingPathComponent("timetables")
 let enumerator = fm.enumerator(at: timetables, includingPropertiesForKeys: nil)!
@@ -67,7 +75,12 @@ for case let url as URL in enumerator where url.pathExtension == "json" {
             errors.append("\(url.path): \(d.date) время «\(t)»")
         }
     }
-    if !slugs.contains(month.slug) { errors.append("\(month.slug): файлы есть, а в индексе города нет") }
+    // Только предупреждение: вышедшие версии читают из индекса лишь slug, а build_all убирает
+    // из индекса города без данных на сегодня — сбой одного источника не должен останавливать всех
+    if !slugs.contains(month.slug) && !orphanSlugs.contains(month.slug) {
+        orphanSlugs.insert(month.slug)
+        warnings.append("\(month.slug): файлы есть, а в индексе города нет")
+    }
 }
 print("✓ проверено файлов месяцев: \(files), дней: \(days)")
 
@@ -81,6 +94,10 @@ for c in index.cities {
 }
 print(missingToday == 0 ? "✓ у всех \(index.cities.count) городов есть данные на \(today)" : "❌ без данных на сегодня: \(missingToday)")
 
+if !warnings.isEmpty {
+    print("⚠️ предупреждений: \(warnings.count) (публикацию не останавливают)")
+    warnings.prefix(30).forEach { print("  " + $0) }
+}
 if errors.isEmpty { print("✅ совместимо с вышедшими версиями приложения"); exit(0) }
 print("❌ ошибок: \(errors.count)"); errors.prefix(30).forEach { print("  " + $0) }
 exit(1)

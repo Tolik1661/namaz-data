@@ -5,12 +5,15 @@
 независимой астрономией (алгоритм NOAA), без доверия к источнику.
 
 Что ловит:
-  • целостность — все 6 времён, формат, порядок, дубли, пропуски дней;
+  • целостность — все 6 времён, формат (строго 0–23 ч, 00–59 мин), порядок, дубли,
+    пропуски дней;
   • восход / Зухр / Магриб против расчётных восхода, истинного полдня и заката
     (не зависят от метода и мазхаба) — выдают неверные координаты, часовой пояс,
-    летнее время, сдвиг дат в парсере;
+    летнее время, сдвиг дат в парсере. Медиана города и КАЖДЫЙ день по отдельности:
+    опечатка в часе одного дня (05:43 вместо 04:43) медиану не сдвигает;
   • фактические углы Фаджра и Иши, по которым считал источник, — выбросы
-    внутри одного источника указывают на ошибку данных;
+    внутри одного источника указывают на ошибку данных; угол дня, резко
+    отличный от соседних дней того же города, — предупреждение;
   • запас вперёд — сколько дней от сегодня лежит в данных.
 
 Запуск: python3 scripts/audit_timetables.py [--json отчёт.json]
@@ -22,13 +25,29 @@ import collections
 import json
 import math
 import pathlib
+import re
 import statistics
 import sys
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from local_authorities import RAMADAN_UQ  # noqa: E402
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 KEYS = ("fajr", "sunrise", "dhuhr", "asr", "maghrib", "isha")
+# Строго 0–23 ч и 00–59 мин, только ASCII-цифры (\d в Python — любые Unicode-цифры)
+TIME = re.compile(r"^(?:[01]?[0-9]|2[0-3]):[0-5][0-9]$", re.ASCII)
+# Восход / Зухр / Магриб КАЖДОГО дня против астрономии: ERROR при расхождении больше порога.
+# 25 мин с запасом: на данных 23.09.2026 максимум 18,0 мин (bg/byala, восход), ДУМ КБР Зухр 13,6
+DAY_LIMIT_MIN = 25
+# Фаджр / Иша: угол дня против медианы соседних ±3 дней того же города — только WARN.
+# На данных 23.09.2026 максимум 2,6° (Казань 08–09.08, сезонная смена правила ДУМ РТ);
+# опечатка в часе даёт 8° и больше
+NEIGHBOR_DAYS = 3
+NEIGHBOR_ANGLE_LIMIT = 3.0
+# В Рамадан у SA/QA Иша на 30 мин позже (120 мин после Магриба вместо 90) — скачок угла не ошибка
+RAMADAN_COUNTRIES = {"SA", "QA"}
 # Источники, у которых Магриб по методике наступает по углу Солнца под горизонтом
 # (QMİ: 3,5°, ≈15 мин после заката) — для них абсолютный порог Магриба не применяем.
 ANGLE_MAGHRIB_SOURCES = {"QMİ"}
@@ -109,8 +128,44 @@ def sun_altitude(day, minutes_local, lat, lon, offset):
 # ── Проверки ───────────────────────────────────────────────────────────────
 
 def to_min(hhmm):
+    if not isinstance(hhmm, str) or not TIME.fullmatch(hhmm):
+        raise ValueError(f"время {hhmm!r}")
     h, m = hhmm.split(":")
     return int(h) * 60 + int(m)
+
+
+def ramadan_dates(pad=2):
+    """Даты Рамадана по Умм-аль-Кура с запасом ±pad дней (в Катаре начало может отличаться на день)."""
+    days = set()
+    for start, end in RAMADAN_UQ.values():
+        d, last = date.fromisoformat(start) - timedelta(pad), date.fromisoformat(end) + timedelta(pad)
+        while d <= last:
+            days.add(d.isoformat())
+            d += timedelta(1)
+    return frozenset(days)
+
+
+def neighbor_angle_issues(angles, skip=frozenset()):
+    """Дни, где угол Фаджра или Иши отличается от медианы соседних ±NEIGHBOR_DAYS дней
+    больше чем на NEIGHBOR_ANGLE_LIMIT. angles: {дата: (угол Фаджра, угол Иши)}.
+    Возвращает [(дата, "fajr"|"isha", угол дня, медиана соседей)]."""
+    out = []
+    for ds in sorted(angles):
+        if ds in skip:
+            continue
+        day = date.fromisoformat(ds)
+        for j, name in enumerate(("fajr", "isha")):
+            around = []
+            for k in range(-NEIGHBOR_DAYS, NEIGHBOR_DAYS + 1):
+                other = (day + timedelta(k)).isoformat()
+                if k and other in angles and other not in skip:
+                    around.append(angles[other][j])
+            if len(around) < 2:
+                continue
+            med = statistics.median(around)
+            if abs(angles[ds][j] - med) > NEIGHBOR_ANGLE_LIMIT:
+                out.append((ds, name, angles[ds][j], med))
+    return out
 
 
 def audit(today):
@@ -118,6 +173,7 @@ def audit(today):
     issues = []                                  # (уровень, источник, slug, текст)
     per_source = collections.defaultdict(lambda: collections.defaultdict(list))
     per_city = {}
+    ramadan = ramadan_dates()
 
     for city in index["cities"]:
         slug, lat, lon, tz = city["slug"], city["lat"], city["lon"], city["timezone"]
@@ -138,12 +194,14 @@ def audit(today):
                 days[d["date"]] = d
 
         deltas = collections.defaultdict(list)
+        angles = {}                               # дата → (угол Фаджра, угол Иши)
+        angle_maghrib = source.split(" · ")[0] in ANGLE_MAGHRIB_SOURCES
         for ds in sorted(days):
             d = days[ds]
-            day = date.fromisoformat(ds)
             try:
+                day = date.fromisoformat(ds)
                 t = {k: to_min(d[k]) for k in KEYS}
-            except (KeyError, ValueError, AttributeError):
+            except (KeyError, ValueError, AttributeError, TypeError):
                 issues.append(("ERROR", source, slug, f"{ds}: битый формат {d}"))
                 continue
             seq = [t[k] for k in KEYS]
@@ -153,11 +211,25 @@ def audit(today):
             ev, offset = solar_events(day, lat, lon, tz)
             if ev["sunrise"] is None or ev["sunset"] is None:
                 continue                          # полярный день/ночь — сверять нечего
-            deltas["sunrise"].append(t["sunrise"] - ev["sunrise"])
-            deltas["dhuhr"].append(t["dhuhr"] - ev["noon"])
-            deltas["maghrib"].append(t["maghrib"] - ev["sunset"])
-            deltas["fajr_angle"].append(-sun_altitude(day, t["fajr"], lat, lon, offset))
-            deltas["isha_angle"].append(-sun_altitude(day, t["isha"], lat, lon, offset))
+            day_delta = {"sunrise": t["sunrise"] - ev["sunrise"], "dhuhr": t["dhuhr"] - ev["noon"],
+                         "maghrib": t["maghrib"] - ev["sunset"]}
+            for k, v in day_delta.items():
+                deltas[k].append(v)
+                if k == "maghrib" and angle_maghrib:
+                    continue                      # Магриб по углу Солнца — абсолютный порог не применим
+                if abs(v) > DAY_LIMIT_MIN:
+                    issues.append(("ERROR", source, slug,
+                                   f"{ds}: {k} {d[k]} — расхождение с астрономией {v:+.0f} мин"))
+            fajr_angle = -sun_altitude(day, t["fajr"], lat, lon, offset)
+            isha_angle = -sun_altitude(day, t["isha"], lat, lon, offset)
+            deltas["fajr_angle"].append(fajr_angle)
+            deltas["isha_angle"].append(isha_angle)
+            angles[ds] = (fajr_angle, isha_angle)
+
+        skip = ramadan if city["country"] in RAMADAN_COUNTRIES else frozenset()
+        for ds, name, value, med in neighbor_angle_issues(angles, skip):
+            issues.append(("WARN", source, slug,
+                           f"{ds}: {name} {days[ds][name]} — угол {value:.1f}° при {med:.1f}° у соседних дней"))
 
         # пропуски дней внутри диапазона
         all_dates = sorted(days)
@@ -220,7 +292,8 @@ def main():
     ap.add_argument("--json", help="сохранить подробный отчёт")
     ap.add_argument("--today", help="YYYY-MM-DD (по умолчанию сегодня)")
     args = ap.parse_args()
-    today = date.fromisoformat(args.today) if args.today else date.today()
+    # «Сегодня» по UTC — как в build_all и check_schema
+    today = date.fromisoformat(args.today) if args.today else datetime.now(timezone.utc).date()
 
     index, per_city, norm, issues = audit(today)
 

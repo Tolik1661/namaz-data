@@ -274,6 +274,11 @@ def fetch_rt_csv(city, today):
     return out
 
 
+def rt_next_year_missing(official, today):
+    """С 15 декабря: в таблице ДУМ РТ нет дней следующего года (1 января Казань уйдёт на расчёт)."""
+    return today >= date(today.year, 12, 15) and max(official, default="") < f"{today.year + 1}-01-01"
+
+
 def collect_rt(index, failures, today):
     for city in RT_CITIES:
         official = {}
@@ -282,6 +287,12 @@ def collect_rt(index, failures, today):
         except Exception as e:                                        # noqa: BLE001
             print(f"[ERROR] {city['slug']}: ДУМ РТ: {e}", file=sys.stderr)
             failures.append(city["slug"])
+        else:
+            if rt_next_year_missing(official, today):
+                # Ранний алерт; commit всё равно выполнится (шаг «Fail…» идёт после него)
+                print(f"[ERROR] {city['slug']}: в CSV ДУМ РТ нет таблицы на {today.year + 1} год "
+                      f"(последний день {max(official, default='—')})", file=sys.stderr)
+                failures.append(city["slug"])
         # Резервного расчёта нет: летом у ДУМ РТ особые правила (шафак не исчезает) —
         # формулой не воспроизвести; без таблицы месяц не пишем, приложение считает само.
         written = write_horizon(city, today, official, *RT_OFFICIAL, None, None, "hanafi")
