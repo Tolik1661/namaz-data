@@ -8,7 +8,7 @@
  "madhab": "shafi",
  "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
  "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9232/vakitler",
- "updated": "2026-09-24T08:11:55Z",
+ "updated": "2026-09-25T08:34:37Z",
  "year": 2026,
  "month": 10,
  "days": [
@@ -227,6 +227,15 @@
    "asr": "15:54",
    "maghrib": "18:22",
    "isha": "19:36"
+  },
+  {
+   "date": "2026-10-25",
+   "fajr": "05:51",
+   "sunrise": "07:10",
+   "dhuhr": "12:51",
+   "asr": "15:53",
+   "maghrib": "18:21",
+   "isha": "19:35"
   }
  ]
 }
