@@ -1,0 +1,25 @@
+{
+ "city": "Париж",
+ "slug": "fr/paris",
+ "country": "FR",
+ "lat": 48.8566,
+ "lon": 2.3522,
+ "timezone": "Europe/Paris",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/13382/vakitler",
+ "updated": "2026-10-02T09:27:13Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:50",
+   "sunrise": "07:30",
+   "dhuhr": "12:39",
+   "asr": "15:09",
+   "maghrib": "17:38",
+   "isha": "19:06"
+  }
+ ]
+}

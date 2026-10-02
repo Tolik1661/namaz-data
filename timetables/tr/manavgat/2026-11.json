@@ -1,0 +1,25 @@
+{
+ "city": "Манавгат (Сиде)",
+ "slug": "tr/manavgat",
+ "country": "TR",
+ "lat": 36.7869,
+ "lon": 31.4429,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9236/vakitler",
+ "updated": "2026-10-02T09:25:11Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:50",
+   "sunrise": "07:11",
+   "dhuhr": "12:43",
+   "asr": "15:39",
+   "maghrib": "18:05",
+   "isha": "19:21"
+  }
+ ]
+}

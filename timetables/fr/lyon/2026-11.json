@@ -1,0 +1,25 @@
+{
+ "city": "Лион",
+ "slug": "fr/lyon",
+ "country": "FR",
+ "lat": 45.764,
+ "lon": 4.8357,
+ "timezone": "Europe/Paris",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/13381/vakitler",
+ "updated": "2026-10-02T09:27:18Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:39",
+   "sunrise": "07:13",
+   "dhuhr": "12:29",
+   "asr": "15:07",
+   "maghrib": "17:35",
+   "isha": "18:58"
+  }
+ ]
+}

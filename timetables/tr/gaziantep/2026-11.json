@@ -1,0 +1,25 @@
+{
+ "city": "Газиантеп",
+ "slug": "tr/gaziantep",
+ "country": "TR",
+ "lat": 37.0662,
+ "lon": 37.3833,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9479/vakitler",
+ "updated": "2026-10-02T09:25:45Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:27",
+   "sunrise": "06:47",
+   "dhuhr": "12:19",
+   "asr": "15:15",
+   "maghrib": "17:41",
+   "isha": "18:57"
+  }
+ ]
+}

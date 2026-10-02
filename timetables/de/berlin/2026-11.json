@@ -1,0 +1,25 @@
+{
+ "city": "Берлин",
+ "slug": "de/berlin",
+ "country": "DE",
+ "lat": 52.52,
+ "lon": 13.405,
+ "timezone": "Europe/Berlin",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11002/vakitler",
+ "updated": "2026-10-02T09:26:52Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:06",
+   "sunrise": "06:55",
+   "dhuhr": "11:55",
+   "asr": "14:14",
+   "maghrib": "16:45",
+   "isha": "18:21"
+  }
+ ]
+}

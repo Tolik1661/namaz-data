@@ -1,0 +1,25 @@
+{
+ "city": "Каш",
+ "slug": "tr/kas",
+ "country": "TR",
+ "lat": 36.202,
+ "lon": 29.6414,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9232/vakitler",
+ "updated": "2026-10-02T09:25:24Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:57",
+   "sunrise": "07:17",
+   "dhuhr": "12:50",
+   "asr": "15:47",
+   "maghrib": "18:13",
+   "isha": "19:28"
+  }
+ ]
+}

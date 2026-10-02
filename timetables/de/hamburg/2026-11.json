@@ -1,0 +1,25 @@
+{
+ "city": "Гамбург",
+ "slug": "de/hamburg",
+ "country": "DE",
+ "lat": 53.5511,
+ "lon": 9.9937,
+ "timezone": "Europe/Berlin",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11012/vakitler",
+ "updated": "2026-10-02T09:26:56Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:20",
+   "sunrise": "07:12",
+   "dhuhr": "12:09",
+   "asr": "14:24",
+   "maghrib": "16:56",
+   "isha": "18:34"
+  }
+ ]
+}

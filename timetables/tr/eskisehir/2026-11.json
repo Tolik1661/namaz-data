@@ -1,0 +1,25 @@
+{
+ "city": "Эскишехир",
+ "slug": "tr/eskisehir",
+ "country": "TR",
+ "lat": 39.7767,
+ "lon": 30.5206,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9470/vakitler",
+ "updated": "2026-10-02T09:26:06Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:55",
+   "sunrise": "07:19",
+   "dhuhr": "12:47",
+   "asr": "15:37",
+   "maghrib": "18:04",
+   "isha": "19:23"
+  }
+ ]
+}

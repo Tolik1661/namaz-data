@@ -1,0 +1,25 @@
+{
+ "city": "Бурса",
+ "slug": "tr/bursa",
+ "country": "TR",
+ "lat": 40.1885,
+ "lon": 29.061,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9335/vakitler",
+ "updated": "2026-10-02T09:24:54Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:01",
+   "sunrise": "07:26",
+   "dhuhr": "12:52",
+   "asr": "15:42",
+   "maghrib": "18:09",
+   "isha": "19:29"
+  }
+ ]
+}

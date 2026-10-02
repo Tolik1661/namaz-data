@@ -1,0 +1,25 @@
+{
+ "city": "Мерсин",
+ "slug": "tr/mersin",
+ "country": "TR",
+ "lat": 36.8,
+ "lon": 34.6333,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9737/vakitler",
+ "updated": "2026-10-02T09:25:54Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:37",
+   "sunrise": "06:58",
+   "dhuhr": "12:30",
+   "asr": "15:26",
+   "maghrib": "17:52",
+   "isha": "19:08"
+  }
+ ]
+}

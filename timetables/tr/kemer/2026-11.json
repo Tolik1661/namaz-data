@@ -1,0 +1,25 @@
+{
+ "city": "Кемер",
+ "slug": "tr/kemer",
+ "country": "TR",
+ "lat": 36.6023,
+ "lon": 30.5606,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9233/vakitler",
+ "updated": "2026-10-02T09:25:20Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:54",
+   "sunrise": "07:14",
+   "dhuhr": "12:46",
+   "asr": "15:43",
+   "maghrib": "18:09",
+   "isha": "19:24"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Адана",
+ "slug": "tr/adana",
+ "country": "TR",
+ "lat": 37.0,
+ "lon": 35.3213,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9146/vakitler",
+ "updated": "2026-10-02T09:25:41Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:35",
+   "sunrise": "06:55",
+   "dhuhr": "12:27",
+   "asr": "15:23",
+   "maghrib": "17:49",
+   "isha": "19:05"
+  }
+ ]
+}

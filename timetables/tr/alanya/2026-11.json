@@ -1,0 +1,25 @@
+{
+ "city": "Аланья",
+ "slug": "tr/alanya",
+ "country": "TR",
+ "lat": 36.5437,
+ "lon": 31.9998,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9224/vakitler",
+ "updated": "2026-10-02T09:25:07Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:48",
+   "sunrise": "07:08",
+   "dhuhr": "12:41",
+   "asr": "15:37",
+   "maghrib": "18:03",
+   "isha": "19:18"
+  }
+ ]
+}

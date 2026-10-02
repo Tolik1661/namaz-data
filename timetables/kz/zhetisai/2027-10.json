@@ -6,9 +6,9 @@
  "lon": 68.327222,
  "timezone": "Asia/Almaty",
  "madhab": "hanafi",
- "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
- "source_url": "https://github.com/Tolik1661/namaz-data/blob/main/scripts/official_feeds.py",
- "updated": "2026-10-01T09:56:47Z",
+ "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+ "source_url": "https://www.muftyat.kz/ru/namaz_times/",
+ "updated": "2026-10-02T09:29:49Z",
  "year": 2027,
  "month": 10,
  "days": [

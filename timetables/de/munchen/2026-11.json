@@ -1,0 +1,25 @@
+{
+ "city": "Мюнхен",
+ "slug": "de/munchen",
+ "country": "DE",
+ "lat": 48.1351,
+ "lon": 11.582,
+ "timezone": "Europe/Berlin",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11022/vakitler",
+ "updated": "2026-10-02T09:27:00Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:13",
+   "sunrise": "06:51",
+   "dhuhr": "12:02",
+   "asr": "14:34",
+   "maghrib": "17:03",
+   "isha": "18:30"
+  }
+ ]
+}
