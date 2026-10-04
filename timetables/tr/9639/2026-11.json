@@ -1,0 +1,43 @@
+{
+ "city": "Luleburgaz",
+ "slug": "tr/9639",
+ "country": "TR",
+ "lat": 41.4045,
+ "lon": 27.4046,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9639/vakitler",
+ "updated": "2026-10-04T10:57:28Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:08",
+   "sunrise": "07:35",
+   "dhuhr": "12:59",
+   "asr": "15:47",
+   "maghrib": "18:14",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:09",
+   "sunrise": "07:36",
+   "dhuhr": "12:59",
+   "asr": "15:46",
+   "maghrib": "18:12",
+   "isha": "19:34"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:10",
+   "sunrise": "07:37",
+   "dhuhr": "12:59",
+   "asr": "15:45",
+   "maghrib": "18:11",
+   "isha": "19:33"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Ti̇re",
+ "slug": "tr/9568",
+ "country": "TR",
+ "lat": 38.0878,
+ "lon": 27.7142,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9568/vakitler",
+ "updated": "2026-10-04T10:53:28Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:05",
+   "sunrise": "07:28",
+   "dhuhr": "12:58",
+   "asr": "15:51",
+   "maghrib": "18:18",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:06",
+   "sunrise": "07:29",
+   "dhuhr": "12:58",
+   "asr": "15:50",
+   "maghrib": "18:17",
+   "isha": "19:34"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:07",
+   "sunrise": "07:30",
+   "dhuhr": "12:58",
+   "asr": "15:50",
+   "maghrib": "18:16",
+   "isha": "19:33"
+  }
+ ]
+}

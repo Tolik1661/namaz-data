@@ -1,0 +1,43 @@
+{
+ "city": "Dereli̇",
+ "slug": "tr/9490",
+ "country": "TR",
+ "lat": 40.6314,
+ "lon": 38.3595,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9490/vakitler",
+ "updated": "2026-10-04T10:48:36Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:24",
+   "sunrise": "06:49",
+   "dhuhr": "12:15",
+   "asr": "15:03",
+   "maghrib": "17:31",
+   "isha": "18:51"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:25",
+   "sunrise": "06:50",
+   "dhuhr": "12:15",
+   "asr": "15:03",
+   "maghrib": "17:29",
+   "isha": "18:50"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:26",
+   "sunrise": "06:51",
+   "dhuhr": "12:15",
+   "asr": "15:02",
+   "maghrib": "17:28",
+   "isha": "18:49"
+  }
+ ]
+}

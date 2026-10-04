@@ -1,0 +1,43 @@
+{
+ "city": "Aladağ",
+ "slug": "tr/9147",
+ "country": "TR",
+ "lat": 37.5163,
+ "lon": 35.3099,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9147/vakitler",
+ "updated": "2026-10-04T10:29:46Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:35",
+   "sunrise": "06:56",
+   "dhuhr": "12:27",
+   "asr": "15:22",
+   "maghrib": "17:48",
+   "isha": "19:04"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:36",
+   "sunrise": "06:57",
+   "dhuhr": "12:27",
+   "asr": "15:21",
+   "maghrib": "17:47",
+   "isha": "19:03"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:36",
+   "sunrise": "06:58",
+   "dhuhr": "12:27",
+   "asr": "15:20",
+   "maghrib": "17:46",
+   "isha": "19:03"
+  }
+ ]
+}

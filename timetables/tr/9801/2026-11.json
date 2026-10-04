@@ -1,0 +1,43 @@
+{
+ "city": "Geyve",
+ "slug": "tr/9801",
+ "country": "TR",
+ "lat": 40.4996,
+ "lon": 30.3064,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9801/vakitler",
+ "updated": "2026-10-04T11:06:55Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:56",
+   "sunrise": "07:21",
+   "dhuhr": "12:47",
+   "asr": "15:37",
+   "maghrib": "18:04",
+   "isha": "19:24"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:57",
+   "sunrise": "07:23",
+   "dhuhr": "12:47",
+   "asr": "15:36",
+   "maghrib": "18:02",
+   "isha": "19:22"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:58",
+   "sunrise": "07:24",
+   "dhuhr": "12:47",
+   "asr": "15:35",
+   "maghrib": "18:01",
+   "isha": "19:21"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Bi̇tli̇s",
+ "slug": "tr/9311",
+ "country": "TR",
+ "lat": 38.4003,
+ "lon": 42.1097,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9311/vakitler",
+ "updated": "2026-10-04T11:16:05Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:08",
+   "sunrise": "06:31",
+   "dhuhr": "12:00",
+   "asr": "14:53",
+   "maghrib": "17:20",
+   "isha": "18:37"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:09",
+   "sunrise": "06:32",
+   "dhuhr": "12:00",
+   "asr": "14:52",
+   "maghrib": "17:19",
+   "isha": "18:36"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:10",
+   "sunrise": "06:33",
+   "dhuhr": "12:00",
+   "asr": "14:52",
+   "maghrib": "17:18",
+   "isha": "18:35"
+  }
+ ]
+}

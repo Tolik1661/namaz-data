@@ -1,0 +1,43 @@
+{
+ "city": "Aralik",
+ "slug": "tr/9521",
+ "country": "TR",
+ "lat": 39.816,
+ "lon": 44.551,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9521/vakitler",
+ "updated": "2026-10-04T10:50:37Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "04:59",
+   "sunrise": "06:23",
+   "dhuhr": "11:51",
+   "asr": "14:41",
+   "maghrib": "17:08",
+   "isha": "18:27"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:00",
+   "sunrise": "06:25",
+   "dhuhr": "11:51",
+   "asr": "14:40",
+   "maghrib": "17:07",
+   "isha": "18:26"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:01",
+   "sunrise": "06:26",
+   "dhuhr": "11:51",
+   "asr": "14:39",
+   "maghrib": "17:05",
+   "isha": "18:25"
+  }
+ ]
+}

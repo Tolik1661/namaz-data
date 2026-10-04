@@ -1,0 +1,43 @@
+{
+ "city": "Nurdaği",
+ "slug": "tr/9483",
+ "country": "TR",
+ "lat": 37.1708,
+ "lon": 36.8457,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9483/vakitler",
+ "updated": "2026-10-04T10:48:09Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:29",
+   "sunrise": "06:50",
+   "dhuhr": "12:22",
+   "asr": "15:17",
+   "maghrib": "17:43",
+   "isha": "18:59"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:30",
+   "sunrise": "06:51",
+   "dhuhr": "12:22",
+   "asr": "15:16",
+   "maghrib": "17:42",
+   "isha": "18:58"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:31",
+   "sunrise": "06:52",
+   "dhuhr": "12:22",
+   "asr": "15:15",
+   "maghrib": "17:41",
+   "isha": "18:57"
+  }
+ ]
+}

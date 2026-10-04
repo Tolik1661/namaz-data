@@ -1,0 +1,43 @@
+{
+ "city": "Gülnar",
+ "slug": "tr/9736",
+ "country": "TR",
+ "lat": 36.3514,
+ "lon": 33.3221,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9736/vakitler",
+ "updated": "2026-10-04T11:03:25Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:42",
+   "sunrise": "07:02",
+   "dhuhr": "12:35",
+   "asr": "15:32",
+   "maghrib": "17:58",
+   "isha": "19:13"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:43",
+   "sunrise": "07:03",
+   "dhuhr": "12:35",
+   "asr": "15:31",
+   "maghrib": "17:57",
+   "isha": "19:12"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:44",
+   "sunrise": "07:04",
+   "dhuhr": "12:35",
+   "asr": "15:30",
+   "maghrib": "17:56",
+   "isha": "19:11"
+  }
+ ]
+}

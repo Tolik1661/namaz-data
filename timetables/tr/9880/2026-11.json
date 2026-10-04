@@ -1,0 +1,43 @@
+{
+ "city": "Almus",
+ "slug": "tr/9880",
+ "country": "TR",
+ "lat": 40.3153,
+ "lon": 37.109,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9880/vakitler",
+ "updated": "2026-10-04T11:11:17Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:30",
+   "sunrise": "06:55",
+   "dhuhr": "12:21",
+   "asr": "15:10",
+   "maghrib": "17:37",
+   "isha": "18:57"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:31",
+   "sunrise": "06:56",
+   "dhuhr": "12:21",
+   "asr": "15:09",
+   "maghrib": "17:36",
+   "isha": "18:56"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:32",
+   "sunrise": "06:57",
+   "dhuhr": "12:21",
+   "asr": "15:08",
+   "maghrib": "17:35",
+   "isha": "18:55"
+  }
+ ]
+}

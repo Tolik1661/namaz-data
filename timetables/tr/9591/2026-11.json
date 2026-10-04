@@ -1,0 +1,43 @@
+{
+ "city": "Arpaçay",
+ "slug": "tr/9591",
+ "country": "TR",
+ "lat": 40.8888,
+ "lon": 43.3288,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9591/vakitler",
+ "updated": "2026-10-04T10:54:41Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:04",
+   "sunrise": "06:30",
+   "dhuhr": "11:55",
+   "asr": "14:44",
+   "maghrib": "17:11",
+   "isha": "18:31"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:05",
+   "sunrise": "06:31",
+   "dhuhr": "11:55",
+   "asr": "14:43",
+   "maghrib": "17:10",
+   "isha": "18:30"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:06",
+   "sunrise": "06:32",
+   "dhuhr": "11:55",
+   "asr": "14:42",
+   "maghrib": "17:08",
+   "isha": "18:29"
+  }
+ ]
+}

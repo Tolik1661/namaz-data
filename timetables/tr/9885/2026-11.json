@@ -1,0 +1,43 @@
+{
+ "city": "Reşadi̇ye",
+ "slug": "tr/9885",
+ "country": "TR",
+ "lat": 40.4202,
+ "lon": 37.3916,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9885/vakitler",
+ "updated": "2026-10-04T11:11:35Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:28",
+   "sunrise": "06:53",
+   "dhuhr": "12:19",
+   "asr": "15:09",
+   "maghrib": "17:36",
+   "isha": "18:55"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:29",
+   "sunrise": "06:54",
+   "dhuhr": "12:19",
+   "asr": "15:08",
+   "maghrib": "17:34",
+   "isha": "18:54"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:30",
+   "sunrise": "06:55",
+   "dhuhr": "12:19",
+   "asr": "15:07",
+   "maghrib": "17:33",
+   "isha": "18:53"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "İmranli",
+ "slug": "tr/9864",
+ "country": "TR",
+ "lat": 39.7781,
+ "lon": 38.2003,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9864/vakitler",
+ "updated": "2026-10-04T11:10:19Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:25",
+   "sunrise": "06:49",
+   "dhuhr": "12:16",
+   "asr": "15:07",
+   "maghrib": "17:33",
+   "isha": "18:53"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:26",
+   "sunrise": "06:50",
+   "dhuhr": "12:16",
+   "asr": "15:06",
+   "maghrib": "17:32",
+   "isha": "18:51"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:27",
+   "sunrise": "06:51",
+   "dhuhr": "12:16",
+   "asr": "15:05",
+   "maghrib": "17:31",
+   "isha": "18:50"
+  }
+ ]
+}

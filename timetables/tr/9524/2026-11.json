@@ -1,0 +1,43 @@
+{
+ "city": "Tuzluca",
+ "slug": "tr/9524",
+ "country": "TR",
+ "lat": 39.9513,
+ "lon": 43.5466,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9524/vakitler",
+ "updated": "2026-10-04T10:50:45Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:03",
+   "sunrise": "06:27",
+   "dhuhr": "11:54",
+   "asr": "14:44",
+   "maghrib": "17:11",
+   "isha": "18:30"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:04",
+   "sunrise": "06:28",
+   "dhuhr": "11:54",
+   "asr": "14:43",
+   "maghrib": "17:10",
+   "isha": "18:29"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:05",
+   "sunrise": "06:29",
+   "dhuhr": "11:54",
+   "asr": "14:42",
+   "maghrib": "17:09",
+   "isha": "18:28"
+  }
+ ]
+}

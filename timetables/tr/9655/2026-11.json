@@ -1,0 +1,43 @@
+{
+ "city": "Körfez",
+ "slug": "tr/9655",
+ "country": "TR",
+ "lat": 40.891,
+ "lon": 29.7186,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9655/vakitler",
+ "updated": "2026-10-04T10:58:26Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:58",
+   "sunrise": "07:24",
+   "dhuhr": "12:49",
+   "asr": "15:38",
+   "maghrib": "18:05",
+   "isha": "19:25"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:59",
+   "sunrise": "07:25",
+   "dhuhr": "12:49",
+   "asr": "15:37",
+   "maghrib": "18:04",
+   "isha": "19:24"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:00",
+   "sunrise": "07:26",
+   "dhuhr": "12:49",
+   "asr": "15:36",
+   "maghrib": "18:03",
+   "isha": "19:23"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Taşliçay",
+ "slug": "tr/9190",
+ "country": "TR",
+ "lat": 39.5996,
+ "lon": 43.3997,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9190/vakitler",
+ "updated": "2026-10-04T10:32:16Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:03",
+   "sunrise": "06:28",
+   "dhuhr": "11:55",
+   "asr": "14:46",
+   "maghrib": "17:13",
+   "isha": "18:32"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:04",
+   "sunrise": "06:29",
+   "dhuhr": "11:55",
+   "asr": "14:45",
+   "maghrib": "17:12",
+   "isha": "18:31"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:05",
+   "sunrise": "06:30",
+   "dhuhr": "11:55",
+   "asr": "14:44",
+   "maghrib": "17:10",
+   "isha": "18:30"
+  }
+ ]
+}

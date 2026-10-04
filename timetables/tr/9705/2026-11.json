@@ -1,0 +1,43 @@
+{
+ "city": "Yazihan",
+ "slug": "tr/9705",
+ "country": "TR",
+ "lat": 38.6072,
+ "lon": 38.1786,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9705/vakitler",
+ "updated": "2026-10-04T11:01:39Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:24",
+   "sunrise": "06:47",
+   "dhuhr": "12:16",
+   "asr": "15:09",
+   "maghrib": "17:35",
+   "isha": "18:53"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:25",
+   "sunrise": "06:48",
+   "dhuhr": "12:16",
+   "asr": "15:08",
+   "maghrib": "17:34",
+   "isha": "18:52"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:26",
+   "sunrise": "06:49",
+   "dhuhr": "12:16",
+   "asr": "15:07",
+   "maghrib": "17:33",
+   "isha": "18:51"
+  }
+ ]
+}

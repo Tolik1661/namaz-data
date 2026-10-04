@@ -1,0 +1,43 @@
+{
+ "city": "Şavşat",
+ "slug": "tr/9250",
+ "country": "TR",
+ "lat": 41.3021,
+ "lon": 42.3322,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9250/vakitler",
+ "updated": "2026-10-04T10:35:12Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:08",
+   "sunrise": "06:34",
+   "dhuhr": "11:59",
+   "asr": "14:47",
+   "maghrib": "17:14",
+   "isha": "18:35"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:09",
+   "sunrise": "06:36",
+   "dhuhr": "11:59",
+   "asr": "14:46",
+   "maghrib": "17:13",
+   "isha": "18:34"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:10",
+   "sunrise": "06:37",
+   "dhuhr": "11:59",
+   "asr": "14:45",
+   "maghrib": "17:12",
+   "isha": "18:33"
+  }
+ ]
+}

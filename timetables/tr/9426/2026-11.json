@@ -1,0 +1,43 @@
+{
+ "city": "Süloğlu",
+ "slug": "tr/9426",
+ "country": "TR",
+ "lat": 41.7666,
+ "lon": 26.8947,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9426/vakitler",
+ "updated": "2026-10-04T10:44:45Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:10",
+   "sunrise": "07:37",
+   "dhuhr": "13:01",
+   "asr": "15:48",
+   "maghrib": "18:15",
+   "isha": "19:37"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:11",
+   "sunrise": "07:38",
+   "dhuhr": "13:01",
+   "asr": "15:47",
+   "maghrib": "18:14",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:12",
+   "sunrise": "07:40",
+   "dhuhr": "13:01",
+   "asr": "15:46",
+   "maghrib": "18:12",
+   "isha": "19:34"
+  }
+ ]
+}

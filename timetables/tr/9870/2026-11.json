@@ -1,0 +1,43 @@
+{
+ "city": "Yildizeli̇",
+ "slug": "tr/9870",
+ "country": "TR",
+ "lat": 39.9013,
+ "lon": 36.5141,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9870/vakitler",
+ "updated": "2026-10-04T11:10:42Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:31",
+   "sunrise": "06:55",
+   "dhuhr": "12:22",
+   "asr": "15:13",
+   "maghrib": "17:39",
+   "isha": "18:59"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:32",
+   "sunrise": "06:56",
+   "dhuhr": "12:22",
+   "asr": "15:12",
+   "maghrib": "17:38",
+   "isha": "18:58"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:33",
+   "sunrise": "06:57",
+   "dhuhr": "12:22",
+   "asr": "15:11",
+   "maghrib": "17:37",
+   "isha": "18:57"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Şarkişla",
+ "slug": "tr/9867",
+ "country": "TR",
+ "lat": 39.391,
+ "lon": 36.3671,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9867/vakitler",
+ "updated": "2026-10-04T11:10:30Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:31",
+   "sunrise": "06:55",
+   "dhuhr": "12:23",
+   "asr": "15:14",
+   "maghrib": "17:41",
+   "isha": "19:00"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:32",
+   "sunrise": "06:56",
+   "dhuhr": "12:23",
+   "asr": "15:13",
+   "maghrib": "17:40",
+   "isha": "18:59"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:33",
+   "sunrise": "06:57",
+   "dhuhr": "12:23",
+   "asr": "15:13",
+   "maghrib": "17:39",
+   "isha": "18:58"
+  }
+ ]
+}

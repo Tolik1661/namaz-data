@@ -1,0 +1,43 @@
+{
+ "city": "Hi̇sarcik",
+ "slug": "tr/9688",
+ "country": "TR",
+ "lat": 39.2075,
+ "lon": 29.2376,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9688/vakitler",
+ "updated": "2026-10-04T11:00:47Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:00",
+   "sunrise": "07:23",
+   "dhuhr": "12:52",
+   "asr": "15:43",
+   "maghrib": "18:10",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:01",
+   "sunrise": "07:25",
+   "dhuhr": "12:52",
+   "asr": "15:42",
+   "maghrib": "18:09",
+   "isha": "19:27"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:02",
+   "sunrise": "07:26",
+   "dhuhr": "12:52",
+   "asr": "15:41",
+   "maghrib": "18:08",
+   "isha": "19:26"
+  }
+ ]
+}

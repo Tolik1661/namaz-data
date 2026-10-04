@@ -1,0 +1,43 @@
+{
+ "city": "Karaman",
+ "slug": "tr/9587",
+ "country": "TR",
+ "lat": 37.1808,
+ "lon": 33.2227,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9587/vakitler",
+ "updated": "2026-10-04T11:17:05Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:43",
+   "sunrise": "07:04",
+   "dhuhr": "12:36",
+   "asr": "15:31",
+   "maghrib": "17:57",
+   "isha": "19:13"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:44",
+   "sunrise": "07:05",
+   "dhuhr": "12:36",
+   "asr": "15:30",
+   "maghrib": "17:56",
+   "isha": "19:12"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:45",
+   "sunrise": "07:06",
+   "dhuhr": "12:36",
+   "asr": "15:29",
+   "maghrib": "17:55",
+   "isha": "19:11"
+  }
+ ]
+}

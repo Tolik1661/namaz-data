@@ -1,0 +1,43 @@
+{
+ "city": "Babaeski̇",
+ "slug": "tr/17903",
+ "country": "TR",
+ "lat": 41.4456,
+ "lon": 27.0873,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17903/vakitler",
+ "updated": "2026-10-04T10:57:21Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:09",
+   "sunrise": "07:36",
+   "dhuhr": "13:00",
+   "asr": "15:48",
+   "maghrib": "18:15",
+   "isha": "19:36"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:10",
+   "sunrise": "07:37",
+   "dhuhr": "13:00",
+   "asr": "15:47",
+   "maghrib": "18:13",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:11",
+   "sunrise": "07:38",
+   "dhuhr": "13:00",
+   "asr": "15:46",
+   "maghrib": "18:12",
+   "isha": "19:34"
+  }
+ ]
+}

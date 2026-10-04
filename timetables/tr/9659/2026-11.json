@@ -1,0 +1,43 @@
+{
+ "city": "Altineki̇n",
+ "slug": "tr/9659",
+ "country": "TR",
+ "lat": 38.3139,
+ "lon": 32.9199,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9659/vakitler",
+ "updated": "2026-10-04T10:58:41Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:45",
+   "sunrise": "07:07",
+   "dhuhr": "12:37",
+   "asr": "15:30",
+   "maghrib": "17:57",
+   "isha": "19:14"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:46",
+   "sunrise": "07:08",
+   "dhuhr": "12:37",
+   "asr": "15:30",
+   "maghrib": "17:56",
+   "isha": "19:13"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:47",
+   "sunrise": "07:10",
+   "dhuhr": "12:37",
+   "asr": "15:29",
+   "maghrib": "17:55",
+   "isha": "19:12"
+  }
+ ]
+}

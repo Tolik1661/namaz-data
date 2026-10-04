@@ -1,0 +1,43 @@
+{
+ "city": "Çildir",
+ "slug": "tr/9239",
+ "country": "TR",
+ "lat": 41.1799,
+ "lon": 43.1954,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9239/vakitler",
+ "updated": "2026-10-04T10:34:35Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:05",
+   "sunrise": "06:31",
+   "dhuhr": "11:56",
+   "asr": "14:44",
+   "maghrib": "17:11",
+   "isha": "18:32"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:06",
+   "sunrise": "06:32",
+   "dhuhr": "11:56",
+   "asr": "14:43",
+   "maghrib": "17:10",
+   "isha": "18:31"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:07",
+   "sunrise": "06:33",
+   "dhuhr": "11:56",
+   "asr": "14:42",
+   "maghrib": "17:09",
+   "isha": "18:30"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Aydin",
+ "slug": "tr/9252",
+ "country": "TR",
+ "lat": 37.8377,
+ "lon": 27.8457,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9252/vakitler",
+ "updated": "2026-10-04T11:15:43Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:05",
+   "sunrise": "07:27",
+   "dhuhr": "12:57",
+   "asr": "15:51",
+   "maghrib": "18:18",
+   "isha": "19:34"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:06",
+   "sunrise": "07:28",
+   "dhuhr": "12:57",
+   "asr": "15:50",
+   "maghrib": "18:17",
+   "isha": "19:34"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:07",
+   "sunrise": "07:29",
+   "dhuhr": "12:57",
+   "asr": "15:50",
+   "maghrib": "18:16",
+   "isha": "19:33"
+  }
+ ]
+}

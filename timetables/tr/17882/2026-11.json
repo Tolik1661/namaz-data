@@ -1,0 +1,43 @@
+{
+ "city": "Ezi̇ne",
+ "slug": "tr/17882",
+ "country": "TR",
+ "lat": 39.802,
+ "lon": 26.3199,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17882/vakitler",
+ "updated": "2026-10-04T10:40:38Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:12",
+   "sunrise": "07:36",
+   "dhuhr": "13:03",
+   "asr": "15:54",
+   "maghrib": "18:21",
+   "isha": "19:40"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:13",
+   "sunrise": "07:37",
+   "dhuhr": "13:03",
+   "asr": "15:53",
+   "maghrib": "18:19",
+   "isha": "19:39"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:14",
+   "sunrise": "07:38",
+   "dhuhr": "13:03",
+   "asr": "15:52",
+   "maghrib": "18:18",
+   "isha": "19:38"
+  }
+ ]
+}

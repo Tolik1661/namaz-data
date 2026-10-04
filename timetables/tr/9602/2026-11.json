@@ -1,0 +1,43 @@
+{
+ "city": "Çatalzeyti̇n",
+ "slug": "tr/9602",
+ "country": "TR",
+ "lat": 41.8514,
+ "lon": 34.1913,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9602/vakitler",
+ "updated": "2026-10-04T10:55:18Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:41",
+   "sunrise": "07:08",
+   "dhuhr": "12:32",
+   "asr": "15:18",
+   "maghrib": "17:45",
+   "isha": "19:07"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:42",
+   "sunrise": "07:09",
+   "dhuhr": "12:32",
+   "asr": "15:17",
+   "maghrib": "17:44",
+   "isha": "19:06"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:43",
+   "sunrise": "07:11",
+   "dhuhr": "12:32",
+   "asr": "15:16",
+   "maghrib": "17:43",
+   "isha": "19:05"
+  }
+ ]
+}

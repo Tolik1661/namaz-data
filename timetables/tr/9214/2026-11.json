@@ -1,0 +1,43 @@
+{
+ "city": "Güdül",
+ "slug": "tr/9214",
+ "country": "TR",
+ "lat": 40.1598,
+ "lon": 32.2293,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9214/vakitler",
+ "updated": "2026-10-04T10:33:34Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:48",
+   "sunrise": "07:13",
+   "dhuhr": "12:40",
+   "asr": "15:29",
+   "maghrib": "17:56",
+   "isha": "19:16"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:49",
+   "sunrise": "07:14",
+   "dhuhr": "12:40",
+   "asr": "15:28",
+   "maghrib": "17:55",
+   "isha": "19:15"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:50",
+   "sunrise": "07:15",
+   "dhuhr": "12:40",
+   "asr": "15:28",
+   "maghrib": "17:54",
+   "isha": "19:14"
+  }
+ ]
+}

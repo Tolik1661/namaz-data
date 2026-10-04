@@ -1,0 +1,43 @@
+{
+ "city": "Başçi̇ftli̇k",
+ "slug": "tr/9882",
+ "country": "TR",
+ "lat": 40.5222,
+ "lon": 37.1309,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9882/vakitler",
+ "updated": "2026-10-04T11:11:25Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:29",
+   "sunrise": "06:54",
+   "dhuhr": "12:20",
+   "asr": "15:09",
+   "maghrib": "17:36",
+   "isha": "18:56"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:30",
+   "sunrise": "06:55",
+   "dhuhr": "12:20",
+   "asr": "15:08",
+   "maghrib": "17:35",
+   "isha": "18:55"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:31",
+   "sunrise": "06:56",
+   "dhuhr": "12:20",
+   "asr": "15:07",
+   "maghrib": "17:34",
+   "isha": "18:54"
+  }
+ ]
+}

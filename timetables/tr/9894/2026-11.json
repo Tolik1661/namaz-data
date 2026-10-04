@@ -1,0 +1,43 @@
+{
+ "city": "Beşi̇kdüzü",
+ "slug": "tr/9894",
+ "country": "TR",
+ "lat": 41.0148,
+ "lon": 39.1931,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9894/vakitler",
+ "updated": "2026-10-04T11:12:03Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:21",
+   "sunrise": "06:47",
+   "dhuhr": "12:12",
+   "asr": "15:00",
+   "maghrib": "17:27",
+   "isha": "18:48"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:22",
+   "sunrise": "06:48",
+   "dhuhr": "12:12",
+   "asr": "14:59",
+   "maghrib": "17:26",
+   "isha": "18:46"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:23",
+   "sunrise": "06:49",
+   "dhuhr": "12:12",
+   "asr": "14:58",
+   "maghrib": "17:24",
+   "isha": "18:45"
+  }
+ ]
+}

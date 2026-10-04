@@ -1,0 +1,43 @@
+{
+ "city": "Alaçam",
+ "slug": "tr/9810",
+ "country": "TR",
+ "lat": 41.4706,
+ "lon": 35.5913,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9810/vakitler",
+ "updated": "2026-10-04T11:07:20Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:35",
+   "sunrise": "07:02",
+   "dhuhr": "12:26",
+   "asr": "15:13",
+   "maghrib": "17:40",
+   "isha": "19:02"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:36",
+   "sunrise": "07:03",
+   "dhuhr": "12:26",
+   "asr": "15:12",
+   "maghrib": "17:39",
+   "isha": "19:01"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:37",
+   "sunrise": "07:05",
+   "dhuhr": "12:26",
+   "asr": "15:11",
+   "maghrib": "17:38",
+   "isha": "19:00"
+  }
+ ]
+}

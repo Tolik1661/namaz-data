@@ -1,0 +1,43 @@
+{
+ "city": "Karacasu",
+ "slug": "tr/9259",
+ "country": "TR",
+ "lat": 37.7017,
+ "lon": 28.6838,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9259/vakitler",
+ "updated": "2026-10-04T10:35:40Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:02",
+   "sunrise": "07:23",
+   "dhuhr": "12:54",
+   "asr": "15:49",
+   "maghrib": "18:15",
+   "isha": "19:32"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:03",
+   "sunrise": "07:25",
+   "dhuhr": "12:54",
+   "asr": "15:48",
+   "maghrib": "18:14",
+   "isha": "19:31"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:04",
+   "sunrise": "07:26",
+   "dhuhr": "12:54",
+   "asr": "15:47",
+   "maghrib": "18:13",
+   "isha": "19:30"
+  }
+ ]
+}

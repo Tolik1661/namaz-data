@@ -1,0 +1,43 @@
+{
+ "city": "Kizilirmak",
+ "slug": "tr/9362",
+ "country": "TR",
+ "lat": 40.3889,
+ "lon": 33.9835,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9362/vakitler",
+ "updated": "2026-10-04T10:41:09Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:41",
+   "sunrise": "07:06",
+   "dhuhr": "12:33",
+   "asr": "15:22",
+   "maghrib": "17:49",
+   "isha": "19:09"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:42",
+   "sunrise": "07:07",
+   "dhuhr": "12:33",
+   "asr": "15:21",
+   "maghrib": "17:48",
+   "isha": "19:08"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:43",
+   "sunrise": "07:09",
+   "dhuhr": "12:33",
+   "asr": "15:20",
+   "maghrib": "17:47",
+   "isha": "19:07"
+  }
+ ]
+}

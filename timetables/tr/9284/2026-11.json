@@ -1,0 +1,43 @@
+{
+ "city": "Susurluk",
+ "slug": "tr/9284",
+ "country": "TR",
+ "lat": 39.9457,
+ "lon": 28.2132,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9284/vakitler",
+ "updated": "2026-10-04T10:37:08Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:04",
+   "sunrise": "07:29",
+   "dhuhr": "12:56",
+   "asr": "15:46",
+   "maghrib": "18:13",
+   "isha": "19:32"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:05",
+   "sunrise": "07:30",
+   "dhuhr": "12:56",
+   "asr": "15:45",
+   "maghrib": "18:12",
+   "isha": "19:31"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:06",
+   "sunrise": "07:31",
+   "dhuhr": "12:56",
+   "asr": "15:44",
+   "maghrib": "18:11",
+   "isha": "19:30"
+  }
+ ]
+}

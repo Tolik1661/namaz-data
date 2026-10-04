@@ -1,0 +1,43 @@
+{
+ "city": "Sungurlu",
+ "slug": "tr/9379",
+ "country": "TR",
+ "lat": 40.2113,
+ "lon": 34.3266,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9379/vakitler",
+ "updated": "2026-10-04T10:42:03Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:40",
+   "sunrise": "07:04",
+   "dhuhr": "12:31",
+   "asr": "15:21",
+   "maghrib": "17:48",
+   "isha": "19:07"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:41",
+   "sunrise": "07:06",
+   "dhuhr": "12:31",
+   "asr": "15:20",
+   "maghrib": "17:47",
+   "isha": "19:06"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:42",
+   "sunrise": "07:07",
+   "dhuhr": "12:31",
+   "asr": "15:19",
+   "maghrib": "17:45",
+   "isha": "19:05"
+  }
+ ]
+}

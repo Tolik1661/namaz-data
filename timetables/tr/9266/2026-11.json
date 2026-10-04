@@ -1,0 +1,43 @@
+{
+ "city": "Söke",
+ "slug": "tr/9266",
+ "country": "TR",
+ "lat": 37.6742,
+ "lon": 27.3698,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9266/vakitler",
+ "updated": "2026-10-04T10:36:05Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:07",
+   "sunrise": "07:28",
+   "dhuhr": "12:59",
+   "asr": "15:53",
+   "maghrib": "18:20",
+   "isha": "19:36"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:08",
+   "sunrise": "07:29",
+   "dhuhr": "12:59",
+   "asr": "15:52",
+   "maghrib": "18:19",
+   "isha": "19:35"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:08",
+   "sunrise": "07:30",
+   "dhuhr": "12:59",
+   "asr": "15:52",
+   "maghrib": "18:18",
+   "isha": "19:34"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Ardahan",
+ "slug": "tr/9238",
+ "country": "TR",
+ "lat": 41.1132,
+ "lon": 42.7024,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9238/vakitler",
+ "updated": "2026-10-04T11:15:35Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:07",
+   "sunrise": "06:33",
+   "dhuhr": "11:58",
+   "asr": "14:46",
+   "maghrib": "17:13",
+   "isha": "18:34"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:08",
+   "sunrise": "06:34",
+   "dhuhr": "11:58",
+   "asr": "14:45",
+   "maghrib": "17:12",
+   "isha": "18:33"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:09",
+   "sunrise": "06:35",
+   "dhuhr": "11:58",
+   "asr": "14:44",
+   "maghrib": "17:10",
+   "isha": "18:31"
+  }
+ ]
+}

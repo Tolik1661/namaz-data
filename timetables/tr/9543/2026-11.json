@@ -1,0 +1,43 @@
+{
+ "city": "Küçükçekmece",
+ "slug": "tr/9543",
+ "country": "TR",
+ "lat": 41.0206,
+ "lon": 28.7805,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9543/vakitler",
+ "updated": "2026-10-04T10:51:53Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:02",
+   "sunrise": "07:28",
+   "dhuhr": "12:53",
+   "asr": "15:42",
+   "maghrib": "18:09",
+   "isha": "19:29"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:03",
+   "sunrise": "07:29",
+   "dhuhr": "12:53",
+   "asr": "15:41",
+   "maghrib": "18:07",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:04",
+   "sunrise": "07:31",
+   "dhuhr": "12:53",
+   "asr": "15:40",
+   "maghrib": "18:06",
+   "isha": "19:27"
+  }
+ ]
+}

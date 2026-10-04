@@ -1,0 +1,43 @@
+{
+ "city": "Arsi̇n",
+ "slug": "tr/9893",
+ "country": "TR",
+ "lat": 40.8451,
+ "lon": 39.927,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9893/vakitler",
+ "updated": "2026-10-04T11:12:00Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:18",
+   "sunrise": "06:44",
+   "dhuhr": "12:09",
+   "asr": "14:57",
+   "maghrib": "17:24",
+   "isha": "18:45"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:19",
+   "sunrise": "06:45",
+   "dhuhr": "12:09",
+   "asr": "14:56",
+   "maghrib": "17:23",
+   "isha": "18:44"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:20",
+   "sunrise": "06:46",
+   "dhuhr": "12:09",
+   "asr": "14:55",
+   "maghrib": "17:22",
+   "isha": "18:43"
+  }
+ ]
+}

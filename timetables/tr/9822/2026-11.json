@@ -1,0 +1,43 @@
+{
+ "city": "Vezi̇rköprü",
+ "slug": "tr/9822",
+ "country": "TR",
+ "lat": 41.1831,
+ "lon": 35.2789,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9822/vakitler",
+ "updated": "2026-10-04T11:07:59Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:36",
+   "sunrise": "07:02",
+   "dhuhr": "12:27",
+   "asr": "15:15",
+   "maghrib": "17:42",
+   "isha": "19:03"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:37",
+   "sunrise": "07:03",
+   "dhuhr": "12:27",
+   "asr": "15:14",
+   "maghrib": "17:41",
+   "isha": "19:01"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:38",
+   "sunrise": "07:04",
+   "dhuhr": "12:27",
+   "asr": "15:13",
+   "maghrib": "17:39",
+   "isha": "19:00"
+  }
+ ]
+}

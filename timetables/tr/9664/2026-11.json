@@ -1,0 +1,43 @@
+{
+ "city": "Çumra",
+ "slug": "tr/9664",
+ "country": "TR",
+ "lat": 37.5191,
+ "lon": 32.8112,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9664/vakitler",
+ "updated": "2026-10-04T10:59:01Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:45",
+   "sunrise": "07:07",
+   "dhuhr": "12:37",
+   "asr": "15:32",
+   "maghrib": "17:59",
+   "isha": "19:15"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:46",
+   "sunrise": "07:08",
+   "dhuhr": "12:37",
+   "asr": "15:31",
+   "maghrib": "17:57",
+   "isha": "19:14"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:47",
+   "sunrise": "07:09",
+   "dhuhr": "12:37",
+   "asr": "15:30",
+   "maghrib": "17:56",
+   "isha": "19:13"
+  }
+ ]
+}

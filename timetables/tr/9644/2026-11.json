@@ -1,0 +1,43 @@
+{
+ "city": "Cicekdagi",
+ "slug": "tr/9644",
+ "country": "TR",
+ "lat": 39.5721,
+ "lon": 34.3574,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9644/vakitler",
+ "updated": "2026-10-04T10:57:50Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:39",
+   "sunrise": "07:03",
+   "dhuhr": "12:31",
+   "asr": "15:22",
+   "maghrib": "17:49",
+   "isha": "19:07"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:40",
+   "sunrise": "07:04",
+   "dhuhr": "12:31",
+   "asr": "15:21",
+   "maghrib": "17:47",
+   "isha": "19:06"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:41",
+   "sunrise": "07:06",
+   "dhuhr": "12:31",
+   "asr": "15:20",
+   "maghrib": "17:46",
+   "isha": "19:05"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Termal",
+ "slug": "tr/9934",
+ "country": "TR",
+ "lat": 40.5967,
+ "lon": 29.1921,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9934/vakitler",
+ "updated": "2026-10-04T11:14:16Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:01",
+   "sunrise": "07:26",
+   "dhuhr": "12:52",
+   "asr": "15:41",
+   "maghrib": "18:08",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:02",
+   "sunrise": "07:27",
+   "dhuhr": "12:52",
+   "asr": "15:40",
+   "maghrib": "18:07",
+   "isha": "19:27"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:03",
+   "sunrise": "07:28",
+   "dhuhr": "12:52",
+   "asr": "15:39",
+   "maghrib": "18:05",
+   "isha": "19:26"
+  }
+ ]
+}

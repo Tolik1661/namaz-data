@@ -1,0 +1,43 @@
+{
+ "city": "Sultandaği",
+ "slug": "tr/9184",
+ "country": "TR",
+ "lat": 38.5866,
+ "lon": 31.3531,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9184/vakitler",
+ "updated": "2026-10-04T10:32:00Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:52",
+   "sunrise": "07:14",
+   "dhuhr": "12:44",
+   "asr": "15:37",
+   "maghrib": "18:03",
+   "isha": "19:21"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:53",
+   "sunrise": "07:15",
+   "dhuhr": "12:44",
+   "asr": "15:36",
+   "maghrib": "18:02",
+   "isha": "19:20"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:54",
+   "sunrise": "07:16",
+   "dhuhr": "12:44",
+   "asr": "15:35",
+   "maghrib": "18:01",
+   "isha": "19:19"
+  }
+ ]
+}

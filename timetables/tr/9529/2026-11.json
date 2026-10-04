@@ -1,0 +1,43 @@
+{
+ "city": "Keçi̇borlu",
+ "slug": "tr/9529",
+ "country": "TR",
+ "lat": 37.9122,
+ "lon": 30.2424,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9529/vakitler",
+ "updated": "2026-10-04T10:51:04Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:55",
+   "sunrise": "07:17",
+   "dhuhr": "12:47",
+   "asr": "15:41",
+   "maghrib": "18:08",
+   "isha": "19:25"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:56",
+   "sunrise": "07:18",
+   "dhuhr": "12:47",
+   "asr": "15:40",
+   "maghrib": "18:07",
+   "isha": "19:24"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:57",
+   "sunrise": "07:19",
+   "dhuhr": "12:47",
+   "asr": "15:40",
+   "maghrib": "18:06",
+   "isha": "19:23"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "city": "Oğuzlar",
+ "slug": "tr/9376",
+ "country": "TR",
+ "lat": 40.769,
+ "lon": 34.6817,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9376/vakitler",
+ "updated": "2026-10-04T10:41:54Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:39",
+   "sunrise": "07:04",
+   "dhuhr": "12:30",
+   "asr": "15:18",
+   "maghrib": "17:45",
+   "isha": "19:06"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:40",
+   "sunrise": "07:05",
+   "dhuhr": "12:30",
+   "asr": "15:17",
+   "maghrib": "17:44",
+   "isha": "19:05"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:41",
+   "sunrise": "07:07",
+   "dhuhr": "12:30",
+   "asr": "15:17",
+   "maghrib": "17:43",
+   "isha": "19:04"
+  }
+ ]
+}

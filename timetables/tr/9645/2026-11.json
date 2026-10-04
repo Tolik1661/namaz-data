@@ -1,0 +1,43 @@
+{
+ "city": "Kaman",
+ "slug": "tr/9645",
+ "country": "TR",
+ "lat": 39.3268,
+ "lon": 33.7169,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9645/vakitler",
+ "updated": "2026-10-04T10:57:54Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:42",
+   "sunrise": "07:06",
+   "dhuhr": "12:34",
+   "asr": "15:25",
+   "maghrib": "17:52",
+   "isha": "19:10"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:43",
+   "sunrise": "07:07",
+   "dhuhr": "12:34",
+   "asr": "15:24",
+   "maghrib": "17:51",
+   "isha": "19:09"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:44",
+   "sunrise": "07:08",
+   "dhuhr": "12:34",
+   "asr": "15:23",
+   "maghrib": "17:49",
+   "isha": "19:08"
+  }
+ ]
+}

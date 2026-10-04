@@ -1,0 +1,43 @@
+{
+ "city": "Kuşadasi",
+ "slug": "tr/9263",
+ "country": "TR",
+ "lat": 37.7817,
+ "lon": 27.1974,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9263/vakitler",
+ "updated": "2026-10-04T10:35:55Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:07",
+   "sunrise": "07:29",
+   "dhuhr": "13:00",
+   "asr": "15:54",
+   "maghrib": "18:20",
+   "isha": "19:37"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:08",
+   "sunrise": "07:30",
+   "dhuhr": "13:00",
+   "asr": "15:53",
+   "maghrib": "18:19",
+   "isha": "19:36"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:09",
+   "sunrise": "07:31",
+   "dhuhr": "13:00",
+   "asr": "15:52",
+   "maghrib": "18:18",
+   "isha": "19:35"
+  }
+ ]
+}

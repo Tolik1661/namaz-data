@@ -1,0 +1,43 @@
+{
+ "city": "Eski̇l",
+ "slug": "tr/9194",
+ "country": "TR",
+ "lat": 38.3209,
+ "lon": 33.3985,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9194/vakitler",
+ "updated": "2026-10-04T10:32:26Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:43",
+   "sunrise": "07:05",
+   "dhuhr": "12:35",
+   "asr": "15:28",
+   "maghrib": "17:55",
+   "isha": "19:12"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:44",
+   "sunrise": "07:06",
+   "dhuhr": "12:35",
+   "asr": "15:27",
+   "maghrib": "17:53",
+   "isha": "19:11"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:45",
+   "sunrise": "07:07",
+   "dhuhr": "12:35",
+   "asr": "15:26",
+   "maghrib": "17:52",
+   "isha": "19:10"
+  }
+ ]
+}

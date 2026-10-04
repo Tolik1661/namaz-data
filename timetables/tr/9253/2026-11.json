@@ -1,0 +1,43 @@
+{
+ "city": "Bozdoğan",
+ "slug": "tr/9253",
+ "country": "TR",
+ "lat": 37.6555,
+ "lon": 28.391,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9253/vakitler",
+ "updated": "2026-10-04T10:35:18Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:03",
+   "sunrise": "07:25",
+   "dhuhr": "12:55",
+   "asr": "15:50",
+   "maghrib": "18:16",
+   "isha": "19:33"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:04",
+   "sunrise": "07:26",
+   "dhuhr": "12:55",
+   "asr": "15:49",
+   "maghrib": "18:15",
+   "isha": "19:32"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:05",
+   "sunrise": "07:27",
+   "dhuhr": "12:55",
+   "asr": "15:48",
+   "maghrib": "18:14",
+   "isha": "19:31"
+  }
+ ]
+}

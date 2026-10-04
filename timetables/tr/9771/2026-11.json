@@ -1,0 +1,43 @@
+{
+ "city": "Çatalpinar",
+ "slug": "tr/9771",
+ "country": "TR",
+ "lat": 40.8504,
+ "lon": 37.4492,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9771/vakitler",
+ "updated": "2026-10-04T11:05:17Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:28",
+   "sunrise": "06:53",
+   "dhuhr": "12:19",
+   "asr": "15:07",
+   "maghrib": "17:34",
+   "isha": "18:55"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:29",
+   "sunrise": "06:55",
+   "dhuhr": "12:19",
+   "asr": "15:06",
+   "maghrib": "17:33",
+   "isha": "18:54"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:30",
+   "sunrise": "06:56",
+   "dhuhr": "12:19",
+   "asr": "15:05",
+   "maghrib": "17:32",
+   "isha": "18:53"
+  }
+ ]
+}

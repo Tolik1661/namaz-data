@@ -1,0 +1,43 @@
+{
+ "city": "Çorum",
+ "slug": "tr/9370",
+ "country": "TR",
+ "lat": 40.5492,
+ "lon": 34.9536,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9370/vakitler",
+ "updated": "2026-10-04T11:16:23Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:37",
+   "sunrise": "07:03",
+   "dhuhr": "12:29",
+   "asr": "15:18",
+   "maghrib": "17:45",
+   "isha": "19:05"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:39",
+   "sunrise": "07:04",
+   "dhuhr": "12:29",
+   "asr": "15:17",
+   "maghrib": "17:44",
+   "isha": "19:04"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:40",
+   "sunrise": "07:05",
+   "dhuhr": "12:29",
+   "asr": "15:16",
+   "maghrib": "17:42",
+   "isha": "19:03"
+  }
+ ]
+}

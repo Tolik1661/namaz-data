@@ -1,0 +1,43 @@
+{
+ "city": "Mengen",
+ "slug": "tr/9320",
+ "country": "TR",
+ "lat": 40.9307,
+ "lon": 32.0859,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9320/vakitler",
+ "updated": "2026-10-04T10:38:58Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:49",
+   "sunrise": "07:15",
+   "dhuhr": "12:40",
+   "asr": "15:29",
+   "maghrib": "17:56",
+   "isha": "19:16"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:50",
+   "sunrise": "07:16",
+   "dhuhr": "12:40",
+   "asr": "15:28",
+   "maghrib": "17:54",
+   "isha": "19:15"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:51",
+   "sunrise": "07:17",
+   "dhuhr": "12:40",
+   "asr": "15:27",
+   "maghrib": "17:53",
+   "isha": "19:14"
+  }
+ ]
+}

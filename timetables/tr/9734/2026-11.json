@@ -1,0 +1,43 @@
+{
+ "city": "Çamliyayla",
+ "slug": "tr/9734",
+ "country": "TR",
+ "lat": 37.2544,
+ "lon": 34.5225,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9734/vakitler",
+ "updated": "2026-10-04T11:03:19Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:38",
+   "sunrise": "06:59",
+   "dhuhr": "12:30",
+   "asr": "15:26",
+   "maghrib": "17:52",
+   "isha": "19:08"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:39",
+   "sunrise": "07:00",
+   "dhuhr": "12:30",
+   "asr": "15:25",
+   "maghrib": "17:51",
+   "isha": "19:07"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:39",
+   "sunrise": "07:01",
+   "dhuhr": "12:30",
+   "asr": "15:24",
+   "maghrib": "17:50",
+   "isha": "19:06"
+  }
+ ]
+}

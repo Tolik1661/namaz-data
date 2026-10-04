@@ -1,0 +1,43 @@
+{
+ "city": "Sai̇mbeyli̇",
+ "slug": "tr/9155",
+ "country": "TR",
+ "lat": 37.9488,
+ "lon": 36.098,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9155/vakitler",
+ "updated": "2026-10-04T10:30:16Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:32",
+   "sunrise": "06:54",
+   "dhuhr": "12:24",
+   "asr": "15:18",
+   "maghrib": "17:45",
+   "isha": "19:01"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:33",
+   "sunrise": "06:55",
+   "dhuhr": "12:24",
+   "asr": "15:17",
+   "maghrib": "17:43",
+   "isha": "19:00"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:34",
+   "sunrise": "06:56",
+   "dhuhr": "12:24",
+   "asr": "15:16",
+   "maghrib": "17:42",
+   "isha": "19:00"
+  }
+ ]
+}

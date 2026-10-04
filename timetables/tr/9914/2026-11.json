@@ -1,0 +1,43 @@
+{
+ "city": "Tunceli̇",
+ "slug": "tr/9914",
+ "country": "TR",
+ "lat": 39.1061,
+ "lon": 39.5485,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9914/vakitler",
+ "updated": "2026-10-04T11:18:17Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:19",
+   "sunrise": "06:42",
+   "dhuhr": "12:10",
+   "asr": "15:02",
+   "maghrib": "17:29",
+   "isha": "18:47"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:20",
+   "sunrise": "06:43",
+   "dhuhr": "12:10",
+   "asr": "15:01",
+   "maghrib": "17:28",
+   "isha": "18:46"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:21",
+   "sunrise": "06:44",
+   "dhuhr": "12:10",
+   "asr": "15:00",
+   "maghrib": "17:27",
+   "isha": "18:45"
+  }
+ ]
+}

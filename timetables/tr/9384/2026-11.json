@@ -1,0 +1,43 @@
+{
+ "city": "Beki̇lli̇",
+ "slug": "tr/9384",
+ "country": "TR",
+ "lat": 38.248,
+ "lon": 29.413,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9384/vakitler",
+ "updated": "2026-10-04T10:42:17Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:59",
+   "sunrise": "07:21",
+   "dhuhr": "12:51",
+   "asr": "15:44",
+   "maghrib": "18:11",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:00",
+   "sunrise": "07:22",
+   "dhuhr": "12:51",
+   "asr": "15:44",
+   "maghrib": "18:10",
+   "isha": "19:27"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:01",
+   "sunrise": "07:23",
+   "dhuhr": "12:51",
+   "asr": "15:43",
+   "maghrib": "18:09",
+   "isha": "19:26"
+  }
+ ]
+}

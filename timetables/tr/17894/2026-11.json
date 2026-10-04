@@ -1,0 +1,43 @@
+{
+ "city": "Orhaneli̇",
+ "slug": "tr/17894",
+ "country": "TR",
+ "lat": 39.8972,
+ "lon": 28.9381,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17894/vakitler",
+ "updated": "2026-10-04T10:40:11Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "06:01",
+   "sunrise": "07:26",
+   "dhuhr": "12:53",
+   "asr": "15:43",
+   "maghrib": "18:10",
+   "isha": "19:29"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "06:02",
+   "sunrise": "07:27",
+   "dhuhr": "12:53",
+   "asr": "15:42",
+   "maghrib": "18:09",
+   "isha": "19:28"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "06:03",
+   "sunrise": "07:28",
+   "dhuhr": "12:53",
+   "asr": "15:41",
+   "maghrib": "18:07",
+   "isha": "19:27"
+  }
+ ]
+}

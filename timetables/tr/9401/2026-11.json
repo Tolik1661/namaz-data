@@ -1,0 +1,43 @@
+{
+ "city": "Di̇cle",
+ "slug": "tr/9401",
+ "country": "TR",
+ "lat": 38.355,
+ "lon": 40.138,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9401/vakitler",
+ "updated": "2026-10-04T10:43:24Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:16",
+   "sunrise": "06:39",
+   "dhuhr": "12:08",
+   "asr": "15:02",
+   "maghrib": "17:28",
+   "isha": "18:45"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:17",
+   "sunrise": "06:40",
+   "dhuhr": "12:08",
+   "asr": "15:01",
+   "maghrib": "17:27",
+   "isha": "18:44"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:18",
+   "sunrise": "06:41",
+   "dhuhr": "12:08",
+   "asr": "15:00",
+   "maghrib": "17:26",
+   "isha": "18:43"
+  }
+ ]
+}

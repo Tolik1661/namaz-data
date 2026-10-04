@@ -1,0 +1,43 @@
+{
+ "city": "Terme",
+ "slug": "tr/9821",
+ "country": "TR",
+ "lat": 41.1447,
+ "lon": 36.979,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9821/vakitler",
+ "updated": "2026-10-04T11:07:56Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:30",
+   "sunrise": "06:56",
+   "dhuhr": "12:21",
+   "asr": "15:08",
+   "maghrib": "17:36",
+   "isha": "18:56"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:31",
+   "sunrise": "06:57",
+   "dhuhr": "12:21",
+   "asr": "15:07",
+   "maghrib": "17:34",
+   "isha": "18:55"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:32",
+   "sunrise": "06:58",
+   "dhuhr": "12:21",
+   "asr": "15:06",
+   "maghrib": "17:33",
+   "isha": "18:54"
+  }
+ ]
+}

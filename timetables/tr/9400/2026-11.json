@@ -1,0 +1,43 @@
+{
+ "city": "Çüngüş",
+ "slug": "tr/9400",
+ "country": "TR",
+ "lat": 38.2302,
+ "lon": 39.31,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9400/vakitler",
+ "updated": "2026-10-04T10:43:20Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:19",
+   "sunrise": "06:42",
+   "dhuhr": "12:11",
+   "asr": "15:05",
+   "maghrib": "17:31",
+   "isha": "18:49"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:20",
+   "sunrise": "06:43",
+   "dhuhr": "12:11",
+   "asr": "15:04",
+   "maghrib": "17:30",
+   "isha": "18:48"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:21",
+   "sunrise": "06:44",
+   "dhuhr": "12:11",
+   "asr": "15:03",
+   "maghrib": "17:29",
+   "isha": "18:47"
+  }
+ ]
+}

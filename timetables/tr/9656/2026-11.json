@@ -1,0 +1,43 @@
+{
+ "city": "Ahirli",
+ "slug": "tr/9656",
+ "country": "TR",
+ "lat": 37.2554,
+ "lon": 32.0866,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9656/vakitler",
+ "updated": "2026-10-04T10:58:30Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:48",
+   "sunrise": "07:09",
+   "dhuhr": "12:40",
+   "asr": "15:35",
+   "maghrib": "18:02",
+   "isha": "19:18"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:49",
+   "sunrise": "07:10",
+   "dhuhr": "12:40",
+   "asr": "15:35",
+   "maghrib": "18:01",
+   "isha": "19:17"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:49",
+   "sunrise": "07:11",
+   "dhuhr": "12:40",
+   "asr": "15:34",
+   "maghrib": "18:00",
+   "isha": "19:16"
+  }
+ ]
+}

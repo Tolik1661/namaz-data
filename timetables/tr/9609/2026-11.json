@@ -1,0 +1,43 @@
+{
+ "city": "Kastamonu",
+ "slug": "tr/9609",
+ "country": "TR",
+ "lat": 41.3948,
+ "lon": 33.7832,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9609/vakitler",
+ "updated": "2026-10-04T11:17:12Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:42",
+   "sunrise": "07:09",
+   "dhuhr": "12:33",
+   "asr": "15:21",
+   "maghrib": "17:48",
+   "isha": "19:09"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:44",
+   "sunrise": "07:10",
+   "dhuhr": "12:33",
+   "asr": "15:20",
+   "maghrib": "17:47",
+   "isha": "19:08"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:45",
+   "sunrise": "07:11",
+   "dhuhr": "12:33",
+   "asr": "15:19",
+   "maghrib": "17:46",
+   "isha": "19:07"
+  }
+ ]
+}

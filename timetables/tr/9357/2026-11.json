@@ -1,0 +1,43 @@
+{
+ "city": "Atkaracalar",
+ "slug": "tr/9357",
+ "country": "TR",
+ "lat": 40.831,
+ "lon": 33.0889,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9357/vakitler",
+ "updated": "2026-10-04T10:40:55Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:45",
+   "sunrise": "07:11",
+   "dhuhr": "12:36",
+   "asr": "15:25",
+   "maghrib": "17:52",
+   "isha": "19:12"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:46",
+   "sunrise": "07:12",
+   "dhuhr": "12:36",
+   "asr": "15:24",
+   "maghrib": "17:51",
+   "isha": "19:11"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:47",
+   "sunrise": "07:13",
+   "dhuhr": "12:36",
+   "asr": "15:23",
+   "maghrib": "17:49",
+   "isha": "19:10"
+  }
+ ]
+}

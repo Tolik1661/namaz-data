@@ -1,0 +1,43 @@
+{
+ "city": "Kahramankazan",
+ "slug": "tr/9217",
+ "country": "TR",
+ "lat": 40.1864,
+ "lon": 32.7063,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9217/vakitler",
+ "updated": "2026-10-04T10:33:40Z",
+ "year": 2026,
+ "month": 11,
+ "days": [
+  {
+   "date": "2026-11-01",
+   "fajr": "05:46",
+   "sunrise": "07:11",
+   "dhuhr": "12:38",
+   "asr": "15:28",
+   "maghrib": "17:55",
+   "isha": "19:14"
+  },
+  {
+   "date": "2026-11-02",
+   "fajr": "05:47",
+   "sunrise": "07:12",
+   "dhuhr": "12:38",
+   "asr": "15:27",
+   "maghrib": "17:53",
+   "isha": "19:13"
+  },
+  {
+   "date": "2026-11-03",
+   "fajr": "05:49",
+   "sunrise": "07:14",
+   "dhuhr": "12:38",
+   "asr": "15:26",
+   "maghrib": "17:52",
+   "isha": "19:12"
+  }
+ ]
+}
