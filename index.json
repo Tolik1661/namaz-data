@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T08:24:10Z",
+ "updated": "2026-10-21T08:30:49Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -8592,6 +8592,16 @@
    "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   },
   {
+   "slug": "tr/kayseri",
+   "name": "Кайсери",
+   "country": "TR",
+   "lat": 38.7312,
+   "lon": 35.4787,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
    "slug": "tr/mersin",
    "name": "Мерсин",
    "country": "TR",
@@ -14165,16 +14175,6 @@
    "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
-  },
-  {
-   "slug": "tr/kayseri",
-   "name": "Кайсери",
-   "country": "TR",
-   "lat": 38.7312,
-   "lon": 35.4787,
-   "timezone": "Europe/Istanbul",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   }
  ]
 }
