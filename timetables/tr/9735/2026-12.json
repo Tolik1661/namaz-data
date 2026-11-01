@@ -1,0 +1,25 @@
+{
+ "city": "Erdemli̇",
+ "slug": "tr/9735",
+ "country": "TR",
+ "lat": 36.8029,
+ "lon": 34.1435,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9735/vakitler",
+ "updated": "2026-11-01T11:36:45Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:05",
+   "sunrise": "07:29",
+   "dhuhr": "12:37",
+   "asr": "15:13",
+   "maghrib": "17:34",
+   "isha": "18:54"
+  }
+ ]
+}

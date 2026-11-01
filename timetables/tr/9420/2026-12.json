@@ -1,0 +1,25 @@
+{
+ "city": "Enez",
+ "slug": "tr/9420",
+ "country": "TR",
+ "lat": 40.7004,
+ "lon": 26.2004,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9420/vakitler",
+ "updated": "2026-11-01T11:22:02Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:43",
+   "sunrise": "08:13",
+   "dhuhr": "13:10",
+   "asr": "15:35",
+   "maghrib": "17:56",
+   "isha": "19:21"
+  }
+ ]
+}

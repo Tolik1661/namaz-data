@@ -1,0 +1,25 @@
+{
+ "city": "Yahyali",
+ "slug": "tr/9626",
+ "country": "TR",
+ "lat": 37.9749,
+ "lon": 35.4214,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9626/vakitler",
+ "updated": "2026-11-01T11:31:22Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:02",
+   "sunrise": "07:29",
+   "dhuhr": "12:32",
+   "asr": "15:05",
+   "maghrib": "17:26",
+   "isha": "18:47"
+  }
+ ]
+}

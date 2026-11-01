@@ -1,0 +1,25 @@
+{
+ "city": "Mucur",
+ "slug": "tr/9647",
+ "country": "TR",
+ "lat": 39.0854,
+ "lon": 34.4626,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9647/vakitler",
+ "updated": "2026-11-01T11:32:23Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:07",
+   "sunrise": "07:35",
+   "dhuhr": "12:36",
+   "asr": "15:06",
+   "maghrib": "17:28",
+   "isha": "18:50"
+  }
+ ]
+}

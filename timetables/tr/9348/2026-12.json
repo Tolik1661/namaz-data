@@ -1,0 +1,25 @@
+{
+ "city": "Bayrami̇ç",
+ "slug": "tr/9348",
+ "country": "TR",
+ "lat": 39.8386,
+ "lon": 26.7162,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9348/vakitler",
+ "updated": "2026-11-01T11:18:37Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:39",
+   "sunrise": "08:08",
+   "dhuhr": "13:07",
+   "asr": "15:35",
+   "maghrib": "17:57",
+   "isha": "19:20"
+  }
+ ]
+}

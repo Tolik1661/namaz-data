@@ -1,0 +1,25 @@
+{
+ "city": "Si̇li̇vri̇",
+ "slug": "tr/9548",
+ "country": "TR",
+ "lat": 41.1978,
+ "lon": 28.1834,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9548/vakitler",
+ "updated": "2026-11-01T11:27:52Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:34",
+   "sunrise": "08:05",
+   "dhuhr": "13:01",
+   "asr": "15:25",
+   "maghrib": "17:47",
+   "isha": "19:12"
+  }
+ ]
+}

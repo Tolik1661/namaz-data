@@ -1,0 +1,25 @@
+{
+ "city": "Akkuş",
+ "slug": "tr/9768",
+ "country": "TR",
+ "lat": 40.8227,
+ "lon": 36.9267,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9768/vakitler",
+ "updated": "2026-11-01T11:38:02Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:59",
+   "sunrise": "07:29",
+   "dhuhr": "12:26",
+   "asr": "14:51",
+   "maghrib": "17:12",
+   "isha": "18:37"
+  }
+ ]
+}

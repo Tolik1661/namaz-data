@@ -1,0 +1,25 @@
+{
+ "city": "Tokat",
+ "slug": "tr/9887",
+ "country": "TR",
+ "lat": 40.336,
+ "lon": 36.5502,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9887/vakitler",
+ "updated": "2026-11-01T11:48:17Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:00",
+   "sunrise": "07:30",
+   "dhuhr": "12:28",
+   "asr": "14:54",
+   "maghrib": "17:15",
+   "isha": "18:40"
+  }
+ ]
+}

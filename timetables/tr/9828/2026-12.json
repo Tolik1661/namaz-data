@@ -1,0 +1,25 @@
+{
+ "city": "Halfeti̇",
+ "slug": "tr/9828",
+ "country": "TR",
+ "lat": 37.2986,
+ "lon": 38.0358,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9828/vakitler",
+ "updated": "2026-11-01T11:40:34Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:51",
+   "sunrise": "07:17",
+   "dhuhr": "12:22",
+   "asr": "14:57",
+   "maghrib": "17:18",
+   "isha": "18:38"
+  }
+ ]
+}

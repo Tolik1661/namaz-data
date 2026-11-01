@@ -1,0 +1,25 @@
+{
+ "city": "Damal",
+ "slug": "tr/9240",
+ "country": "TR",
+ "lat": 41.3653,
+ "lon": 42.8143,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9240/vakitler",
+ "updated": "2026-11-01T11:13:28Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:36",
+   "sunrise": "07:08",
+   "dhuhr": "12:02",
+   "asr": "14:26",
+   "maghrib": "16:47",
+   "isha": "18:13"
+  }
+ ]
+}

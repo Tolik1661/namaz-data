@@ -1,0 +1,25 @@
+{
+ "city": "Derebucak",
+ "slug": "tr/9666",
+ "country": "TR",
+ "lat": 37.3993,
+ "lon": 31.5214,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9666/vakitler",
+ "updated": "2026-11-01T11:33:20Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:17",
+   "sunrise": "07:42",
+   "dhuhr": "12:48",
+   "asr": "15:22",
+   "maghrib": "17:43",
+   "isha": "19:04"
+  }
+ ]
+}

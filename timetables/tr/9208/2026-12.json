@@ -1,0 +1,25 @@
+{
+ "city": "Bala",
+ "slug": "tr/9208",
+ "country": "TR",
+ "lat": 39.4653,
+ "lon": 33.1929,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9208/vakitler",
+ "updated": "2026-11-01T11:12:12Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:13",
+   "sunrise": "07:41",
+   "dhuhr": "12:41",
+   "asr": "15:10",
+   "maghrib": "17:31",
+   "isha": "18:54"
+  }
+ ]
+}

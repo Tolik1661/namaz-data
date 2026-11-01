@@ -1,0 +1,25 @@
+{
+ "city": "Arsuz",
+ "slug": "tr/9515",
+ "country": "TR",
+ "lat": 36.4192,
+ "lon": 35.9675,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9515/vakitler",
+ "updated": "2026-11-01T11:26:05Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:57",
+   "sunrise": "07:21",
+   "dhuhr": "12:29",
+   "asr": "15:06",
+   "maghrib": "17:28",
+   "isha": "18:47"
+  }
+ ]
+}

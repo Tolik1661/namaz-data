@@ -1,0 +1,25 @@
+{
+ "city": "Sason",
+ "slug": "tr/9293",
+ "country": "TR",
+ "lat": 38.4001,
+ "lon": 41.4213,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9293/vakitler",
+ "updated": "2026-11-01T11:16:00Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:38",
+   "sunrise": "07:05",
+   "dhuhr": "12:08",
+   "asr": "14:40",
+   "maghrib": "17:01",
+   "isha": "18:23"
+  }
+ ]
+}

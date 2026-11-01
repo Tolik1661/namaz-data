@@ -1,0 +1,25 @@
+{
+ "city": "Aydintepe",
+ "slug": "tr/9294",
+ "country": "TR",
+ "lat": 40.4533,
+ "lon": 40.1029,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9294/vakitler",
+ "updated": "2026-11-01T11:16:03Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:46",
+   "sunrise": "07:16",
+   "dhuhr": "12:13",
+   "asr": "14:39",
+   "maghrib": "17:01",
+   "isha": "18:25"
+  }
+ ]
+}

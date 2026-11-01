@@ -1,0 +1,25 @@
+{
+ "city": "Afyonkarahi̇sar",
+ "slug": "tr/9167",
+ "country": "TR",
+ "lat": 38.7573,
+ "lon": 30.5366,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9167/vakitler",
+ "updated": "2026-11-01T11:46:02Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:22",
+   "sunrise": "07:50",
+   "dhuhr": "12:52",
+   "asr": "15:22",
+   "maghrib": "17:44",
+   "isha": "19:06"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Hamamözü",
+ "slug": "tr/9201",
+ "country": "TR",
+ "lat": 40.7956,
+ "lon": 35.0815,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9201/vakitler",
+ "updated": "2026-11-01T11:11:53Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:07",
+   "sunrise": "07:37",
+   "dhuhr": "12:34",
+   "asr": "14:59",
+   "maghrib": "17:20",
+   "isha": "18:45"
+  }
+ ]
+}

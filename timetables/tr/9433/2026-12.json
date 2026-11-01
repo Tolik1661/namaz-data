@@ -1,0 +1,25 @@
+{
+ "city": "Karakoçan",
+ "slug": "tr/9433",
+ "country": "TR",
+ "lat": 39.0017,
+ "lon": 40.0571,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9433/vakitler",
+ "updated": "2026-11-01T11:22:35Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:45",
+   "sunrise": "07:12",
+   "dhuhr": "12:14",
+   "asr": "14:44",
+   "maghrib": "17:05",
+   "isha": "18:28"
+  }
+ ]
+}

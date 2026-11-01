@@ -1,0 +1,25 @@
+{
+ "city": "Çayeli̇",
+ "slug": "tr/9793",
+ "country": "TR",
+ "lat": 40.9554,
+ "lon": 40.7552,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9793/vakitler",
+ "updated": "2026-11-01T11:39:08Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:45",
+   "sunrise": "07:15",
+   "dhuhr": "12:11",
+   "asr": "14:35",
+   "maghrib": "16:57",
+   "isha": "18:22"
+  }
+ ]
+}

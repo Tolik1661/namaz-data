@@ -1,0 +1,25 @@
+{
+ "city": "Turhal",
+ "slug": "tr/9888",
+ "country": "TR",
+ "lat": 40.4018,
+ "lon": 36.1172,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9888/vakitler",
+ "updated": "2026-11-01T11:43:10Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:02",
+   "sunrise": "07:32",
+   "dhuhr": "12:30",
+   "asr": "14:55",
+   "maghrib": "17:17",
+   "isha": "18:41"
+  }
+ ]
+}

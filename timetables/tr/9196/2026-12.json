@@ -1,0 +1,25 @@
+{
+ "city": "Güzelyurt",
+ "slug": "tr/9196",
+ "country": "TR",
+ "lat": 38.2613,
+ "lon": 34.2898,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9196/vakitler",
+ "updated": "2026-11-01T11:11:34Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:06",
+   "sunrise": "07:33",
+   "dhuhr": "12:36",
+   "asr": "15:08",
+   "maghrib": "17:30",
+   "isha": "18:51"
+  }
+ ]
+}

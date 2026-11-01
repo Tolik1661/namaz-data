@@ -1,0 +1,25 @@
+{
+ "city": "Şirvan",
+ "slug": "tr/17888",
+ "country": "TR",
+ "lat": 38.0808,
+ "lon": 42.1906,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17888/vakitler",
+ "updated": "2026-11-01T11:41:01Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:36",
+   "sunrise": "07:02",
+   "dhuhr": "12:06",
+   "asr": "14:38",
+   "maghrib": "17:00",
+   "isha": "18:21"
+  }
+ ]
+}

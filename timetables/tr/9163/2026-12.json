@@ -1,0 +1,25 @@
+{
+ "city": "Kahta",
+ "slug": "tr/9163",
+ "country": "TR",
+ "lat": 37.8009,
+ "lon": 38.7171,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9163/vakitler",
+ "updated": "2026-11-01T11:10:01Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:49",
+   "sunrise": "07:15",
+   "dhuhr": "12:19",
+   "asr": "14:52",
+   "maghrib": "17:14",
+   "isha": "18:35"
+  }
+ ]
+}

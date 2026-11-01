@@ -1,0 +1,25 @@
+{
+ "city": "Havsa",
+ "slug": "tr/9421",
+ "country": "TR",
+ "lat": 41.5513,
+ "lon": 26.836,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9421/vakitler",
+ "updated": "2026-11-01T11:22:04Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:41",
+   "sunrise": "08:12",
+   "dhuhr": "13:07",
+   "asr": "15:29",
+   "maghrib": "17:51",
+   "isha": "19:17"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Kuluncak",
+ "slug": "tr/9702",
+ "country": "TR",
+ "lat": 38.8592,
+ "lon": 37.6543,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9702/vakitler",
+ "updated": "2026-11-01T11:35:17Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:54",
+   "sunrise": "07:21",
+   "dhuhr": "12:23",
+   "asr": "14:53",
+   "maghrib": "17:15",
+   "isha": "18:37"
+  }
+ ]
+}

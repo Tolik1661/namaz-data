@@ -1,0 +1,25 @@
+{
+ "city": "Koyulhi̇sar",
+ "slug": "tr/9866",
+ "country": "TR",
+ "lat": 40.3461,
+ "lon": 37.8699,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9866/vakitler",
+ "updated": "2026-11-01T11:42:11Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:55",
+   "sunrise": "07:25",
+   "dhuhr": "12:23",
+   "asr": "14:49",
+   "maghrib": "17:10",
+   "isha": "18:35"
+  }
+ ]
+}

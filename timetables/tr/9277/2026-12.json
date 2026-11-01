@@ -1,0 +1,25 @@
+{
+ "city": "Gönen",
+ "slug": "tr/9277",
+ "country": "TR",
+ "lat": 40.129,
+ "lon": 27.6209,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9277/vakitler",
+ "updated": "2026-11-01T11:15:19Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:36",
+   "sunrise": "08:05",
+   "dhuhr": "13:03",
+   "asr": "15:30",
+   "maghrib": "17:52",
+   "isha": "19:16"
+  }
+ ]
+}

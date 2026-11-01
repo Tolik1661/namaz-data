@@ -1,0 +1,25 @@
+{
+ "city": "Kadişehri̇",
+ "slug": "tr/9942",
+ "country": "TR",
+ "lat": 39.9983,
+ "lon": 35.8304,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9942/vakitler",
+ "updated": "2026-11-01T11:45:30Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:03",
+   "sunrise": "07:32",
+   "dhuhr": "12:31",
+   "asr": "14:58",
+   "maghrib": "17:19",
+   "isha": "18:43"
+  }
+ ]
+}

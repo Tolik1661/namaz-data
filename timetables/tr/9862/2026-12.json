@@ -1,0 +1,25 @@
+{
+ "city": "Gürün",
+ "slug": "tr/9862",
+ "country": "TR",
+ "lat": 38.7987,
+ "lon": 37.1413,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9862/vakitler",
+ "updated": "2026-11-01T11:41:59Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:55",
+   "sunrise": "07:23",
+   "dhuhr": "12:25",
+   "asr": "14:55",
+   "maghrib": "17:17",
+   "isha": "18:39"
+  }
+ ]
+}

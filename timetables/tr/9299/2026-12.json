@@ -1,0 +1,25 @@
+{
+ "city": "Gölpazari",
+ "slug": "tr/9299",
+ "country": "TR",
+ "lat": 40.2603,
+ "lon": 30.3265,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9299/vakitler",
+ "updated": "2026-11-01T11:16:12Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:25",
+   "sunrise": "07:55",
+   "dhuhr": "12:53",
+   "asr": "15:19",
+   "maghrib": "17:41",
+   "isha": "19:05"
+  }
+ ]
+}

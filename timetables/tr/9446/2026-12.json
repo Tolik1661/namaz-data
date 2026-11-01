@@ -1,0 +1,25 @@
+{
+ "city": "Tercan",
+ "slug": "tr/9446",
+ "country": "TR",
+ "lat": 39.7231,
+ "lon": 40.3854,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9446/vakitler",
+ "updated": "2026-11-01T11:23:08Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:44",
+   "sunrise": "07:13",
+   "dhuhr": "12:12",
+   "asr": "14:40",
+   "maghrib": "17:02",
+   "isha": "18:25"
+  }
+ ]
+}

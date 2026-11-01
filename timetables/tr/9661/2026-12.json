@@ -1,0 +1,25 @@
+{
+ "city": "Bozkir",
+ "slug": "tr/9661",
+ "country": "TR",
+ "lat": 37.1761,
+ "lon": 32.3156,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9661/vakitler",
+ "updated": "2026-11-01T11:33:04Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:14",
+   "sunrise": "07:39",
+   "dhuhr": "12:45",
+   "asr": "15:19",
+   "maghrib": "17:41",
+   "isha": "19:01"
+  }
+ ]
+}

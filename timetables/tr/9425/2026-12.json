@@ -1,0 +1,25 @@
+{
+ "city": "Meri̇ç",
+ "slug": "tr/9425",
+ "country": "TR",
+ "lat": 41.1776,
+ "lon": 26.4411,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9425/vakitler",
+ "updated": "2026-11-01T11:22:15Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:42",
+   "sunrise": "08:13",
+   "dhuhr": "13:08",
+   "asr": "15:32",
+   "maghrib": "17:53",
+   "isha": "19:19"
+  }
+ ]
+}

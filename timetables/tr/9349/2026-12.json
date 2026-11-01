@@ -1,0 +1,25 @@
+{
+ "city": "Bi̇ga",
+ "slug": "tr/9349",
+ "country": "TR",
+ "lat": 40.2778,
+ "lon": 27.2096,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9349/vakitler",
+ "updated": "2026-11-01T11:18:40Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:37",
+   "sunrise": "08:07",
+   "dhuhr": "13:05",
+   "asr": "15:31",
+   "maghrib": "17:53",
+   "isha": "19:17"
+  }
+ ]
+}

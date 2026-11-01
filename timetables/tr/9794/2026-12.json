@@ -1,0 +1,25 @@
+{
+ "city": "Findikli",
+ "slug": "tr/9794",
+ "country": "TR",
+ "lat": 41.1874,
+ "lon": 41.2358,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9794/vakitler",
+ "updated": "2026-11-01T11:39:12Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:43",
+   "sunrise": "07:14",
+   "dhuhr": "12:09",
+   "asr": "14:33",
+   "maghrib": "16:54",
+   "isha": "18:20"
+  }
+ ]
+}

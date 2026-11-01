@@ -1,0 +1,25 @@
+{
+ "city": "Hayrabolu",
+ "slug": "tr/9874",
+ "country": "TR",
+ "lat": 41.1683,
+ "lon": 27.1121,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9874/vakitler",
+ "updated": "2026-11-01T11:42:36Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:39",
+   "sunrise": "08:10",
+   "dhuhr": "13:05",
+   "asr": "15:29",
+   "maghrib": "17:51",
+   "isha": "19:16"
+  }
+ ]
+}

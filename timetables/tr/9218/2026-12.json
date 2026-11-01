@@ -1,0 +1,25 @@
+{
+ "city": "Kizilcahamam",
+ "slug": "tr/9218",
+ "country": "TR",
+ "lat": 40.4824,
+ "lon": 32.5971,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9218/vakitler",
+ "updated": "2026-11-01T11:12:44Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:16",
+   "sunrise": "07:46",
+   "dhuhr": "12:43",
+   "asr": "15:09",
+   "maghrib": "17:31",
+   "isha": "18:55"
+  }
+ ]
+}

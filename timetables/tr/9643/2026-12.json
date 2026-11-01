@@ -1,0 +1,25 @@
+{
+ "city": "Akpinar",
+ "slug": "tr/9643",
+ "country": "TR",
+ "lat": 39.4884,
+ "lon": 33.9443,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9643/vakitler",
+ "updated": "2026-11-01T11:32:15Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:09",
+   "sunrise": "07:38",
+   "dhuhr": "12:38",
+   "asr": "15:07",
+   "maghrib": "17:28",
+   "isha": "18:51"
+  }
+ ]
+}

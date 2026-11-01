@@ -1,0 +1,25 @@
+{
+ "city": "Bafra",
+ "slug": "tr/9813",
+ "country": "TR",
+ "lat": 41.4821,
+ "lon": 35.8039,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9813/vakitler",
+ "updated": "2026-11-01T11:39:58Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:04",
+   "sunrise": "07:36",
+   "dhuhr": "12:30",
+   "asr": "14:53",
+   "maghrib": "17:14",
+   "isha": "18:41"
+  }
+ ]
+}

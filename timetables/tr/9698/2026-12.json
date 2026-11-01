@@ -1,0 +1,25 @@
+{
+ "city": "Doğanşehi̇r",
+ "slug": "tr/9698",
+ "country": "TR",
+ "lat": 38.0546,
+ "lon": 37.8636,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9698/vakitler",
+ "updated": "2026-11-01T11:35:07Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:52",
+   "sunrise": "07:19",
+   "dhuhr": "12:22",
+   "asr": "14:55",
+   "maghrib": "17:16",
+   "isha": "18:37"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Yeşi̇lova",
+ "slug": "tr/9334",
+ "country": "TR",
+ "lat": 37.6101,
+ "lon": 29.7408,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9334/vakitler",
+ "updated": "2026-11-01T11:17:58Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:24",
+   "sunrise": "07:49",
+   "dhuhr": "12:55",
+   "asr": "15:29",
+   "maghrib": "17:50",
+   "isha": "19:11"
+  }
+ ]
+}

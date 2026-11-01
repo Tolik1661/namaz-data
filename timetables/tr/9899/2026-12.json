@@ -1,0 +1,25 @@
+{
+ "city": "Hayrat",
+ "slug": "tr/9899",
+ "country": "TR",
+ "lat": 40.7694,
+ "lon": 40.413,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9899/vakitler",
+ "updated": "2026-11-01T11:43:45Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:46",
+   "sunrise": "07:16",
+   "dhuhr": "12:12",
+   "asr": "14:37",
+   "maghrib": "16:59",
+   "isha": "18:24"
+  }
+ ]
+}

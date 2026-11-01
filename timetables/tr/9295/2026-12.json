@@ -1,0 +1,25 @@
+{
+ "city": "Bayburt",
+ "slug": "tr/9295",
+ "country": "TR",
+ "lat": 40.2603,
+ "lon": 40.229,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9295/vakitler",
+ "updated": "2026-11-01T11:46:28Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:45",
+   "sunrise": "07:15",
+   "dhuhr": "12:13",
+   "asr": "14:39",
+   "maghrib": "17:01",
+   "isha": "18:25"
+  }
+ ]
+}

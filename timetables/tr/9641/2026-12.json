@@ -1,0 +1,25 @@
+{
+ "city": "Pinarhisar",
+ "slug": "tr/9641",
+ "country": "TR",
+ "lat": 41.6445,
+ "lon": 27.5006,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9641/vakitler",
+ "updated": "2026-11-01T11:32:05Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:38",
+   "sunrise": "08:10",
+   "dhuhr": "13:04",
+   "asr": "15:26",
+   "maghrib": "17:48",
+   "isha": "19:14"
+  }
+ ]
+}

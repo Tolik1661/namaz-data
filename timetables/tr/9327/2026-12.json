@@ -1,0 +1,25 @@
+{
+ "city": "Burdur",
+ "slug": "tr/9327",
+ "country": "TR",
+ "lat": 37.7184,
+ "lon": 30.2833,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9327/vakitler",
+ "updated": "2026-11-01T11:46:41Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:22",
+   "sunrise": "07:48",
+   "dhuhr": "12:53",
+   "asr": "15:26",
+   "maghrib": "17:48",
+   "isha": "19:08"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Torul",
+ "slug": "tr/9505",
+ "country": "TR",
+ "lat": 40.4913,
+ "lon": 39.2749,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9505/vakitler",
+ "updated": "2026-11-01T11:25:49Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:50",
+   "sunrise": "07:20",
+   "dhuhr": "12:17",
+   "asr": "14:42",
+   "maghrib": "17:04",
+   "isha": "18:28"
+  }
+ ]
+}

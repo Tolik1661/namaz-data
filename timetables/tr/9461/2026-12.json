@@ -1,0 +1,25 @@
+{
+ "city": "Pasi̇nler",
+ "slug": "tr/9461",
+ "country": "TR",
+ "lat": 40.0056,
+ "lon": 41.6267,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9461/vakitler",
+ "updated": "2026-11-01T11:23:46Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:39",
+   "sunrise": "07:08",
+   "dhuhr": "12:07",
+   "asr": "14:34",
+   "maghrib": "16:56",
+   "isha": "18:20"
+  }
+ ]
+}

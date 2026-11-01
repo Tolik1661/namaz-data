@@ -1,0 +1,25 @@
+{
+ "city": "Türkoğlu",
+ "slug": "tr/17908",
+ "country": "TR",
+ "lat": 37.3498,
+ "lon": 36.8307,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17908/vakitler",
+ "updated": "2026-11-01T11:29:20Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:55",
+   "sunrise": "07:21",
+   "dhuhr": "12:26",
+   "asr": "15:01",
+   "maghrib": "17:22",
+   "isha": "18:42"
+  }
+ ]
+}

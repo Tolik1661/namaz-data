@@ -1,0 +1,25 @@
+{
+ "city": "Polateli̇",
+ "slug": "tr/17907",
+ "country": "TR",
+ "lat": 36.8434,
+ "lon": 37.1444,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17907/vakitler",
+ "updated": "2026-11-01T11:31:34Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:54",
+   "sunrise": "07:18",
+   "dhuhr": "12:25",
+   "asr": "15:01",
+   "maghrib": "17:22",
+   "isha": "18:42"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Köyceği̇z",
+ "slug": "tr/9745",
+ "country": "TR",
+ "lat": 36.9912,
+ "lon": 28.7463,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9745/vakitler",
+ "updated": "2026-11-01T11:37:03Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:27",
+   "sunrise": "07:52",
+   "dhuhr": "12:59",
+   "asr": "15:34",
+   "maghrib": "17:56",
+   "isha": "19:16"
+  }
+ ]
+}

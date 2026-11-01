@@ -1,0 +1,25 @@
+{
+ "city": "Bozyazi",
+ "slug": "tr/9733",
+ "country": "TR",
+ "lat": 36.2798,
+ "lon": 32.9908,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9733/vakitler",
+ "updated": "2026-11-01T11:36:40Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:09",
+   "sunrise": "07:33",
+   "dhuhr": "12:42",
+   "asr": "15:19",
+   "maghrib": "17:41",
+   "isha": "19:00"
+  }
+ ]
+}

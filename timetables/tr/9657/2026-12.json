@@ -1,0 +1,25 @@
+{
+ "city": "Akören",
+ "slug": "tr/9657",
+ "country": "TR",
+ "lat": 37.4049,
+ "lon": 32.3765,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9657/vakitler",
+ "updated": "2026-11-01T11:32:53Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:13",
+   "sunrise": "07:39",
+   "dhuhr": "12:44",
+   "asr": "15:18",
+   "maghrib": "17:40",
+   "isha": "19:00"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Karahalli",
+ "slug": "tr/9917",
+ "country": "TR",
+ "lat": 38.3576,
+ "lon": 29.5343,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9917/vakitler",
+ "updated": "2026-11-01T11:44:28Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:26",
+   "sunrise": "07:53",
+   "dhuhr": "12:56",
+   "asr": "15:27",
+   "maghrib": "17:49",
+   "isha": "19:10"
+  }
+ ]
+}

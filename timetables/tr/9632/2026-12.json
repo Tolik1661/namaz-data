@@ -1,0 +1,25 @@
+{
+ "city": "Celebi",
+ "slug": "tr/9632",
+ "country": "TR",
+ "lat": 39.484,
+ "lon": 33.4941,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9632/vakitler",
+ "updated": "2026-11-01T11:31:40Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:11",
+   "sunrise": "07:40",
+   "dhuhr": "12:40",
+   "asr": "15:08",
+   "maghrib": "17:30",
+   "isha": "18:53"
+  }
+ ]
+}

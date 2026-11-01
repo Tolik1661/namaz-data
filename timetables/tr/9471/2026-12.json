@@ -1,0 +1,25 @@
+{
+ "city": "Günyüzü",
+ "slug": "tr/9471",
+ "country": "TR",
+ "lat": 39.3207,
+ "lon": 31.8511,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9471/vakitler",
+ "updated": "2026-11-01T11:24:10Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:18",
+   "sunrise": "07:46",
+   "dhuhr": "12:47",
+   "asr": "15:15",
+   "maghrib": "17:37",
+   "isha": "19:00"
+  }
+ ]
+}

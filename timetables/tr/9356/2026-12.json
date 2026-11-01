@@ -1,0 +1,25 @@
+{
+ "city": "Yeni̇ce",
+ "slug": "tr/9356",
+ "country": "TR",
+ "lat": 39.9089,
+ "lon": 27.2485,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9356/vakitler",
+ "updated": "2026-11-01T11:19:02Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:37",
+   "sunrise": "08:06",
+   "dhuhr": "13:05",
+   "asr": "15:32",
+   "maghrib": "17:54",
+   "isha": "19:17"
+  }
+ ]
+}

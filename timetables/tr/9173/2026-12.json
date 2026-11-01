@@ -1,0 +1,25 @@
+{
+ "city": "Dazkiri",
+ "slug": "tr/9173",
+ "country": "TR",
+ "lat": 37.9243,
+ "lon": 29.8172,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9173/vakitler",
+ "updated": "2026-11-01T11:10:28Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:24",
+   "sunrise": "07:50",
+   "dhuhr": "12:54",
+   "asr": "15:27",
+   "maghrib": "17:49",
+   "isha": "19:10"
+  }
+ ]
+}

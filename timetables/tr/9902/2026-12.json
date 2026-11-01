@@ -1,0 +1,25 @@
+{
+ "city": "Şalpazari",
+ "slug": "tr/9902",
+ "country": "TR",
+ "lat": 40.8613,
+ "lon": 39.1907,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9902/vakitler",
+ "updated": "2026-11-01T11:43:51Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:50",
+   "sunrise": "07:21",
+   "dhuhr": "12:17",
+   "asr": "14:41",
+   "maghrib": "17:03",
+   "isha": "18:28"
+  }
+ ]
+}

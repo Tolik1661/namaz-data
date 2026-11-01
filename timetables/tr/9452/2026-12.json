@@ -1,0 +1,25 @@
+{
+ "city": "Hinis",
+ "slug": "tr/9452",
+ "country": "TR",
+ "lat": 39.3603,
+ "lon": 41.678,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9452/vakitler",
+ "updated": "2026-11-01T11:23:22Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:38",
+   "sunrise": "07:07",
+   "dhuhr": "12:07",
+   "asr": "14:36",
+   "maghrib": "16:58",
+   "isha": "18:20"
+  }
+ ]
+}

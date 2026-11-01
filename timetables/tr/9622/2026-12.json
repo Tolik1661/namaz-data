@@ -1,0 +1,25 @@
+{
+ "city": "Pinarbaşi",
+ "slug": "tr/9622",
+ "country": "TR",
+ "lat": 38.8055,
+ "lon": 36.4714,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9622/vakitler",
+ "updated": "2026-11-01T11:31:09Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:59",
+   "sunrise": "07:26",
+   "dhuhr": "12:28",
+   "asr": "14:59",
+   "maghrib": "17:20",
+   "isha": "18:42"
+  }
+ ]
+}

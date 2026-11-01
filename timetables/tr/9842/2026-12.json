@@ -1,0 +1,25 @@
+{
+ "city": "Di̇kmen",
+ "slug": "tr/9842",
+ "country": "TR",
+ "lat": 41.5828,
+ "lon": 35.255,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9842/vakitler",
+ "updated": "2026-11-01T11:41:10Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:07",
+   "sunrise": "07:39",
+   "dhuhr": "12:33",
+   "asr": "14:55",
+   "maghrib": "17:17",
+   "isha": "18:43"
+  }
+ ]
+}

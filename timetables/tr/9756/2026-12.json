@@ -1,0 +1,25 @@
+{
+ "city": "Varto",
+ "slug": "tr/9756",
+ "country": "TR",
+ "lat": 39.1993,
+ "lon": 41.5076,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9756/vakitler",
+ "updated": "2026-11-01T11:37:32Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:39",
+   "sunrise": "07:07",
+   "dhuhr": "12:08",
+   "asr": "14:37",
+   "maghrib": "16:59",
+   "isha": "18:22"
+  }
+ ]
+}

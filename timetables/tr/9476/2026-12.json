@@ -1,0 +1,25 @@
+{
+ "city": "Seyi̇tgazi̇",
+ "slug": "tr/9476",
+ "country": "TR",
+ "lat": 39.3402,
+ "lon": 30.5987,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9476/vakitler",
+ "updated": "2026-11-01T11:24:29Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:23",
+   "sunrise": "07:51",
+   "dhuhr": "12:51",
+   "asr": "15:20",
+   "maghrib": "17:41",
+   "isha": "19:04"
+  }
+ ]
+}

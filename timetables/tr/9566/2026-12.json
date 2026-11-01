@@ -1,0 +1,25 @@
+{
+ "city": "Seferihi̇sar",
+ "slug": "tr/9566",
+ "country": "TR",
+ "lat": 38.1697,
+ "lon": 26.8829,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9566/vakitler",
+ "updated": "2026-11-01T11:28:45Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:36",
+   "sunrise": "08:03",
+   "dhuhr": "13:07",
+   "asr": "15:39",
+   "maghrib": "18:00",
+   "isha": "19:21"
+  }
+ ]
+}

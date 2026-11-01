@@ -1,0 +1,25 @@
+{
+ "city": "Reyhanli",
+ "slug": "tr/9519",
+ "country": "TR",
+ "lat": 36.2759,
+ "lon": 36.5263,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9519/vakitler",
+ "updated": "2026-11-01T11:26:32Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:55",
+   "sunrise": "07:19",
+   "dhuhr": "12:28",
+   "asr": "15:05",
+   "maghrib": "17:26",
+   "isha": "18:45"
+  }
+ ]
+}

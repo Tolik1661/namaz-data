@@ -1,0 +1,25 @@
+{
+ "city": "Menderes",
+ "slug": "tr/17868",
+ "country": "TR",
+ "lat": 38.1496,
+ "lon": 27.1287,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/17868/vakitler",
+ "updated": "2026-11-01T11:28:35Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:35",
+   "sunrise": "08:02",
+   "dhuhr": "13:05",
+   "asr": "15:37",
+   "maghrib": "17:59",
+   "isha": "19:20"
+  }
+ ]
+}

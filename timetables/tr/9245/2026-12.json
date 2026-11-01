@@ -1,0 +1,25 @@
+{
+ "city": "Arhavi̇",
+ "slug": "tr/9245",
+ "country": "TR",
+ "lat": 41.2294,
+ "lon": 41.3859,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9245/vakitler",
+ "updated": "2026-11-01T11:13:43Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:43",
+   "sunrise": "07:14",
+   "dhuhr": "12:09",
+   "asr": "14:32",
+   "maghrib": "16:53",
+   "isha": "18:19"
+  }
+ ]
+}

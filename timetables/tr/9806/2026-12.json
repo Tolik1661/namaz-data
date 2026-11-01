@@ -1,0 +1,25 @@
+{
+ "city": "Pamukova",
+ "slug": "tr/9806",
+ "country": "TR",
+ "lat": 40.5128,
+ "lon": 30.118,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9806/vakitler",
+ "updated": "2026-11-01T11:39:43Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:26",
+   "sunrise": "07:56",
+   "dhuhr": "12:53",
+   "asr": "15:19",
+   "maghrib": "17:40",
+   "isha": "19:05"
+  }
+ ]
+}

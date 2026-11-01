@@ -1,0 +1,25 @@
+{
+ "city": "Pütürge",
+ "slug": "tr/9704",
+ "country": "TR",
+ "lat": 38.1702,
+ "lon": 38.8444,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9704/vakitler",
+ "updated": "2026-11-01T11:35:20Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:48",
+   "sunrise": "07:15",
+   "dhuhr": "12:18",
+   "asr": "14:50",
+   "maghrib": "17:12",
+   "isha": "18:33"
+  }
+ ]
+}

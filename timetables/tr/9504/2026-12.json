@@ -1,0 +1,25 @@
+{
+ "city": "Şi̇ran",
+ "slug": "tr/9504",
+ "country": "TR",
+ "lat": 40.1803,
+ "lon": 39.1088,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9504/vakitler",
+ "updated": "2026-11-01T11:25:46Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:50",
+   "sunrise": "07:19",
+   "dhuhr": "12:17",
+   "asr": "14:44",
+   "maghrib": "17:05",
+   "isha": "18:30"
+  }
+ ]
+}

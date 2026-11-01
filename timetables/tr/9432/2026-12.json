@@ -1,0 +1,25 @@
+{
+ "city": "Elaziğ",
+ "slug": "tr/9432",
+ "country": "TR",
+ "lat": 38.6738,
+ "lon": 39.223,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9432/vakitler",
+ "updated": "2026-11-01T11:46:57Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:48",
+   "sunrise": "07:15",
+   "dhuhr": "12:17",
+   "asr": "14:48",
+   "maghrib": "17:09",
+   "isha": "18:31"
+  }
+ ]
+}

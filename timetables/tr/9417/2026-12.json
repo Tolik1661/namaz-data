@@ -1,0 +1,25 @@
+{
+ "city": "Kaynaşli",
+ "slug": "tr/9417",
+ "country": "TR",
+ "lat": 40.7441,
+ "lon": 31.3222,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9417/vakitler",
+ "updated": "2026-11-01T11:21:57Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:22",
+   "sunrise": "07:52",
+   "dhuhr": "12:49",
+   "asr": "15:13",
+   "maghrib": "17:35",
+   "isha": "19:00"
+  }
+ ]
+}

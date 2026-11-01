@@ -1,0 +1,25 @@
+{
+ "city": "Arguvan",
+ "slug": "tr/9696",
+ "country": "TR",
+ "lat": 38.8595,
+ "lon": 38.2653,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9696/vakitler",
+ "updated": "2026-11-01T11:35:02Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:51",
+   "sunrise": "07:19",
+   "dhuhr": "12:21",
+   "asr": "14:51",
+   "maghrib": "17:13",
+   "isha": "18:35"
+  }
+ ]
+}

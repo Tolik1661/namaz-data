@@ -1,0 +1,25 @@
+{
+ "city": "Koçarli",
+ "slug": "tr/9261",
+ "country": "TR",
+ "lat": 37.6509,
+ "lon": 27.7029,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9261/vakitler",
+ "updated": "2026-11-01T11:14:30Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:32",
+   "sunrise": "07:58",
+   "dhuhr": "13:03",
+   "asr": "15:36",
+   "maghrib": "17:58",
+   "isha": "19:18"
+  }
+ ]
+}

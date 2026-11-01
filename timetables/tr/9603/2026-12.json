@@ -1,0 +1,25 @@
+{
+ "city": "Ci̇de",
+ "slug": "tr/9603",
+ "country": "TR",
+ "lat": 41.8722,
+ "lon": 33.0615,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9603/vakitler",
+ "updated": "2026-11-01T11:30:17Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:16",
+   "sunrise": "07:49",
+   "dhuhr": "12:42",
+   "asr": "15:03",
+   "maghrib": "17:25",
+   "isha": "18:52"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Gümüşova",
+ "slug": "tr/9416",
+ "country": "TR",
+ "lat": 40.8487,
+ "lon": 30.9226,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9416/vakitler",
+ "updated": "2026-11-01T11:21:54Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:23",
+   "sunrise": "07:54",
+   "dhuhr": "12:50",
+   "asr": "15:15",
+   "maghrib": "17:36",
+   "isha": "19:01"
+  }
+ ]
+}

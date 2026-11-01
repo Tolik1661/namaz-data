@@ -1,0 +1,25 @@
+{
+ "city": "Çamlihemşi̇n",
+ "slug": "tr/9792",
+ "country": "TR",
+ "lat": 40.919,
+ "lon": 41.0333,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9792/vakitler",
+ "updated": "2026-11-01T11:39:06Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:43",
+   "sunrise": "07:14",
+   "dhuhr": "12:10",
+   "asr": "14:34",
+   "maghrib": "16:56",
+   "isha": "18:21"
+  }
+ ]
+}

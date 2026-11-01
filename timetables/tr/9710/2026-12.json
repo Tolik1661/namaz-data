@@ -1,0 +1,25 @@
+{
+ "city": "Demi̇rci̇",
+ "slug": "tr/9710",
+ "country": "TR",
+ "lat": 38.9559,
+ "lon": 28.6739,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9710/vakitler",
+ "updated": "2026-11-01T11:35:37Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:30",
+   "sunrise": "07:58",
+   "dhuhr": "12:59",
+   "asr": "15:29",
+   "maghrib": "17:51",
+   "isha": "19:13"
+  }
+ ]
+}
