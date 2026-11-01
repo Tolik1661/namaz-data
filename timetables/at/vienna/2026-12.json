@@ -1,0 +1,25 @@
+{
+ "city": "Вена",
+ "slug": "at/vienna",
+ "country": "AT",
+ "lat": 48.2082,
+ "lon": 16.3738,
+ "timezone": "Europe/Vienna",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11618/vakitler",
+ "updated": "2026-11-01T10:09:57Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:31",
+   "sunrise": "07:17",
+   "dhuhr": "11:48",
+   "asr": "13:49",
+   "maghrib": "16:10",
+   "isha": "17:43"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "city": "Трабзон",
+ "slug": "tr/trabzon",
+ "country": "TR",
+ "lat": 41.0015,
+ "lon": 39.7178,
+ "timezone": "Europe/Istanbul",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/9905/vakitler",
+ "updated": "2026-11-01T10:08:20Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "05:49",
+   "sunrise": "07:19",
+   "dhuhr": "12:15",
+   "asr": "14:39",
+   "maghrib": "17:01",
+   "isha": "18:26"
+  }
+ ]
+}

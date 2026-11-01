@@ -1,0 +1,25 @@
+{
+ "city": "Кёльн",
+ "slug": "de/koln",
+ "country": "DE",
+ "lat": 50.9375,
+ "lon": 6.9603,
+ "timezone": "Europe/Berlin",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11019/vakitler",
+ "updated": "2026-11-01T10:09:30Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:13",
+   "sunrise": "08:06",
+   "dhuhr": "12:26",
+   "asr": "14:15",
+   "maghrib": "16:37",
+   "isha": "18:16"
+  }
+ ]
+}

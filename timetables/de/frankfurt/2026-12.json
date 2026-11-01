@@ -1,0 +1,25 @@
+{
+ "city": "Франкфурт",
+ "slug": "de/frankfurt",
+ "country": "DE",
+ "lat": 50.1109,
+ "lon": 8.6821,
+ "timezone": "Europe/Berlin",
+ "madhab": "shafi",
+ "source": "Diyanet (namazvakitleri.diyanet.gov.tr)",
+ "source_url": "https://namazvakitleri.diyanet.gov.tr/tr-TR/11010/vakitler",
+ "updated": "2026-11-01T10:09:34Z",
+ "year": 2026,
+ "month": 12,
+ "days": [
+  {
+   "date": "2026-12-01",
+   "fajr": "06:05",
+   "sunrise": "07:55",
+   "dhuhr": "12:19",
+   "asr": "14:12",
+   "maghrib": "16:33",
+   "isha": "18:11"
+  }
+ ]
+}
