@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T10:48:23Z",
+ "updated": "2026-11-03T10:44:20Z",
  "cities": [
   {
    "slug": "ru/moscow",
@@ -8572,6 +8572,16 @@
    "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   },
   {
+   "slug": "tr/van",
+   "name": "Ван",
+   "country": "TR",
+   "lat": 38.4891,
+   "lon": 43.4089,
+   "timezone": "Europe/Istanbul",
+   "madhab": "shafi",
+   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
+  },
+  {
    "slug": "tr/rize",
    "name": "Ризе",
    "country": "TR",
@@ -14165,16 +14175,6 @@
    "timezone": "Europe/Moscow",
    "madhab": "shafi",
    "source": "islamdag.ru (Муфтият Республики Дагестан, шафиитский мазхаб)"
-  },
-  {
-   "slug": "tr/van",
-   "name": "Ван",
-   "country": "TR",
-   "lat": 38.4891,
-   "lon": 43.4089,
-   "timezone": "Europe/Istanbul",
-   "madhab": "shafi",
-   "source": "Diyanet (namazvakitleri.diyanet.gov.tr)"
   }
  ]
 }

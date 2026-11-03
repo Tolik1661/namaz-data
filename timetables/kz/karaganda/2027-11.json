@@ -6,9 +6,9 @@
  "lon": 73.1094,
  "timezone": "Asia/Almaty",
  "madhab": "hanafi",
- "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
- "source_url": "https://github.com/Tolik1661/namaz-data/blob/main/scripts/official_feeds.py",
- "updated": "2026-11-02T10:44:41Z",
+ "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+ "source_url": "https://www.muftyat.kz/ru/namaz_times/",
+ "updated": "2026-11-03T10:42:26Z",
  "year": 2027,
  "month": 11,
  "days": [
@@ -24,9 +24,9 @@
   {
    "date": "2027-11-02",
    "fajr": "05:27",
-   "sunrise": "06:52",
+   "sunrise": "06:53",
    "dhuhr": "11:56",
-   "asr": "15:01",
+   "asr": "15:02",
    "maghrib": "16:49",
    "isha": "18:15"
   },
@@ -63,7 +63,7 @@
    "sunrise": "06:59",
    "dhuhr": "11:56",
    "asr": "14:55",
-   "maghrib": "16:42",
+   "maghrib": "16:43",
    "isha": "18:09"
   },
   {
@@ -77,11 +77,11 @@
   },
   {
    "date": "2027-11-08",
-   "fajr": "05:35",
+   "fajr": "05:36",
    "sunrise": "07:02",
    "dhuhr": "11:56",
-   "asr": "14:52",
-   "maghrib": "16:39",
+   "asr": "14:53",
+   "maghrib": "16:40",
    "isha": "18:06"
   },
   {
@@ -97,9 +97,9 @@
    "date": "2027-11-10",
    "fajr": "05:38",
    "sunrise": "07:06",
-   "dhuhr": "11:56",
+   "dhuhr": "11:57",
    "asr": "14:50",
-   "maghrib": "16:36",
+   "maghrib": "16:37",
    "isha": "18:04"
   },
   {
@@ -122,7 +122,7 @@
   },
   {
    "date": "2027-11-13",
-   "fajr": "05:42",
+   "fajr": "05:43",
    "sunrise": "07:11",
    "dhuhr": "11:57",
    "asr": "14:46",
@@ -153,14 +153,14 @@
    "sunrise": "07:15",
    "dhuhr": "11:57",
    "asr": "14:42",
-   "maghrib": "16:28",
+   "maghrib": "16:29",
    "isha": "17:57"
   },
   {
    "date": "2027-11-17",
    "fajr": "05:48",
    "sunrise": "07:17",
-   "dhuhr": "11:57",
+   "dhuhr": "11:58",
    "asr": "14:41",
    "maghrib": "16:27",
    "isha": "17:56"
@@ -181,7 +181,7 @@
    "dhuhr": "11:58",
    "asr": "14:39",
    "maghrib": "16:25",
-   "isha": "17:54"
+   "isha": "17:55"
   },
   {
    "date": "2027-11-20",
@@ -251,7 +251,7 @@
    "fajr": "06:01",
    "sunrise": "07:32",
    "dhuhr": "12:00",
-   "asr": "14:31",
+   "asr": "14:32",
    "maghrib": "16:17",
    "isha": "17:49"
   },
