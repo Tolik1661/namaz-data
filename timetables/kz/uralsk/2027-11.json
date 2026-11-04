@@ -6,9 +6,9 @@
  "lon": 51.3667,
  "timezone": "Asia/Oral",
  "madhab": "hanafi",
- "source": "muftyat.kz (расчёт по методике Духовного управления мусульман Казахстана)",
- "source_url": "https://github.com/Tolik1661/namaz-data/blob/main/scripts/official_feeds.py",
- "updated": "2026-11-03T10:42:37Z",
+ "source": "muftyat.kz (Духовное управление мусульман Казахстана — официальная таблица)",
+ "source_url": "https://www.muftyat.kz/ru/namaz_times/",
+ "updated": "2026-11-04T10:37:33Z",
  "year": 2027,
  "month": 11,
  "days": [
@@ -106,15 +106,15 @@
    "date": "2027-11-11",
    "fajr": "07:08",
    "sunrise": "08:39",
-   "dhuhr": "13:24",
-   "asr": "16:09",
+   "dhuhr": "13:23",
+   "asr": "16:10",
    "maghrib": "17:57",
    "isha": "19:28"
   },
   {
    "date": "2027-11-12",
    "fajr": "07:10",
-   "sunrise": "08:41",
+   "sunrise": "08:40",
    "dhuhr": "13:24",
    "asr": "16:08",
    "maghrib": "17:56",
@@ -170,7 +170,7 @@
    "fajr": "07:18",
    "sunrise": "08:51",
    "dhuhr": "13:25",
-   "asr": "16:00",
+   "asr": "16:01",
    "maghrib": "17:48",
    "isha": "19:20"
   },
@@ -240,9 +240,9 @@
   {
    "date": "2027-11-26",
    "fajr": "07:29",
-   "sunrise": "09:04",
+   "sunrise": "09:03",
    "dhuhr": "13:27",
-   "asr": "15:52",
+   "asr": "15:53",
    "maghrib": "17:39",
    "isha": "19:14"
   },
@@ -258,7 +258,7 @@
   {
    "date": "2027-11-28",
    "fajr": "07:31",
-   "sunrise": "09:07",
+   "sunrise": "09:06",
    "dhuhr": "13:27",
    "asr": "15:51",
    "maghrib": "17:38",
@@ -278,7 +278,7 @@
    "fajr": "07:34",
    "sunrise": "09:09",
    "dhuhr": "13:28",
-   "asr": "15:49",
+   "asr": "15:50",
    "maghrib": "17:36",
    "isha": "19:12"
   }
