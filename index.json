@@ -1,16 +1,6 @@
 {
- "updated": "2026-11-08T11:56:24Z",
+ "updated": "2026-11-09T11:04:20Z",
  "cities": [
-  {
-   "slug": "ru/moscow",
-   "name": "Москва",
-   "country": "RU",
-   "lat": 55.7558,
-   "lon": 37.6173,
-   "timezone": "Europe/Moscow",
-   "madhab": "shafi",
-   "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)"
-  },
   {
    "slug": "ru/mahachkala",
    "name": "Махачкала",
@@ -14175,6 +14165,16 @@
    "madhab": "hanafi",
    "source": "kbrdum.ru (Духовное управление мусульман КБР — официальная таблица по республике)",
    "kind": "official"
+  },
+  {
+   "slug": "ru/moscow",
+   "name": "Москва",
+   "country": "RU",
+   "lat": 55.7558,
+   "lon": 37.6173,
+   "timezone": "Europe/Moscow",
+   "madhab": "shafi",
+   "source": "umma.ru (зеркало таблицы Духовного управления мусульман РФ)"
   }
  ]
 }
