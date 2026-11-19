@@ -27,6 +27,7 @@ import build_all                                     # noqa: E402
 import check_schema                                  # noqa: E402
 import dumkbr                                        # noqa: E402
 import official_feeds                                # noqa: E402
+import parse_diyanet                                 # noqa: E402
 from calc_engine import Profile, month_schedule      # noqa: E402
 from local_authorities import validate_day, write_json_if_changed  # noqa: E402
 
@@ -246,6 +247,52 @@ class NextYearAlerts(unittest.TestCase):
                 contextlib.redirect_stderr(io.StringIO()) as err:
             self.assertEqual(dumkbr.fetch_online(), {2027: {"2027-01-01": []}})
         self.assertIn("aaa/1", err.getvalue())
+
+
+class DiyanetDistrictHorizon(unittest.TestCase):
+    """Районы Турции: хранятся текущий месяц и два следующих — от сегодня, а не от начала страницы"""
+
+    CITY = {"ilce": 9175, "slug": "tr/9175", "name": "Emirdağ", "country": "TR",
+            "lat": 39.0142, "lon": 31.335, "timezone": "Europe/Istanbul", "madhab": "shafi"}
+
+    @staticmethod
+    def year_days(year):
+        """Годовая таблица, как на странице Диянета: все дни с 1 января по 31 декабря"""
+        out, cur = {}, date(year, 1, 1)
+        while cur.year == year:
+            out[cur.isoformat()] = dict(GOOD_DAY, date=cur.isoformat())
+            cur = date.fromordinal(cur.toordinal() + 1)
+        return out
+
+    def merge(self, days, today):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(parse_diyanet, "ROOT", pathlib.Path(tmp)):
+            parse_diyanet.merge_months(self.CITY, days, months_horizon=3, today=today)
+            folder = pathlib.Path(tmp) / "timetables" / "tr" / "9175"
+            return {f.stem: len(json.loads(f.read_text(encoding="utf-8"))["days"])
+                    for f in sorted(folder.glob("*.json"))}
+
+    def test_horizon_months_crosses_year(self):
+        self.assertEqual(parse_diyanet.horizon_months(date(2026, 11, 19), 3), ["2026-11", "2026-12", "2027-01"])
+        self.assertEqual(parse_diyanet.horizon_months(date(2026, 12, 31), 3), ["2026-12", "2027-01", "2027-02"])
+        self.assertEqual(parse_diyanet.horizon_months(date(2027, 1, 1), 3), ["2027-01", "2027-02", "2027-03"])
+
+    def test_yearly_table_from_january_keeps_current_months(self):
+        # Страница от 2026-11-19: год целиком с января. Раньше в файлы попадали январь–март
+        self.assertEqual(self.merge(self.year_days(2026), date(2026, 11, 19)), {"2026-11": 30, "2026-12": 31})
+
+    def test_next_year_table_keeps_january(self):
+        days = {k: v for k, v in self.year_days(2026).items() if "2026-11-01" <= k <= "2026-12-01"}
+        days.update(self.year_days(2027))
+        self.assertEqual(self.merge(days, date(2026, 11, 1)), {"2026-11": 30, "2026-12": 1, "2027-01": 31})
+
+    def test_page_without_current_months_is_failure(self):
+        with self.assertRaises(ValueError):
+            self.merge(self.year_days(2026), date(2027, 1, 3))
+
+    def test_curated_cities_keep_all_months(self):
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(parse_diyanet, "ROOT", pathlib.Path(tmp)):
+            written = parse_diyanet.merge_months(self.CITY, self.year_days(2026))
+        self.assertEqual(len(written), 12)
 
 
 if __name__ == "__main__":

@@ -5,8 +5,9 @@
 namazvakitleri.diyanet.gov.tr — Турция + города Европы (диаспора).
 Аср у Диянета — по джумхуру (тень=1, как в шафиитском мазхабе).
 
-Страница отдаёт таблицу «30 дней от сегодня» (может пересекать границу
-месяца) — поэтому дни МЕРДЖАТСЯ в существующие файлы месяцев.
+Страница отдаёт три таблицы: неделю, «30 дней от сегодня» (может пересекать
+границу месяца) и годовую — поэтому дни МЕРДЖАТСЯ в существующие файлы месяцев.
+Годовая бывает и за текущий год (с 1 января), и за следующий.
 """
 
 import json
@@ -159,16 +160,31 @@ def parse_city(city):
     return days
 
 
-def merge_months(city, days, months_horizon=None):
+def horizon_months(today, count):
+    """Текущий месяц и следующие count-1: (2026-11-19, 3) → ['2026-11', '2026-12', '2027-01']"""
+    y, m = today.year, today.month
+    out = []
+    for _ in range(count):
+        out.append(f"{y:04d}-{m:02d}")
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    return out
+
+
+def merge_months(city, days, months_horizon=None, today=None):
     """Слить дни скользящего окна в файлы месяцев (существующие дни обновляются)"""
     by_month = {}
     for date, d in days.items():
         by_month.setdefault(date[:7], {})[date] = d
 
-    # Для районов храним только ближайшие месяцы (иначе репозиторий распухнет)
+    # Для районов храним только ближайшие месяцы (иначе репозиторий распухнет).
+    # Отсчёт — от сегодняшнего дня, а не от начала страницы: годовая таблица Диянета
+    # начинается с января, и «первые три месяца страницы» оказывались прошлыми
     if months_horizon:
-        keep = sorted(by_month)[:months_horizon]
+        today = today or datetime.now(timezone.utc).date()
+        keep = set(horizon_months(today, months_horizon))
         by_month = {k: v for k, v in by_month.items() if k in keep}
+        if not by_month:
+            raise ValueError(f"{city['slug']}: на странице нет дней за {sorted(keep)}")
 
     written = []
     for ym, month_days in by_month.items():
