@@ -68,7 +68,8 @@ def parse_city(city: dict) -> dict:
     url = f"https://umma.ru/raspisanie-namaza/{city['umma_slug']}"
     html = fetch(url)
 
-    # Месяц и год из <title>: «Время намаза на Август 2026 для Москва»
+    # Месяц и год из <title>: «Время намаза в Москве на ноябрь 2026 — расписание намазов»
+    # (до ноября 2026 было «Время намаза на Август 2026 для Москва»)
     title = re.search(r"<title>([^<]+)</title>", html)
     if not title:
         raise ValueError(f"{city['slug']}: нет <title>")
@@ -81,8 +82,11 @@ def parse_city(city: dict) -> dict:
         raise ValueError(f"{city['slug']}: неизвестный месяц {m.group(1)!r}")
 
     # Защита от молчаливого фолбэка: umma.ru отдаёт МОСКВУ для неизвестных
-    # слагов. Убеждаемся, что в title именно наш город.
-    if city["name"].split()[0].lower() not in title.group(1).lower():
+    # слагов. Убеждаемся, что в title именно наш город. Сайт склоняет название
+    # («Время намаза в Москве на ноябрь 2026»), поэтому сверяем основу слова
+    # без окончания: «Москва» → «москв».
+    stem = re.sub(r"[аяоеёиыуюйь]+$", "", city["name"].split()[0].lower())
+    if len(stem) < 3 or stem not in title.group(1).lower():
         raise ValueError(
             f"{city['slug']}: в title другой город: {title.group(1)!r} — "
             f"вероятно, slug не существует и сайт вернул Москву")
